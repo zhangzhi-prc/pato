@@ -8943,7 +8943,7 @@ id: PATO:0001458
 name: sensitivity of a process to oxygen
 def: "A sensitivity of a process quality inhering in a bearer by virtue of the bearer's unfolding in a location with or without oxygen." [PATOC:GVG]
 subset: attribute_slim
-subset: relational_slim
+subset: disposition_slim
 synonym: "sensitivity of occurrent to oxygen" EXACT []
 is_a: PATO:0001457 ! sensitivity of a process
 
