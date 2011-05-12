@@ -11,6 +11,8 @@ subsetdef: relational_slim "Relational slim: types of quality that require an ad
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: value_slim "Value slim"
 default-namespace: quality
+ontology: pato
+namespace-id-rule: * UO:$sequence(7,0,9999999)$	
 
 [Term]
 id: PATO:0000000
