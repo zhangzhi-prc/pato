@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:05:2011 08:54
+date: 17:05:2011 20:02
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta6
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -11,8 +11,8 @@ subsetdef: relational_slim "Relational slim: types of quality that require an ad
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: value_slim "Value slim"
 default-namespace: quality
+namespace-id-rule: * PATO:$sequence(7,0,9999999)$ 
 ontology: pato
-namespace-id-rule: * PATO:$sequence(7,0,9999999)$
 
 [Term]
 id: PATO:0000000
@@ -16014,6 +16014,25 @@ def: "A texture that is uniformly covered in short, oblong, or trench-like depre
 is_a: PATO:0000150 ! texture
 created_by: George Gkoutos
 creation_date: 2011-05-03T03:12:47Z
+
+[Term]
+id: PATO:0002295
+name: areolate
+def: "A surface feature shape inhering in a surface by virtue of the bearer's being divided by ridge-like structures into a number of small, irregular spaces." [Book:Book "Harris, R. 1979. A glossary of surface sculpturing. Occasional Papers in Entomology 28:1-31."]
+subset: value_slim
+is_a: PATO:0001925 ! surface feature shape
+created_by: George Gkoutos
+creation_date: 2011-05-17T07:57:45Z
+
+[Term]
+id: PATO:0002296
+name: foveate
+def: "A texture quality inhering in a surface by virtue of the bearer's being marked by the presence of small, shallow, regular depressions called fovae." [Book:Book "Harris, R. 1979. A glossary of surface sculpturing. Occasional Papers in Entomology 28:1-31."]
+subset: value_slim
+synonym: "foveolate" RELATED []
+is_a: PATO:0000150 ! texture
+created_by: George Gkoutos
+creation_date: 2011-05-17T07:59:30Z
 
 [Typedef]
 id: correlates_with
