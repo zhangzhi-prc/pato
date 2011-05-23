@@ -10265,7 +10265,7 @@ synonym: "impaired" RELATED []
 synonym: "lacks function of type" EXACT []
 synonym: "low functionality" EXACT []
 synonym: "partial functionality" EXACT []
-is_a: PATO:0001510 ! functional
+intersection_of: PATO:0001510 ! functional
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -11688,7 +11688,8 @@ def: "A composition quality inhering in an bearer by virtue of the reduction in 
 subset: value_slim
 synonym: "dehydrated" EXACT []
 synonym: "dry" RELATED []
-is_a: PATO:0001800 ! water composition
+intersection_of: PATO:0001800 ! water composition
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
 id: PATO:0001802
@@ -15615,7 +15616,8 @@ name: increased pigmentation
 def: "A degree of pigmentation quality that is relative high." [PATOC:GVG]
 subset: value_slim
 synonym: "hyperpigmented" EXACT []
-is_a: PATO:0002248 ! pigmented
+intersection_of: PATO:0002248 ! pigmented
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
 creation_date: 2010-08-09T04:17:19Z
 
@@ -15625,7 +15627,8 @@ name: decreased pigmentation
 def: "A degree of pigmentation quality that is relative low." [PATOC:GVG]
 subset: value_slim
 synonym: "hypopigmented" EXACT []
-is_a: PATO:0002248 ! pigmented
+intersection_of: PATO:0002248 ! pigmented
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
 creation_date: 2010-08-09T04:17:37Z
 
