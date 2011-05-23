@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:05:2011 17:29
+date: 23:05:2011 22:47
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta6
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -66,6 +66,7 @@ id: PATO:0000008
 name: speed
 def: "A physical quality inhering in a bearer by virtue of the bearer's scalar absolute value of the rate of change of the bearer's position." [Wikipedia:http\://en.wikipedia.org/wiki/Velocity]
 subset: attribute_slim
+subset: scalar_slim
 synonym: "velocity" RELATED []
 is_a: PATO:0001906 ! movement quality
 
@@ -84,6 +85,7 @@ id: PATO:0000011
 name: age
 def: "A time quality inhering in a bearer by virtue of how long the bearer has existed." [WordNet:WordNet "http://wordnet.princeton.edu/"]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0000165 ! time
 
 [Term]
@@ -975,6 +977,7 @@ id: PATO:0000161
 name: rate
 def: "A quality of a single process inhering in a bearer by virtue of the bearer's occurrence per unit time." [PATOC:melissa]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0002062 ! physical quality of a process
 
 [Term]
@@ -997,6 +1000,7 @@ id: PATO:0000165
 name: time
 def: "A quality in which events occur in sequence." [PATOC:GVG]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
@@ -3062,6 +3066,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "tolerant" EXACT []
 is_a: PATO:0001046 ! resistance to
+disjoint_from: PATO:0001178 ! resistant to
 
 [Term]
 id: PATO:0000516
@@ -3226,6 +3231,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "photoresistant" RELATED []
 is_a: PATO:0000927 ! photosensitivity
+disjoint_from: PATO:0000547 ! photosensitive
 
 [Term]
 id: PATO:0000547
@@ -5208,6 +5214,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "male infertile" RELATED []
 is_a: PATO:0000279 ! male fertility
+disjoint_from: PATO:0000891 ! male fertile
 
 [Term]
 id: PATO:0000891
@@ -5225,6 +5232,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "female infertile" RELATED []
 is_a: PATO:0000277 ! female fertility
+disjoint_from: PATO:0000888 ! female fertile
 
 [Term]
 id: PATO:0000893
@@ -5618,6 +5626,7 @@ def: "A fertility quality inhering in a bearer by virtue of the bearer's being i
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0000274 ! fertility
+disjoint_from: PATO:0000955 ! fertile
 
 [Term]
 id: PATO:0000957
@@ -6015,6 +6024,7 @@ id: PATO:0001021
 name: energy
 def: "A physical quality inhering in a bearer by virtue of the bearer's capacity to do work." [Wikipedia:http\://en.wikipedia.org/wiki/Energy]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
@@ -6022,6 +6032,7 @@ id: PATO:0001022
 name: impulse
 def: "A physical quality inhering in a bearer by virtue of the amount of momentum caused a certain force will produce over time." [url:http\://www.wikipremed.com/home_resources/010104_momentum_concepts.pdf]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
@@ -6029,6 +6040,7 @@ id: PATO:0001023
 name: momentum
 def: "A physical quality inhering in a bearer by virtue of the bearer's velocity multiplied by its mass." [PATOC:GVG]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001906 ! movement quality
 
 [Term]
@@ -6063,6 +6075,7 @@ id: PATO:0001028
 name: acceleration
 def: "A physical quality inhering in a bearer by virtue of the rate of change of the bearer's velocity in either speed or direction." [Wikipedia:http\://en.wikipedia.org/wiki/Acceleration]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001906 ! movement quality
 
 [Term]
@@ -6077,6 +6090,7 @@ id: PATO:0001030
 name: flux
 def: "A physical quality that exists by virtue of the rate of flow of the bearer across a given surface." [WordNet:WordNet "http://wordnet.princeton.edu/perl/webwn"]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001906 ! movement quality
 
 [Term]
@@ -6734,6 +6748,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "insusceptible" EXACT []
 is_a: PATO:0001043 ! susceptibility toward
+disjoint_from: PATO:0001152 ! susceptible toward
 
 [Term]
 id: PATO:0001154
@@ -6856,6 +6871,7 @@ def: "An elasticity quality inhering in a bearer by virtue of the bearer's inabi
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0001031 ! elasticity
+disjoint_from: PATO:0001171 ! elastic
 
 [Term]
 id: PATO:0001173
@@ -7092,6 +7108,7 @@ def: "An odor quality inhering in a bearer by virtue of the bearer's lacking odo
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0000058 ! odor
+disjoint_from: PATO:0001331 ! odorous
 
 [Term]
 id: PATO:0001209
@@ -7950,6 +7967,7 @@ def: "A flavor quality inhering in a bearer by virtue of the bearer's lacking fl
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0000043 ! flavor
+disjoint_from: PATO:0001329 ! flavourful
 
 [Term]
 id: PATO:0001331
@@ -8104,6 +8122,7 @@ id: PATO:0001350
 name: angular acceleration
 def: "A physical quality inhering in a bearer by virtue of the rate of change of the bearer's angular velocity." [Wikipedia:http\://en.wikipedia.org/wiki/Angular_acceleration]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001028 ! acceleration
 
 [Term]
@@ -8596,6 +8615,7 @@ id: PATO:0001413
 name: angular velocity
 def: "A physical quality inhering in a bearer by virtue of the rate of the bearer's angular movement about an axis; the angle rotated in a given time." [Wikipedia:http\://en.wikipedia.org/wiki/Angular_velocity]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0002242 ! velocity
 
 [Term]
@@ -8603,6 +8623,7 @@ id: PATO:0001414
 name: catalytic activity
 def: "A physical quality inhering in a catalyst by virtue of the amount of the catalyst's action." [PATOC:GVG]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
@@ -8648,6 +8669,7 @@ name: buoyancy
 def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to rise or float in a fluid medium such as water or air." [PATOC:GVG]
 subset: attribute_slim
 subset: disposition_slim
+subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
@@ -8698,6 +8720,7 @@ id: PATO:0001427
 name: compound acidity
 def: "A concentration quality inhering in compound by virtue of the bearer's tendency to act as a hydron donor." [chemicool:chemicool "http://www.chemicool.com/"]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001842 ! acidity
 
 [Term]
@@ -8705,6 +8728,7 @@ id: PATO:0001428
 name: medium acidity
 def: "A concentration quality inhering in a medium by virtue of the bearer's tendency to hydronate a specific reference base." [chemicool:chemicool "http://www.chemicool.com/"]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001842 ! acidity
 
 [Term]
@@ -8920,6 +8944,7 @@ name: sensitivity to oxygen
 def: "A sensitivity quality inhering in a bearer by virtue of the bearer's dependence on oxygen." [PATOC:GVG]
 subset: attribute_slim
 subset: disposition_slim
+subset: scalar_slim
 is_a: PATO:0000085 ! sensitivity toward
 
 [Term]
@@ -8936,7 +8961,7 @@ name: anaerobic
 def: "A quality inhering in a bearer by virtue of the bearer's independence on oxygen." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
-is_a: PATO:0001454 ! sensitivity to oxygen
+disjoint_from: PATO:0001455 ! aerobic
 
 [Term]
 id: PATO:0001457
@@ -8979,6 +9004,7 @@ name: surface tension
 def: "A physical quality inhering in a liquid by virtue of the bearer's ability to attraction of molecules at its surface as a result of unbalanced molecular cohesive forces." [Wikipedia:http\://en.wikipedia.org/wiki/Surface_tension]
 subset: attribute_slim
 subset: disposition_slim
+subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
@@ -9217,6 +9243,7 @@ id: PATO:0001492
 name: growth rate
 comment: This term will be obsoleted; Use GO:growth and PATO:rate.
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0000161 ! rate
 
 [Term]
@@ -9447,6 +9474,7 @@ id: PATO:0001522
 name: sound speed
 def: "A physical quality inhering in sound by virtue of the bearer's travelling speed in a given medium under specified conditions." [Wikipedia:http\://en.wikipedia.org/wiki/Sound_speed]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0000008 ! speed
 
 [Term]
@@ -9454,6 +9482,7 @@ id: PATO:0001523
 name: sound wavelength
 def: "A physical quality which is equal to the quotient of the speed of a sound wave divided by its wavelength." [Wikipedia:http\://en.wikipedia.org/wiki/Sound_wavelength]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001242 ! wavelength
 
 [Term]
@@ -9754,6 +9783,7 @@ is_a: PATO:0001564 ! extra or missing processual parts
 id: PATO:0001559
 name: having extra function
 def: "A functionality quality which is held by the bearer when the latter is able to perform additional or different function(s)." [PATO:MAH]
+subset: disposition_slim
 subset: value_slim
 synonym: "having supernumerary functions" EXACT []
 intersection_of: PATO:0001509 ! functionality
@@ -9849,6 +9879,7 @@ id: PATO:0001574
 name: flow rate
 def: "A physical quality inhering in a bearer by virtue of the bearer's motion characteristic." [WordNet:WordNet "http://wordnet.princeton.edu/"]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001906 ! movement quality
 
 [Term]
@@ -10652,6 +10683,7 @@ name: catalytic (activity) concentration
 def: "A concentration quality inhering in a bearer by virtue of the bearer's catalytic activity divided by the volume of the system." [IUPAC:IUPAC "http://goldbook.iupac.org/"]
 subset: attribute_slim
 subset: relational_slim
+subset: scalar_slim
 is_a: PATO:0000033 ! concentration of
 
 [Term]
@@ -10756,6 +10788,7 @@ def: "A magnetic quality inhering in a bearer by virtue of the bearer's inabilit
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0001682 ! magnetism
+disjoint_from: PATO:0001685 ! magnetic
 
 [Term]
 id: PATO:0001687
@@ -11235,6 +11268,7 @@ id: PATO:0001744
 name: radiation exposure
 def: "A radiation quality inhering in a bearer by virtue of what the bearer receives as a result of being exposed to ionizing radiation." [hps:hps "http://hps.org/"]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001739 ! radiation quality
 
 [Term]
@@ -11242,6 +11276,7 @@ id: PATO:0001745
 name: radiation absorbed dose
 def: "A radiation exposure quality inhering in a substance by virtue of the radiation energy \"deposited\" in a kilogram of a substance." [arpansa:arpansa "http://www.arpansa.gov.au/"]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001744 ! radiation exposure
 
 [Term]
@@ -11249,6 +11284,7 @@ id: PATO:0001746
 name: radiation equivalent dose
 def: "A radiation exposure quality inhering in a tissue by virtue of the relation between the absorbed dose to the effective biological damage of the radiation to that tissue." [arpansa:arpansa "http://www.arpansa.gov.au/"]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001744 ! radiation exposure
 
 [Term]
@@ -11256,6 +11292,7 @@ id: PATO:0001747
 name: radiation effective dose
 def: "A radiation exposure quality inhering in an organ by virtue of the multiplication of an equivalent dose to that organ multiplied by the tissue weighting factor for that organ." [arpansa:arpansa "http://www.arpansa.gov.au/"]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001744 ! radiation exposure
 
 [Term]
@@ -11725,9 +11762,9 @@ is_a: PATO:0000150 ! texture
 id: PATO:0001806
 name: sensitivity to irradiation
 def: "A sensitivity quality inhering in a bearer by virtue of the bearer's exposure to radiation." [PATOC:GVG]
+subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
-subset: value_slim
 is_a: PATO:0000085 ! sensitivity toward
 
 [Term]
@@ -11870,6 +11907,7 @@ name: dry
 def: "A wetness quality inhering in a bearer by virtue of the bearer's not being covered by a liquid." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0001822 ! wetness
+disjoint_from: PATO:0001823 ! wet
 
 [Term]
 id: PATO:0001825
@@ -12384,6 +12422,7 @@ def: "A physical quality inhering in a bearer by virtue the bearer's disposition
 subset: attribute_slim
 subset: disposition_slim
 is_a: PATO:0001018 ! physical quality
+disjoint_from: PATO:0001886 ! hydrophilicity
 
 [Term]
 id: PATO:0001885
@@ -15187,6 +15226,7 @@ name: insertion depth
 def: "A quality that is the distance between the end of the inserted object and the surface of the object into which it penetrates." [PATOC:GVG]
 subset: attribute_slim
 subset: relational_slim
+subset: scalar_slim
 is_a: PATO:0000040 ! distance
 created_by: George Gkoutos
 creation_date: 2010-05-14T11:40:24Z
@@ -15533,6 +15573,7 @@ id: PATO:0002242
 name: velocity
 def: "A physical quality inhering in a bearer by virtue of the bearer's rate of change of the position." [url:http\://en.wikipedia.org/wiki/Velocity]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001906 ! movement quality
 created_by: george
 creation_date: 2010-07-28T02:52:48Z
@@ -15541,7 +15582,8 @@ creation_date: 2010-07-28T02:52:48Z
 id: PATO:0002243
 name: fluid flow rate
 def: "A physical quality inhering in a fluid (liquid or gas) by virtue of the amount of fluid which passes through a given surface per unit time." [url:http\://en.wikipedia.org/wiki/Volumetric_flow_rate]
-subset: value_slim
+subset: attribute_slim
+subset: scalar_slim
 synonym: "volume flow rate" EXACT []
 synonym: "volumetric flow rate" EXACT []
 is_a: PATO:0001574 ! flow rate
@@ -15553,6 +15595,7 @@ id: PATO:0002244
 name: mass flow rate
 def: "A flow rate quality inhering in a substance by virtue of the mass of substance which passes through a given surface per unit time." [url:http\://en.wikipedia.org/wiki/Mass_flow_rate]
 subset: attribute_slim
+subset: value_slim
 is_a: PATO:0001574 ! flow rate
 created_by: george
 creation_date: 2010-07-28T03:02:03Z
