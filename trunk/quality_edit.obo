@@ -16034,6 +16034,22 @@ is_a: PATO:0000150 ! texture
 created_by: George Gkoutos
 creation_date: 2011-05-17T07:59:30Z
 
+[Term]
+id: PATO:0002297
+name: decreased cellular motility
+def: "A cellular motility which is lower relative to the normal or average." [PATOC:GVG]
+subset: value_slim
+intersection_of: PATO:0001488 ! cellular motility
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+
+[Term]
+id: PATO:0002298
+name: increased cellular motility
+def: "A cellular motility which is higher relative to the normal or average." [PATOC:GVG]
+subset: value_slim
+intersection_of: PATO:0001488 ! cellular motility
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+
 [Typedef]
 id: correlates_with
 name: correlates_with
