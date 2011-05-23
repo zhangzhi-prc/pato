@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:05:2011 20:02
+date: 23:05:2011 17:29
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta6
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -224,6 +224,7 @@ name: concentration of
 def: "A quality inhering in a substance by virtue of the amount of the bearer's there is mixed with another substance." [Wikipedia:http\://en.wikipedia.org/wiki/concentration]
 subset: attribute_slim
 subset: relational_slim
+subset: scalar_slim
 synonym: "concentration" EXACT []
 is_a: PATO:0002182 ! molecular quality
 
@@ -4503,7 +4504,7 @@ name: increased behavioural activity
 def: "A behavioral quality of a process inhering in a bearer by virtue of the bearer's exhibiting increased activity." [PATOC:GVG]
 subset: value_slim
 synonym: "hyperactive" EXACT []
-intersection_of: PATO:0002265 ! behavioural activity
+intersection_of: PATO:0001707 ! behavioural active
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -4512,7 +4513,8 @@ name: decreased behavioural activity
 def: "A behavioral quality of a process inhering in a bearer by virtue of the bearer's exhibiting reduced activity." [PATOC:GVG]
 subset: value_slim
 synonym: "hypoactive" EXACT []
-is_a: PATO:0002265 ! behavioural activity
+intersection_of: PATO:0001707 ! behavioural active
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
 id: PATO:0000762
@@ -4520,7 +4522,7 @@ name: impaired
 def: "Diminished, damaged, or weakened." [answers.com:answers.com "http://www.answers.com/"]
 subset: value_slim
 is_obsolete: true
-consider: PATO:0001641
+consider: PATO:0001624
 
 [Term]
 id: PATO:0000763
@@ -5352,6 +5354,7 @@ id: PATO:0000915
 name: thickness
 def: "A 1-D extent quality which is equal to the dimension through an object as opposed to its length or width." [WordNet:WordNet "http://wordnet.princeton.edu/"]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001708 ! 1-D extent
 
 [Term]
@@ -5388,6 +5391,7 @@ name: width
 def: "A 1-D extent quality which is equal to the distance from one side of an object to another side which is opposite." [PATOC:GVG]
 comment: This term is for curator easiness - we might consider obsoleting this but we have to consider how curators are going to represent them if we do.
 subset: attribute_slim
+subset: scalar_slim
 synonym: "breadth" RELATED []
 is_a: PATO:0001708 ! 1-D extent
 
@@ -5422,6 +5426,7 @@ name: photosensitivity
 def: "A quality inhering in a bearer by virtue of the bearer's disposition to being sensitivity to the action of radiant energy." [WordNet:WordNet "http://wordnet.princeton.edu/"]
 subset: attribute_slim
 subset: disposition_slim
+subset: scalar_slim
 is_a: PATO:0000085 ! sensitivity toward
 
 [Term]
@@ -6080,6 +6085,7 @@ name: elasticity
 def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to recover its size and shape after deformation in any way." [merriam-webster:merriam-webster "http://www.m-w.com/"]
 subset: attribute_slim
 subset: disposition_slim
+subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
@@ -6996,7 +7002,8 @@ subset: relational_slim
 subset: value_slim
 synonym: "decreased responsivity" EXACT []
 synonym: "hyporesponsive" EXACT []
-is_a: PATO:0000487 ! responsive to
+intersection_of: PATO:0000487 ! responsive to
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
 id: PATO:0001195
@@ -7274,6 +7281,7 @@ id: PATO:0001242
 name: wavelength
 def: "A physical quality which is equal to the distance between repeating units of a wave pattern." [PATOC:GVG]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
@@ -8103,6 +8111,7 @@ id: PATO:0001351
 name: area density
 def: "A density quality which inheres in a bearer by virtue of some influence exerted by the bearer's mass on a given area." [Wikipedia:http\://en.wikipedia.org/wiki/Area_density]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001019 ! mass density
 
 [Term]
@@ -9340,6 +9349,7 @@ name: functionality
 def: "A quality of a single physical entity that arises by virtue of whether the bearer exhibits the ability to perform a regular function(s)." [PATOC:MAH]
 subset: attribute_slim
 subset: disposition_slim
+subset: scalar_slim
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
@@ -9358,9 +9368,10 @@ def: "A disfunctional quality held by the bearer when the latter is unable to pe
 subset: disposition_slim
 subset: value_slim
 synonym: "defective" RELATED []
+synonym: "disfunctional" EXACT []
 synonym: "failure" RELATED []
 synonym: "functional failure" EXACT []
-is_a: PATO:0001641 ! dysfunctional
+is_a: PATO:0001509 ! functionality
 
 [Term]
 id: PATO:0001512
@@ -9865,7 +9876,7 @@ def: "A permeability which is relatively high." [PATO:GVG]
 subset: disposition_slim
 subset: value_slim
 synonym: "high permeability" EXACT []
-intersection_of: PATO:0000970 ! permeability
+intersection_of: PATO:0000982 ! permeable
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -9875,7 +9886,7 @@ def: "A permeability which is relatively low." [PATO:GVG]
 subset: disposition_slim
 subset: value_slim
 synonym: "low permeability" EXACT []
-intersection_of: PATO:0000970 ! permeability
+intersection_of: PATO:0000982 ! permeable
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -9894,7 +9905,7 @@ def: "A contractility which is relatively high." [PATO:GVG]
 subset: disposition_slim
 subset: value_slim
 synonym: "high contractility" EXACT []
-intersection_of: PATO:0001579 ! contractility
+intersection_of: PATO:0001690 ! contractile
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -9904,7 +9915,7 @@ def: "A contractility which is relatively low." [PATO:GVG]
 subset: disposition_slim
 subset: value_slim
 synonym: "low contractility" EXACT []
-intersection_of: PATO:0001579 ! contractility
+intersection_of: PATO:0001690 ! contractile
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -10240,15 +10251,21 @@ is_a: PATO:0000587 ! decreased size
 [Term]
 id: PATO:0001624
 name: decreased functionality
+alt_id: PATO:0001556
 alt_id: PATO:0001568
+alt_id: PATO:0001641
 alt_id: PATO:0001642
-def: "A disfunctional quality held by the bearer when the latter exhibits decreased ability to perform a regular function(s)." [PATO:MAH]
+def: "A functionality quality held by the bearer when the latter exhibits decreased ability to perform a regular function(s)." [PATO:MAH]
 subset: disposition_slim
 subset: value_slim
+synonym: "dysfunction" NARROW []
+synonym: "dysfunctional" EXACT []
 synonym: "having decreased function" EXACT []
+synonym: "impaired" RELATED []
+synonym: "lacks function of type" EXACT []
 synonym: "low functionality" EXACT []
 synonym: "partial functionality" EXACT []
-intersection_of: PATO:0001641 ! dysfunctional
+is_a: PATO:0001510 ! functional
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -10366,19 +10383,6 @@ subset: value_slim
 is_a: PATO:0001637 ! necessity of occurrent
 
 [Term]
-id: PATO:0001641
-name: dysfunctional
-alt_id: PATO:0001556
-def: "A functionality quality held by the bearer when the latter exhibits decreased ability or inability to perform a regular function(s)." [PATOC:NW]
-subset: attribute_slim
-subset: disposition_slim
-synonym: "dysfunction" NARROW []
-synonym: "dysfunctional" EXACT []
-synonym: "impaired" RELATED []
-synonym: "lacks function of type" EXACT []
-is_a: PATO:0001509 ! functionality
-
-[Term]
 id: PATO:0001643
 name: stubby
 def: "A size quality inhering in a bearer by virtue of the bearer's having a short, stocky build." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
@@ -10477,6 +10481,7 @@ name: osmolarity
 def: "A concentration quality inhering in a bearer by virtue of the bearer's amount of osmoles of solute per liter of solution." [Wikipedia:http\://en.wikipedia.org/wiki/Osmolarity]
 subset: attribute_slim
 subset: relational_slim
+subset: scalar_slim
 is_a: PATO:0000033 ! concentration of
 
 [Term]
@@ -10547,7 +10552,7 @@ subset: disposition_slim
 subset: relational_slim
 subset: value_slim
 synonym: "high solubility" EXACT []
-intersection_of: PATO:0001536 ! solubility
+intersection_of: PATO:0001537 ! soluble in
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -10558,7 +10563,7 @@ subset: disposition_slim
 subset: relational_slim
 subset: value_slim
 synonym: "low solubility" EXACT []
-intersection_of: PATO:0001536 ! solubility
+intersection_of: PATO:0001537 ! soluble in
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -10655,7 +10660,7 @@ name: decreased efficiency
 def: "An efficiency which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "low efficiency" EXACT []
-intersection_of: PATO:0001029 ! efficiency
+intersection_of: PATO:0001678 ! efficient
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -10664,7 +10669,7 @@ name: increased efficiency
 def: "An efficiency which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high efficiency" EXACT []
-intersection_of: PATO:0001029 ! efficiency
+intersection_of: PATO:0001678 ! efficient
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -10713,6 +10718,7 @@ name: magnetism
 def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to exert an attractive or repulsive force on other entities." [Wikipedia:http\://en.wikipedia.org/wiki/Magnetism]
 subset: attribute_slim
 subset: disposition_slim
+subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
@@ -11719,6 +11725,7 @@ id: PATO:0001806
 name: sensitivity to irradiation
 def: "A sensitivity quality inhering in a bearer by virtue of the bearer's exposure to radiation." [PATOC:GVG]
 subset: disposition_slim
+subset: scalar_slim
 subset: value_slim
 is_a: PATO:0000085 ! sensitivity toward
 
@@ -11846,6 +11853,7 @@ id: PATO:0001822
 name: wetness
 def: "A quality inhering in a bearer by virtue of whether the bearer's being covered by a liquid." [wordreference.com:wordreference.com "http://www.wordreference.com/"]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
@@ -11995,6 +12003,7 @@ is_a: PATO:0000049 ! intensity
 id: PATO:0001842
 name: acidity
 def: "A concentration quality inhering in a bearer by virtue of the bearer's containing acid (hydrogen ions)." [biology-online:biology-online "http://www.biology-online.org/"]
+subset: scalar_slim
 subset: value_slim
 synonym: "pH" EXACT []
 is_a: PATO:0000033 ! concentration of
@@ -12140,7 +12149,7 @@ def: "A coordination which is relatively high." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
 synonym: "high coordination" EXACT []
-intersection_of: PATO:0000188 ! coordination
+intersection_of: PATO:0000769 ! coordinated
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -12150,7 +12159,7 @@ def: "A coordination which is relatively low." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
 synonym: "low coordination" EXACT []
-intersection_of: PATO:0000188 ! coordination
+intersection_of: PATO:0000769 ! coordinated
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -13455,6 +13464,7 @@ name: osmolality
 def: "A concentration quality inhering in a bearer by virtue of the bearer's amount of osmoles of solute per kilogram of solvent." [Wikipedia:http\://en.wikipedia.org/wiki/Osmolarity]
 subset: attribute_slim
 subset: relational_slim
+subset: scalar_slim
 is_a: PATO:0000033 ! concentration of
 created_by: george
 creation_date: 2009-01-27T10:53:11Z
@@ -13466,7 +13476,8 @@ def: "An osmolality which is relatively low." [PATOC:GVG]
 subset: relational_slim
 subset: value_slim
 synonym: "low osmolality" EXACT []
-is_a: PATO:0002027 ! osmolality
+intersection_of: PATO:0002027 ! osmolality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
 creation_date: 2009-01-27T10:55:33Z
 
@@ -13602,7 +13613,8 @@ name: decreased anterior-posterior diameter
 def: "An anterior-posterior diameter quality which is relatively small." [PATOC:GVG]
 subset: value_slim
 synonym: "low anterior-posterior diameter" EXACT []
-is_a: PATO:0002041 ! anterior-posterior diameter
+intersection_of: PATO:0002041 ! anterior-posterior diameter
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
 id: PATO:0002043
@@ -13727,7 +13739,7 @@ name: increased fragility
 def: "A fragility which is relatively high." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
-intersection_of: PATO:0001662 ! fragility
+intersection_of: PATO:0001362 ! fragile
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
 creation_date: 2009-03-26T04:01:37Z
@@ -13738,7 +13750,8 @@ name: decreased fragility
 def: "A fragility which is relatively low." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
-is_a: PATO:0001662 ! fragility
+intersection_of: PATO:0001362 ! fragile
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
 creation_date: 2009-03-26T04:02:14Z
 
@@ -13861,6 +13874,7 @@ def: "A molecular quality that arises from the molecular attraction exerted betw
 subset: attribute_slim
 subset: disposition_slim
 subset: relational_slim
+subset: scalar_slim
 is_a: PATO:0002182 ! molecular quality
 created_by: George Gkoutos
 creation_date: 2009-09-18T01:16:16Z
@@ -13884,7 +13898,8 @@ def: "An affinity which is relatively low." [PATOC:GVG]
 subset: disposition_slim
 subset: relational_slim
 subset: value_slim
-is_a: PATO:0002070 ! affinity
+intersection_of: PATO:0002070 ! affinity
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
 creation_date: 2009-09-18T01:30:11Z
 
@@ -13919,7 +13934,8 @@ def: "An avidity which is relatively low." [PATOC:GVG]
 subset: disposition_slim
 subset: relational_slim
 subset: value_slim
-is_a: PATO:0002073 ! avidity
+intersection_of: PATO:0002073 ! avidity
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
 creation_date: 2009-09-18T01:45:59Z
 
@@ -14493,6 +14509,7 @@ name: radiopacity
 def: "A quality inhering in a bearer by virtue of the bearer's relative inability of electromagnetism to pass through a particular material, particularly X-rays." [Wikipedia:Wikipedia "http://en.wikipedia.org/wiki/Radiopacity"]
 subset: attribute_slim
 subset: disposition_slim
+subset: scalar_slim
 is_a: PATO:0001291 ! electromagnetic (EM) radiation quality
 created_by: george
 creation_date: 2009-10-26T01:14:38Z
@@ -14955,6 +14972,7 @@ id: PATO:0002186
 name: polarity
 def: "A molecular quality that inheres in a molecular entity by virtue of whether or not the molecular entity has a separation of electric charge which leads to the molecule having an electric dipole." [PATOC:JH]
 subset: attribute_slim
+subset: scalar_slim
 is_a: PATO:0002182 ! molecular quality
 created_by: George Gkoutos
 creation_date: 2010-03-10T03:22:04Z
@@ -15310,7 +15328,8 @@ name: increased phosphorylation
 def: "A quality inhering in a bearer by virtue of the bearer's being phosphorylated to a more than normal extent, or fully saturated with phosphate groups." [Wikipedia:http\://en.wiktionary.org/wiki/hyperphosphorylated]
 subset: value_slim
 synonym: "hyperphosphorylated" EXACT []
-is_a: PATO:0002262 ! phosphorylation
+intersection_of: PATO:0002220 ! phosphorylated
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
 creation_date: 2010-07-09T01:51:52Z
 
@@ -15320,7 +15339,8 @@ name: decreased phosphorylation
 def: "A quality inhering in a bearer by virtue of the bearer's being phosphorylated to a lesser than normal extent, or less than fully." [Wikipedia:http\://en.wiktionary.org/wiki/hypophosphorylated]
 subset: value_slim
 synonym: "hypophosporylated " EXACT []
-is_a: PATO:0002262 ! phosphorylation
+intersection_of: PATO:0002220 ! phosphorylated
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
 creation_date: 2010-07-09T01:54:22Z
 
@@ -15542,7 +15562,8 @@ name: increased force
 def: "A force which relative high." [PATOC:GVG]
 subset: value_slim
 synonym: "increased force amplitude" EXACT []
-is_a: PATO:0001035 ! force
+intersection_of: PATO:0001035 ! force
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
 creation_date: 2010-08-04T11:12:20Z
 
@@ -15552,7 +15573,8 @@ name: decreased force
 def: "A force which is relative low." [PATOC:GVG]
 subset: value_slim
 synonym: "decreased force amplitude" EXACT []
-is_a: PATO:0001035 ! force
+intersection_of: PATO:0001035 ! force
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
 creation_date: 2010-08-04T11:13:13Z
 
@@ -15903,7 +15925,8 @@ id: PATO:0002282
 name: increased mobility
 def: "A mobility which is relative high." [PATO:GVG]
 subset: value_slim
-is_a: PATO:0000299 ! mobile
+intersection_of: PATO:0000299 ! mobile
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
 creation_date: 2011-03-09T09:16:03Z
 
@@ -15913,6 +15936,8 @@ name: decreased mobility
 def: "A mobility which is relative low." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0000299 ! mobile
+intersection_of: PATO:0000299 ! mobile
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
 creation_date: 2011-03-09T09:16:47Z
 
@@ -15949,7 +15974,8 @@ id: PATO:0002287
 name: increased elasticity
 def: "An elasticity which is relatively high." [PATOC:GVG]
 subset: value_slim
-is_a: PATO:0001171 ! elastic
+intersection_of: PATO:0001171 ! elastic
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
 creation_date: 2011-03-30T11:50:21Z
 
@@ -15958,7 +15984,8 @@ id: PATO:0002288
 name: decreased elasticity
 def: "An elasticity which is relatively low." [PATOC:GVG]
 subset: value_slim
-is_a: PATO:0001171 ! elastic
+intersection_of: PATO:0001171 ! elastic
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
 creation_date: 2011-03-30T11:50:39Z
 
