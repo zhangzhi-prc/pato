@@ -8962,6 +8962,7 @@ def: "A quality inhering in a bearer by virtue of the bearer's independence on o
 subset: disposition_slim
 subset: value_slim
 disjoint_from: PATO:0001455 ! aerobic
+is_a: PATO:0001454 ! sensitivity to oxygen
 
 [Term]
 id: PATO:0001457
