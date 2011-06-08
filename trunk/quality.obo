@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:06:2011 18:11
+date: 08:06:2011 18:41
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -12481,10 +12481,6 @@ subset: cell_quality
 subset: value_slim
 synonym: "rod-like" EXACT []
 synonym: "rod-shaped" EXACT []
-synonym: "tube-like" EXACT []
-synonym: "tube-shaped" EXACT []
-synonym: "tubelike" EXACT []
-synonym: "tubular" EXACT []
 synonym: "tubulate" EXACT []
 is_a: PATO:0002007 ! convex 3-D shape
 relationship: has_cross_section PATO:0000411 ! round
@@ -16342,6 +16338,18 @@ subset: value_slim
 is_a: PATO:0001488 ! implied link automatically realized ! cellular motility
 intersection_of: PATO:0001488 ! cellular motility
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+
+[Term]
+id: PATO:0002299
+name: tubular
+def: "A cylindrical shape that is hollow." [PATOC:GVG]
+synonym: "tube like" EXACT []
+synonym: "tube-shaped" EXACT []
+synonym: "tubulate" EXACT []
+is_a: PATO:0001873 ! cylindrical
+is_a: PATO:0002078 ! hollow
+created_by: George Gkoutos
+creation_date: 2011-06-08T06:33:50Z
 
 [Typedef]
 id: correlates_with

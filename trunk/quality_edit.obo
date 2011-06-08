@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 23:05:2011 22:47
+date: 08:06:2011 18:41
 saved-by: George Gkoutos
-auto-generated-by: OBO-Edit 2.1-beta6
+auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
 subsetdef: attribute_slim "Attribute slim"
@@ -11,7 +11,7 @@ subsetdef: relational_slim "Relational slim: types of quality that require an ad
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: value_slim "Value slim"
 default-namespace: quality
-namespace-id-rule: * PATO:$sequence(7,0,9999999)$ 
+namespace-id-rule: * PATO:$sequence(7,0,9999999)$
 ontology: pato
 
 [Term]
@@ -8961,8 +8961,8 @@ name: anaerobic
 def: "A quality inhering in a bearer by virtue of the bearer's independence on oxygen." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
-disjoint_from: PATO:0001455 ! aerobic
 is_a: PATO:0001454 ! sensitivity to oxygen
+disjoint_from: PATO:0001455 ! aerobic
 
 [Term]
 id: PATO:0001457
@@ -12312,10 +12312,6 @@ subset: cell_quality
 subset: value_slim
 synonym: "rod-like" EXACT []
 synonym: "rod-shaped" EXACT []
-synonym: "tube-like" EXACT []
-synonym: "tube-shaped" EXACT []
-synonym: "tubelike" EXACT []
-synonym: "tubular" EXACT []
 synonym: "tubulate" EXACT []
 is_a: PATO:0002007 ! convex 3-D shape
 relationship: has_cross_section PATO:0000411 ! round
@@ -16124,6 +16120,18 @@ subset: value_slim
 intersection_of: PATO:0001488 ! cellular motility
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
+[Term]
+id: PATO:0002299
+name: tubular
+def: "A cylindrical shape that is hollow." [PATOC:GVG]
+synonym: "tube like" EXACT []
+synonym: "tube-shaped" EXACT []
+synonym: "tubulate" EXACT []
+is_a: PATO:0001873 ! cylindrical
+is_a: PATO:0002078 ! hollow
+created_by: George Gkoutos
+creation_date: 2011-06-08T06:33:50Z
+
 [Typedef]
 id: correlates_with
 name: correlates_with
@@ -16244,8 +16252,8 @@ namespace: pato.ontology
 [Typedef]
 id: OBO_REL:part_of
 name: part_of
-is_transitive: true
 xref: BFO:00000050
+is_transitive: true
 
 [Typedef]
 id: realized_by
