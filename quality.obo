@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 23:05:2011 22:48
+date: 08:06:2011 18:11
 saved-by: George Gkoutos
-auto-generated-by: OBO-Edit 2.1-beta6
+auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
 subsetdef: attribute_slim "Attribute slim"
@@ -3473,7 +3473,6 @@ def: "An increased size quality inhering in a bearer by virtue of the bearer's e
 subset: value_slim
 synonym: "hypertrophy" NARROW []
 is_a: PATO:0000595 ! increased volume
-is_a: PATO:0002093 ! implied link automatically realized ! ballooning
 
 [Term]
 id: PATO:0000585
@@ -3573,8 +3572,7 @@ def: "A volume which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high volume" EXACT []
 synonym: "large volume" RELATED []
-is_a: PATO:0000586 ! implied link automatically realized ! increased size
-is_a: PATO:0000918 ! implied link automatically realized ! volume
+is_a: PATO:0002093 ! implied link automatically realized ! ballooning
 intersection_of: PATO:0000918 ! volume
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9019,8 +9017,8 @@ name: anaerobic
 def: "A quality inhering in a bearer by virtue of the bearer's independence on oxygen." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
-disjoint_from: PATO:0001455 ! aerobic
 is_a: PATO:0001454 ! sensitivity to oxygen
+disjoint_from: PATO:0001455 ! aerobic
 
 [Term]
 id: PATO:0001457
@@ -11768,7 +11766,7 @@ name: increased mass density
 def: "A density which is higher relative to the normal or average." [PATOC:GVG]
 subset: value_slim
 synonym: "high density" EXACT []
-is_a: PATO:0001164 ! implied link automatically realized ! dense
+is_a: PATO:0002149 ! implied link automatically realized ! ivory
 intersection_of: PATO:0001164 ! dense
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -13463,7 +13461,7 @@ name: lacks parts or has fewer parts of type
 def: "The bearer of this quality has_part < n of the indicated entity type, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part. Formally: If a bearer entity e has fewer parts of type X at time t, then the number of instances x of X at t such that x part_of e is < n, where n is either the normal number for comparable entities, or n is stated explicitly. This case includes the limit case, where the bearer lacks all parts of the specified type." [PATOC:CJM]
 subset: relational_slim
 synonym: "loss of" EXACT []
-is_a: PATO:0002083 ! implied link automatically realized ! altered number of
+is_a: PATO:0002001 ! implied link automatically realized ! has fewer parts of type
 intersection_of: PATO:0002083 ! altered number of
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -13477,7 +13475,6 @@ subset: relational_slim
 synonym: "lacks all physical parts of type" EXACT []
 xref: OBO_REL:lacks_part
 is_a: PATO:0001999 ! lacks parts or has fewer parts of type
-is_a: PATO:0002001 ! implied link automatically realized ! has fewer parts of type
 relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -16412,6 +16409,7 @@ id: has_part
 name: has_part
 def: "Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2." [PATOC:CJM]
 comment: We use the has_part relation to relate complex qualities to more primitive ones. A complex quality is a collection of qualities. The complex quality cannot exist without the sub-qualities. For example, the quality 'swollen' necessarily comes with the qualities of 'protruding' and 'increased size'.
+xref: BFO:0000051
 
 [Typedef]
 id: has_ratio_quality
@@ -16465,6 +16463,7 @@ namespace: pato.ontology
 [Typedef]
 id: OBO_REL:part_of
 name: part_of
+xref: BFO:00000050
 is_transitive: true
 
 [Typedef]
