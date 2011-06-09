@@ -14130,8 +14130,7 @@ id: PATO:0002093
 name: ballooning
 def: "A volume quality inhering in a degenerating cell by virtue of the bearer's exhibiting an increase in volume associated with cytoplasmic abnormalities." [PATOC:GVG]
 subset: value_slim
-intersection_of: PATO:0000595 ! increased volume
-intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+is_a: PATO:0000595 ! increased volume
 created_by: george
 creation_date: 2009-10-05T12:01:13Z
 
@@ -14680,8 +14679,7 @@ id: PATO:0002149
 name: ivory
 def: "A quality inhering in a bearer by virtue of the bearer exhibiting increased density resulting in exhibiting increased degree of radiopacity (in X-rays)." [PATOC:GVG]
 subset: value_slim
-intersection_of: PATO:0001788 ! increased mass density
-intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+is_a: PATO:0001788 ! increased mass density
 created_by: george
 creation_date: 2009-11-03T02:59:08Z
 
