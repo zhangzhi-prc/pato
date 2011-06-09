@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 09:06:2011 14:28
+date: 23:05:2011 22:48
 saved-by: George Gkoutos
-auto-generated-by: OBO-Edit 2.1-beta13
+auto-generated-by: OBO-Edit 2.1-beta6
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
 subsetdef: attribute_slim "Attribute slim"
@@ -3473,6 +3473,7 @@ def: "An increased size quality inhering in a bearer by virtue of the bearer's e
 subset: value_slim
 synonym: "hypertrophy" NARROW []
 is_a: PATO:0000595 ! increased volume
+is_a: PATO:0002093 ! implied link automatically realized ! ballooning
 
 [Term]
 id: PATO:0000585
@@ -9018,8 +9019,8 @@ name: anaerobic
 def: "A quality inhering in a bearer by virtue of the bearer's independence on oxygen." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
-is_a: PATO:0001454 ! sensitivity to oxygen
 disjoint_from: PATO:0001455 ! aerobic
+is_a: PATO:0001454 ! sensitivity to oxygen
 
 [Term]
 id: PATO:0001457
@@ -12482,6 +12483,10 @@ subset: cell_quality
 subset: value_slim
 synonym: "rod-like" EXACT []
 synonym: "rod-shaped" EXACT []
+synonym: "tube-like" EXACT []
+synonym: "tube-shaped" EXACT []
+synonym: "tubelike" EXACT []
+synonym: "tubular" EXACT []
 synonym: "tubulate" EXACT []
 is_a: PATO:0002007 ! convex 3-D shape
 relationship: has_cross_section PATO:0000411 ! round
@@ -13458,7 +13463,7 @@ name: lacks parts or has fewer parts of type
 def: "The bearer of this quality has_part < n of the indicated entity type, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part. Formally: If a bearer entity e has fewer parts of type X at time t, then the number of instances x of X at t such that x part_of e is < n, where n is either the normal number for comparable entities, or n is stated explicitly. This case includes the limit case, where the bearer lacks all parts of the specified type." [PATOC:CJM]
 subset: relational_slim
 synonym: "loss of" EXACT []
-is_a: PATO:0002001 ! implied link automatically realized ! has fewer parts of type
+is_a: PATO:0002083 ! implied link automatically realized ! altered number of
 intersection_of: PATO:0002083 ! altered number of
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -13472,6 +13477,7 @@ subset: relational_slim
 synonym: "lacks all physical parts of type" EXACT []
 xref: OBO_REL:lacks_part
 is_a: PATO:0001999 ! lacks parts or has fewer parts of type
+is_a: PATO:0002001 ! implied link automatically realized ! has fewer parts of type
 relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
@@ -14332,7 +14338,9 @@ id: PATO:0002093
 name: ballooning
 def: "A volume quality inhering in a degenerating cell by virtue of the bearer's exhibiting an increase in volume associated with cytoplasmic abnormalities." [PATOC:GVG]
 subset: value_slim
-is_a: PATO:0000595 ! increased volume
+is_a: PATO:0000595 ! implied link automatically realized ! increased volume
+intersection_of: PATO:0000595 ! increased volume
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
 creation_date: 2009-10-05T12:01:13Z
 
@@ -14885,7 +14893,9 @@ id: PATO:0002149
 name: ivory
 def: "A quality inhering in a bearer by virtue of the bearer exhibiting increased density resulting in exhibiting increased degree of radiopacity (in X-rays)." [PATOC:GVG]
 subset: value_slim
-is_a: PATO:0001788 ! increased mass density
+is_a: PATO:0001788 ! implied link automatically realized ! increased mass density
+intersection_of: PATO:0001788 ! increased mass density
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
 creation_date: 2009-11-03T02:59:08Z
 
@@ -16336,18 +16346,6 @@ is_a: PATO:0001488 ! implied link automatically realized ! cellular motility
 intersection_of: PATO:0001488 ! cellular motility
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
-[Term]
-id: PATO:0002299
-name: tubular
-def: "A cylindrical shape that is hollow." [PATOC:GVG]
-synonym: "tube like" EXACT []
-synonym: "tube-shaped" EXACT []
-synonym: "tubulate" EXACT []
-is_a: PATO:0001873 ! cylindrical
-is_a: PATO:0002078 ! hollow
-created_by: George Gkoutos
-creation_date: 2011-06-08T06:33:50Z
-
 [Typedef]
 id: correlates_with
 name: correlates_with
@@ -16414,7 +16412,6 @@ id: has_part
 name: has_part
 def: "Q1 has_part Q2 if and only if: every instance of Q1 is a quality_of an entity that has_quality some Q2." [PATOC:CJM]
 comment: We use the has_part relation to relate complex qualities to more primitive ones. A complex quality is a collection of qualities. The complex quality cannot exist without the sub-qualities. For example, the quality 'swollen' necessarily comes with the qualities of 'protruding' and 'increased size'.
-xref: BFO:0000051
 
 [Typedef]
 id: has_ratio_quality
@@ -16468,7 +16465,6 @@ namespace: pato.ontology
 [Typedef]
 id: OBO_REL:part_of
 name: part_of
-xref: BFO:00000050
 is_transitive: true
 
 [Typedef]
