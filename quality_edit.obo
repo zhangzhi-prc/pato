@@ -13277,8 +13277,7 @@ name: lacks parts or has fewer parts of type
 def: "The bearer of this quality has_part < n of the indicated entity type, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part. Formally: If a bearer entity e has fewer parts of type X at time t, then the number of instances x of X at t such that x part_of e is < n, where n is either the normal number for comparable entities, or n is stated explicitly. This case includes the limit case, where the bearer lacks all parts of the specified type." [PATOC:CJM]
 subset: relational_slim
 synonym: "loss of" EXACT []
-intersection_of: PATO:0002083 ! altered number of
-intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+is_a: PATO:0002083 ! altered number of
 
 [Term]
 id: PATO:0002000
@@ -13290,7 +13289,6 @@ subset: relational_slim
 synonym: "lacks all physical parts of type" EXACT []
 xref: OBO_REL:lacks_part
 is_a: PATO:0001999 ! lacks parts or has fewer parts of type
-relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
 id: PATO:0002001
@@ -16280,4 +16278,3 @@ synonym: "monadic_form_of" EXACT []
 id: towards
 name: towards
 comment: Relation binding a relational quality or disposition to the relevant type of entity.
-
