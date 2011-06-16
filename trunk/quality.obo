@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:06:2011 11:15
+date: 16:06:2011 19:35
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -1753,6 +1753,7 @@ subset: value_slim
 synonym: "fast speed" RELATED []
 synonym: "high speed" EXACT []
 is_a: PATO:0000008 ! implied link automatically realized ! speed
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000008 ! speed
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -1764,6 +1765,7 @@ subset: value_slim
 synonym: "slow" EXACT []
 synonym: "slow speed" EXACT []
 is_a: PATO:0000008 ! implied link automatically realized ! speed
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000008 ! speed
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -2175,6 +2177,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "long distance" RELATED []
 is_a: PATO:0000040 ! implied link automatically realized ! distance
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000040 ! distance
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -2186,6 +2189,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "short distance" RELATED []
 is_a: PATO:0000040 ! implied link automatically realized ! distance
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000040 ! distance
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -2266,6 +2270,7 @@ subset: value_slim
 synonym: "impenetrable" RELATED []
 synonym: "tough" RELATED []
 is_a: PATO:0000048 ! implied link automatically realized ! hardness
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000048 ! hardness
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -2276,6 +2281,7 @@ def: "A hardness quality of giving little resistance to pressure." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0000048 ! implied link automatically realized ! hardness
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000048 ! hardness
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -2794,6 +2800,7 @@ synonym: "increased" RELATED []
 synonym: "increased number" EXACT []
 synonym: "supernumerary" EXACT []
 is_a: PATO:0000467 ! implied link automatically realized ! present
+is_a: PATO:0002300 ! implied link automatically realized ! increased quality
 intersection_of: PATO:0000467 ! present
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 intersection_of: reciprocal_of PATO:0002002 ! has extra parts of type
@@ -2958,6 +2965,7 @@ synonym: "increased time" EXACT []
 synonym: "prolonged period" RELATED []
 synonym: "slow time" RELATED []
 is_a: PATO:0001309 ! implied link automatically realized ! duration quality of a process
+is_a: PATO:0002304 ! implied link automatically realized ! increased process quality
 intersection_of: PATO:0001309 ! duration quality of a process
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -2973,6 +2981,7 @@ synonym: "fast time" RELATED []
 synonym: "low period" EXACT []
 synonym: "shortened period" EXACT []
 is_a: PATO:0001309 ! implied link automatically realized ! duration quality of a process
+is_a: PATO:0002302 ! implied link automatically realized ! decreased process quality
 intersection_of: PATO:0001309 ! duration quality of a process
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -3494,6 +3503,7 @@ synonym: "enlarged" RELATED []
 synonym: "great" RELATED []
 synonym: "large" RELATED []
 is_a: PATO:0000117 ! implied link automatically realized ! size
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000117 ! size
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -3507,6 +3517,7 @@ synonym: "small" RELATED []
 synonym: "tiny" RELATED []
 synonym: "underdeveloped" NARROW []
 is_a: PATO:0000117 ! implied link automatically realized ! size
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000117 ! size
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -4273,6 +4284,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "high threshold" EXACT []
 is_a: PATO:0000152 ! implied link automatically realized ! threshold
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000152 ! threshold
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -4286,6 +4298,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "low threshold" EXACT []
 is_a: PATO:0000152 ! implied link automatically realized ! threshold
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000152 ! threshold
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -4552,6 +4565,7 @@ def: "A behavioral quality of a process inhering in a bearer by virtue of the be
 subset: value_slim
 synonym: "hyperactive" EXACT []
 is_a: PATO:0001707 ! implied link automatically realized ! behavioural active
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001707 ! behavioural active
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -4562,6 +4576,7 @@ def: "A behavioral quality of a process inhering in a bearer by virtue of the be
 subset: value_slim
 synonym: "hypoactive" EXACT []
 is_a: PATO:0001707 ! implied link automatically realized ! behavioural active
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001707 ! behavioural active
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -5378,6 +5393,7 @@ def: "A rate which is relatively low." [PATO:GVG]
 subset: value_slim
 synonym: "slow rate" EXACT []
 is_a: PATO:0000161 ! implied link automatically realized ! rate
+is_a: PATO:0002302 ! implied link automatically realized ! decreased process quality
 intersection_of: PATO:0000161 ! rate
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -5389,6 +5405,7 @@ subset: value_slim
 synonym: "fast rate" EXACT []
 synonym: "high rate" EXACT []
 is_a: PATO:0000161 ! implied link automatically realized ! rate
+is_a: PATO:0002304 ! implied link automatically realized ! increased process quality
 intersection_of: PATO:0000161 ! rate
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -6851,6 +6868,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "high concentration" EXACT []
 is_a: PATO:0001159 ! implied link automatically realized ! concentrated
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001159 ! concentrated
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -6862,6 +6880,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "low concentration" EXACT []
 is_a: PATO:0001159 ! implied link automatically realized ! concentrated
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001159 ! concentrated
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -7045,6 +7064,7 @@ subset: value_slim
 synonym: "hyperresponsive" EXACT []
 synonym: "increased responsivity" EXACT []
 is_a: PATO:0000487 ! implied link automatically realized ! responsive to
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000487 ! responsive to
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -7067,6 +7087,7 @@ subset: value_slim
 synonym: "decreased responsivity" EXACT []
 synonym: "hyporesponsive" EXACT []
 is_a: PATO:0000487 ! implied link automatically realized ! responsive to
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000487 ! responsive to
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -7341,6 +7362,7 @@ synonym: "quality of an object" EXACT []
 synonym: "quality of continuant" EXACT []
 xref: snap:Quality
 is_a: PATO:0000001 ! quality
+disjoint_from: PATO:0001236 ! process quality
 
 [Term]
 id: PATO:0001242
@@ -7810,6 +7832,7 @@ subset: value_slim
 synonym: "high temperature" EXACT []
 synonym: "hot" EXACT []
 is_a: PATO:0000146 ! implied link automatically realized ! temperature
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000146 ! temperature
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -7822,6 +7845,7 @@ subset: value_slim
 synonym: "cold" EXACT []
 synonym: "low temperature" EXACT []
 is_a: PATO:0000146 ! implied link automatically realized ! temperature
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000146 ! temperature
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -7832,6 +7856,7 @@ def: "A variability of temperature which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "low variability of temperature" EXACT []
 is_a: PATO:0001314 ! implied link automatically realized ! variant temperature
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001314 ! variant temperature
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -7842,6 +7867,7 @@ def: "A variability of temperature which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high variability of temperature" EXACT []
 is_a: PATO:0001314 ! implied link automatically realized ! variant temperature
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001314 ! variant temperature
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9182,6 +9208,7 @@ def: "A position which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high position" RELATED []
 is_a: PATO:0000140 ! implied link automatically realized ! position
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000140 ! position
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9192,6 +9219,7 @@ def: "A positional which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "low position" RELATED []
 is_a: PATO:0000140 ! implied link automatically realized ! position
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000140 ! position
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9280,6 +9308,7 @@ is_a: PATO:0000011 ! age
 id: PATO:0001488
 name: cellular motility
 def: "A cellular quality inhering in a cell by virtue of whether the bearer exhibits the ability to move spontaneously." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+comment: Term should be obsoleted and the GO term cellular motility should be used instead.
 subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
@@ -9762,6 +9791,7 @@ subset: value_slim
 synonym: "high sensitivity toward" EXACT []
 synonym: "increased sensitivity" EXACT []
 is_a: PATO:0000516 ! implied link automatically realized ! sensitive toward
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000516 ! sensitive toward
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9775,6 +9805,7 @@ subset: value_slim
 synonym: "decreased sensitivity" EXACT []
 synonym: "low sensitivity toward" EXACT []
 is_a: PATO:0000516 ! implied link automatically realized ! sensitive toward
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000516 ! sensitive toward
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9787,6 +9818,7 @@ subset: value_slim
 synonym: "high sensitivity of occurrent" EXACT []
 synonym: "increased sensitivity of occurrent" EXACT []
 is_a: PATO:0001457 ! implied link automatically realized ! sensitivity of a process
+is_a: PATO:0002304 ! implied link automatically realized ! increased process quality
 intersection_of: PATO:0001457 ! sensitivity of a process
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9799,6 +9831,7 @@ subset: value_slim
 synonym: "decreased sensitivity of occurrent" EXACT []
 synonym: "low sensitivity of occurrent" EXACT []
 is_a: PATO:0001457 ! implied link automatically realized ! sensitivity of a process
+is_a: PATO:0002302 ! implied link automatically realized ! decreased process quality
 intersection_of: PATO:0001457 ! sensitivity of a process
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9857,6 +9890,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "having supernumerary functions" EXACT []
 is_a: PATO:0001509 ! implied link automatically realized ! functionality
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001509 ! functionality
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9878,6 +9912,7 @@ subset: value_slim
 synonym: "low mass" EXACT []
 synonym: "small mass" EXACT []
 is_a: PATO:0000125 ! implied link automatically realized ! mass
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000125 ! mass
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9890,6 +9925,7 @@ subset: value_slim
 synonym: "high mass" EXACT []
 synonym: "large mass" EXACT []
 is_a: PATO:0000125 ! implied link automatically realized ! mass
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000125 ! mass
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9962,6 +9998,7 @@ def: "A pressure which is relatively low." [PATO:GVG]
 subset: value_slim
 synonym: "low pressure" EXACT []
 is_a: PATO:0001025 ! implied link automatically realized ! pressure
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001025 ! pressure
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9972,6 +10009,7 @@ def: "A pressure which is relatively high." [PATO:GVG]
 subset: value_slim
 synonym: "high pressure" EXACT []
 is_a: PATO:0001025 ! implied link automatically realized ! pressure
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001025 ! pressure
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9983,6 +10021,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high permeability" EXACT []
 is_a: PATO:0000982 ! implied link automatically realized ! permeable
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000982 ! permeable
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -9994,6 +10033,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low permeability" EXACT []
 is_a: PATO:0000982 ! implied link automatically realized ! permeable
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000982 ! permeable
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10014,6 +10054,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high contractility" EXACT []
 is_a: PATO:0001690 ! implied link automatically realized ! contractile
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001690 ! contractile
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10025,6 +10066,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low contractility" EXACT []
 is_a: PATO:0001690 ! implied link automatically realized ! contractile
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001690 ! contractile
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10042,6 +10084,7 @@ def: "A variability which is relatively low." [PATO:GVG]
 subset: value_slim
 synonym: "low variability" EXACT []
 is_a: PATO:0001227 ! implied link automatically realized ! variant
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001227 ! variant
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10052,6 +10095,7 @@ def: "A variability which is relatively high." [PATO:GVG]
 subset: value_slim
 synonym: "high variability" EXACT []
 is_a: PATO:0001227 ! implied link automatically realized ! variant
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001227 ! variant
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10080,6 +10124,7 @@ def: "A variability of rate which is relatively high." [PATO:GVG]
 subset: value_slim
 synonym: "high variability of rate" EXACT []
 is_a: PATO:0001586 ! implied link automatically realized ! variability of rate
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001586 ! variability of rate
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10090,6 +10135,7 @@ def: "A variability of rate which is relatively low." [PATO:GVG]
 subset: value_slim
 synonym: "low variability of rate" EXACT []
 is_a: PATO:0001586 ! implied link automatically realized ! variability of rate
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001586 ! variability of rate
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10123,6 +10169,7 @@ name: increased curvature
 def: "A curvature which is relatively high." [PATO:GVG]
 subset: value_slim
 is_a: PATO:0000406 ! implied link automatically realized ! curved
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000406 ! curved
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10132,6 +10179,7 @@ name: decreased curvature
 def: "A curvature which is relatively low." [PATO:GVG]
 subset: value_slim
 is_a: PATO:0000406 ! implied link automatically realized ! curved
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000406 ! curved
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10215,6 +10263,7 @@ name: increased life span
 def: "A life span which is relatively high." [PATO:GVG]
 synonym: "high life span" EXACT []
 is_a: PATO:0000050 ! implied link automatically realized ! life span
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000050 ! life span
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10224,6 +10273,7 @@ name: decreased life span
 def: "A life span which is relatively low." [PATO:GVG]
 synonym: "low life span" EXACT []
 is_a: PATO:0000050 ! implied link automatically realized ! life span
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000050 ! life span
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10278,6 +10328,7 @@ def: "A variability of color which is relatively high." [PATO:GVG]
 subset: value_slim
 synonym: "high variability of color" EXACT []
 is_a: PATO:0001615 ! implied link automatically realized ! variant color
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001615 ! variant color
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10288,6 +10339,7 @@ def: "A variability of color which is relatively low." [PATO:GVG]
 subset: value_slim
 synonym: "low variability of color" EXACT []
 is_a: PATO:0001615 ! implied link automatically realized ! variant color
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001615 ! variant color
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10322,6 +10374,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high tonicity" EXACT []
 is_a: PATO:0001439 ! implied link automatically realized ! tonicity
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001439 ! tonicity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10333,6 +10386,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low tonicity" EXACT []
 is_a: PATO:0001439 ! implied link automatically realized ! tonicity
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001439 ! tonicity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10352,6 +10406,7 @@ subset: cell_quality
 subset: value_slim
 synonym: "low turgor" EXACT []
 is_a: PATO:0001620 ! implied link automatically realized ! turgor
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001620 ! turgor
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10363,6 +10418,7 @@ subset: cell_quality
 subset: value_slim
 synonym: "high turgor" EXACT []
 is_a: PATO:0001620 ! implied link automatically realized ! turgor
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001620 ! turgor
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10392,6 +10448,7 @@ synonym: "lacks function of type" EXACT []
 synonym: "low functionality" EXACT []
 synonym: "partial functionality" EXACT []
 is_a: PATO:0001510 ! implied link automatically realized ! functional
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001510 ! functional
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10561,6 +10618,7 @@ subset: value_slim
 synonym: "high resistance to" EXACT []
 synonym: "increased resistance" EXACT []
 is_a: PATO:0001178 ! implied link automatically realized ! resistant to
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001178 ! resistant to
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10574,6 +10632,7 @@ subset: value_slim
 synonym: "decreased resistance" EXACT []
 synonym: "low resistance to" EXACT []
 is_a: PATO:0001178 ! implied link automatically realized ! resistant to
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001178 ! resistant to
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10623,6 +10682,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "low osmolarity" EXACT []
 is_a: PATO:0001655 ! implied link automatically realized ! osmolarity
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001655 ! osmolarity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10634,6 +10694,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "high osmolarity" EXACT []
 is_a: PATO:0001655 ! implied link automatically realized ! osmolarity
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001655 ! osmolarity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10686,6 +10747,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "high solubility" EXACT []
 is_a: PATO:0001537 ! implied link automatically realized ! soluble in
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001537 ! soluble in
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10698,6 +10760,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "low solubility" EXACT []
 is_a: PATO:0001537 ! implied link automatically realized ! soluble in
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001537 ! soluble in
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10740,6 +10803,7 @@ subset: value_slim
 synonym: "high susceptibility toward" EXACT []
 synonym: "increased susceptibility" EXACT []
 is_a: PATO:0001152 ! implied link automatically realized ! susceptible toward
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001152 ! susceptible toward
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10753,6 +10817,7 @@ subset: value_slim
 synonym: "decreased susceptibility" EXACT []
 synonym: "low susceptibility toward" EXACT []
 is_a: PATO:0001152 ! implied link automatically realized ! susceptible toward
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001152 ! susceptible toward
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10803,6 +10868,7 @@ def: "An efficiency which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "low efficiency" EXACT []
 is_a: PATO:0001678 ! implied link automatically realized ! efficient
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001678 ! efficient
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10813,6 +10879,7 @@ def: "An efficiency which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high efficiency" EXACT []
 is_a: PATO:0001678 ! implied link automatically realized ! efficient
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001678 ! efficient
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10873,6 +10940,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high magnetism" EXACT []
 is_a: PATO:0001685 ! implied link automatically realized ! magnetic
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001685 ! magnetic
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10884,6 +10952,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low magnetism" EXACT []
 is_a: PATO:0001685 ! implied link automatically realized ! magnetic
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001685 ! magnetic
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10961,6 +11030,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high viscosity" EXACT []
 is_a: PATO:0000998 ! implied link automatically realized ! viscous
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000998 ! viscous
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10972,6 +11042,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low viscosity" EXACT []
 is_a: PATO:0000998 ! implied link automatically realized ! viscous
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000998 ! viscous
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10983,6 +11054,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high fecundity" EXACT []
 is_a: PATO:0000273 ! implied link automatically realized ! fecundity
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000273 ! fecundity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -10994,6 +11066,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low fecundity" EXACT []
 is_a: PATO:0000273 ! implied link automatically realized ! fecundity
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000273 ! fecundity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11006,6 +11079,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "low photosensitivity" EXACT []
 is_a: PATO:0000547 ! implied link automatically realized ! photosensitive
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000547 ! photosensitive
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11018,6 +11092,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "high photosensitivity" EXACT []
 is_a: PATO:0000547 ! implied link automatically realized ! photosensitive
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000547 ! photosensitive
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11220,6 +11295,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "high female receptivity" EXACT []
 is_a: PATO:0001720 ! implied link automatically realized ! female receptivity
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001720 ! female receptivity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11231,6 +11307,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "low female receptivity" EXACT []
 is_a: PATO:0001720 ! implied link automatically realized ! female receptivity
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001720 ! female receptivity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11242,6 +11319,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "high male receptivity" EXACT []
 is_a: PATO:0001721 ! implied link automatically realized ! male receptivity
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001721 ! male receptivity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11253,6 +11331,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "low male receptivity" EXACT []
 is_a: PATO:0001721 ! implied link automatically realized ! male receptivity
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001721 ! male receptivity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11388,6 +11467,7 @@ def: "A radioactivity which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "high radioactivity" EXACT []
 is_a: PATO:0001741 ! implied link automatically realized ! radioactive
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001741 ! radioactive
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11398,6 +11478,7 @@ def: "A radioactivity which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "low radioactivity" EXACT []
 is_a: PATO:0001741 ! implied link automatically realized ! radioactive
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001741 ! radioactive
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11564,6 +11645,7 @@ def: "An age which is high relative to the normal or average." [PATOC:GVG]
 subset: value_slim
 synonym: "high age" EXACT []
 is_a: PATO:0000011 ! implied link automatically realized ! age
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000011 ! age
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11574,6 +11656,7 @@ def: "An age which is low relative to the normal or average." [PATOC:GVG]
 subset: value_slim
 synonym: "low age" EXACT []
 is_a: PATO:0000011 ! implied link automatically realized ! age
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000011 ! age
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11655,6 +11738,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high flexibility" EXACT []
 is_a: PATO:0001544 ! implied link automatically realized ! flexible
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001544 ! flexible
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11666,6 +11750,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low flexibility" EXACT []
 is_a: PATO:0001544 ! implied link automatically realized ! flexible
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001544 ! flexible
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11676,6 +11761,7 @@ def: "A strength which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high strength" EXACT []
 is_a: PATO:0001230 ! implied link automatically realized ! strength
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001230 ! strength
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11686,6 +11772,7 @@ def: "A strength which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "weak" EXACT []
 is_a: PATO:0001230 ! implied link automatically realized ! strength
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001230 ! strength
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11711,6 +11798,7 @@ def: "An intensity which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high intensity" EXACT []
 is_a: PATO:0000049 ! implied link automatically realized ! intensity
+is_a: PATO:0002300 ! implied link automatically realized ! increased quality
 intersection_of: PATO:0000049 ! intensity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11721,6 +11809,7 @@ def: "An intensity which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "low intensity" EXACT []
 is_a: PATO:0000049 ! implied link automatically realized ! intensity
+is_a: PATO:0002301 ! implied link automatically realized ! decreased quality
 intersection_of: PATO:0000049 ! intensity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11768,6 +11857,7 @@ def: "A density which is higher relative to the normal or average." [PATOC:GVG]
 subset: value_slim
 synonym: "high density" EXACT []
 is_a: PATO:0001164 ! implied link automatically realized ! dense
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001164 ! dense
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11786,6 +11876,7 @@ def: "A density which is lower relative to the normal or average." [PATOC:GVG]
 subset: value_slim
 synonym: "low density" EXACT []
 is_a: PATO:0001164 ! implied link automatically realized ! dense
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001164 ! dense
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11828,6 +11919,7 @@ subset: cell_quality
 subset: value_slim
 synonym: "high coiling" EXACT []
 is_a: PATO:0000404 ! implied link automatically realized ! coiled
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000404 ! coiled
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11839,6 +11931,7 @@ subset: cell_quality
 subset: value_slim
 synonym: "low coiling" EXACT []
 is_a: PATO:0000404 ! implied link automatically realized ! coiled
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000404 ! coiled
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11876,6 +11969,7 @@ subset: value_slim
 synonym: "dehydrated" EXACT []
 synonym: "dry" RELATED []
 is_a: PATO:0001800 ! implied link automatically realized ! water composition
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001800 ! water composition
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11926,6 +12020,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low sensitivity to irradiation" EXACT []
 is_a: PATO:0001806 ! implied link automatically realized ! sensitivity to irradiation
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001806 ! sensitivity to irradiation
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -11937,6 +12032,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high sensitivity to irradiation" EXACT []
 is_a: PATO:0001806 ! implied link automatically realized ! sensitivity to irradiation
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001806 ! sensitivity to irradiation
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12072,6 +12168,7 @@ name: increased wetness
 def: "A wetness quality that is relatively high." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0001823 ! implied link automatically realized ! wet
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001823 ! wet
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12082,6 +12179,7 @@ def: "A wetness quality that is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "low wetness" EXACT []
 is_a: PATO:0001823 ! implied link automatically realized ! wet
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001823 ! wet
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12114,6 +12212,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low female fertility" EXACT []
 is_a: PATO:0000888 ! implied link automatically realized ! female fertile
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000888 ! female fertile
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12125,6 +12224,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high female fertility" EXACT []
 is_a: PATO:0000888 ! implied link automatically realized ! female fertile
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000888 ! female fertile
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12136,6 +12236,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high male fertility" EXACT []
 is_a: PATO:0000891 ! implied link automatically realized ! male fertile
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000891 ! male fertile
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12147,6 +12248,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low male fertility" EXACT []
 is_a: PATO:0000891 ! implied link automatically realized ! male fertile
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000891 ! male fertile
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12158,6 +12260,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low fertility" EXACT []
 is_a: PATO:0000955 ! implied link automatically realized ! fertile
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000955 ! fertile
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12169,6 +12272,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high fertility" EXACT []
 is_a: PATO:0000955 ! implied link automatically realized ! fertile
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000955 ! fertile
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12186,6 +12290,7 @@ def: "A flow that is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "low flow" EXACT []
 is_a: PATO:0002243 ! implied link automatically realized ! fluid flow rate
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0002243 ! fluid flow rate
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12196,6 +12301,7 @@ def: "A fluid flow that is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high flow" EXACT []
 is_a: PATO:0002243 ! implied link automatically realized ! fluid flow rate
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0002243 ! fluid flow rate
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12221,6 +12327,7 @@ def: "An acidity which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "low acidity" EXACT []
 is_a: PATO:0001842 ! implied link automatically realized ! acidity
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001842 ! acidity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12231,6 +12338,7 @@ def: "An acidity which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high acidity" EXACT []
 is_a: PATO:0001842 ! implied link automatically realized ! acidity
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001842 ! acidity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12358,6 +12466,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "high coordination" EXACT []
 is_a: PATO:0000769 ! implied link automatically realized ! coordinated
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000769 ! coordinated
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12369,6 +12478,7 @@ subset: disposition_slim
 subset: value_slim
 synonym: "low coordination" EXACT []
 is_a: PATO:0000769 ! implied link automatically realized ! coordinated
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000769 ! coordinated
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12662,6 +12772,7 @@ def: "An odor quality of having decreased odor." [PATOC:GVG]
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0001331 ! implied link automatically realized ! odorous
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001331 ! odorous
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12672,6 +12783,7 @@ def: "An odor quality of having increased odor." [PATOC:GVG]
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0001331 ! implied link automatically realized ! odorous
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001331 ! odorous
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12915,6 +13027,7 @@ def: "A fluorescence which is higher than normal." [PATOC:GVG]
 subset: value_slim
 synonym: "high fluorescence" EXACT []
 is_a: PATO:0001290 ! implied link automatically realized ! fluorescent
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001290 ! fluorescent
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -12925,6 +13038,7 @@ def: "A fluorescence which is lower than normal." [PATOC:GVG]
 subset: value_slim
 synonym: "low fluorescence" EXACT []
 is_a: PATO:0001290 ! implied link automatically realized ! fluorescent
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001290 ! fluorescent
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -13148,6 +13262,7 @@ def: "A variability of size which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "low variability of size" EXACT []
 is_a: PATO:0001956 ! implied link automatically realized ! variability of size
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001956 ! variability of size
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -13158,6 +13273,7 @@ def: "A variability of size which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high variability of size" EXACT []
 is_a: PATO:0001956 ! implied link automatically realized ! variability of size
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001956 ! variability of size
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -13441,6 +13557,7 @@ synonym: "decreased number" EXACT []
 synonym: "reduced" RELATED []
 synonym: "subnumerary" RELATED []
 is_a: PATO:0000467 ! implied link automatically realized ! present
+is_a: PATO:0002301 ! implied link automatically realized ! decreased quality
 intersection_of: PATO:0000467 ! present
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 intersection_of: reciprocal_of PATO:0002001 ! has fewer parts of type
@@ -13482,6 +13599,7 @@ synonym: "decreased number of" EXACT []
 synonym: "has decreased number of" EXACT []
 synonym: "has fewer physical parts of type" EXACT []
 is_a: PATO:0001999 ! implied link automatically realized ! lacks parts or has fewer parts of type
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001999 ! lacks parts or has fewer parts of type
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -13498,6 +13616,7 @@ synonym: "having extra physical parts" EXACT []
 synonym: "having supernumerary physical parts" EXACT []
 synonym: "increased number of" EXACT []
 is_a: PATO:0002083 ! implied link automatically realized ! altered number of
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0002083 ! altered number of
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -13695,6 +13814,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "low osmolality" EXACT []
 is_a: PATO:0002027 ! implied link automatically realized ! osmolality
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0002027 ! osmolality
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -13708,6 +13828,7 @@ subset: relational_slim
 subset: value_slim
 synonym: "high osmolality" EXACT []
 is_a: PATO:0002027 ! implied link automatically realized ! osmolality
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0002027 ! osmolality
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -13923,6 +14044,7 @@ name: increased occurrence
 def: "An occurrence which is relatively high." [PATOC:GVG]
 synonym: "increased incidence" EXACT []
 is_a: PATO:0000057 ! implied link automatically realized ! occurrence quality
+is_a: PATO:0002304 ! implied link automatically realized ! increased process quality
 intersection_of: PATO:0000057 ! occurrence quality
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
@@ -13934,6 +14056,7 @@ name: decreased occurrence
 def: "An occurrence which is relatively low." [PATOC:GVG]
 synonym: "decreased incidence" EXACT []
 is_a: PATO:0000057 ! implied link automatically realized ! occurrence quality
+is_a: PATO:0002302 ! implied link automatically realized ! decreased process quality
 intersection_of: PATO:0000057 ! occurrence quality
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
@@ -13966,6 +14089,7 @@ def: "A fragility which is relatively high." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0001362 ! implied link automatically realized ! fragile
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001362 ! fragile
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
@@ -13978,6 +14102,7 @@ def: "A fragility which is relatively low." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0001362 ! implied link automatically realized ! fragile
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001362 ! fragile
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
@@ -14119,6 +14244,7 @@ subset: disposition_slim
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0002070 ! implied link automatically realized ! affinity
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0002070 ! affinity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
@@ -14132,6 +14258,7 @@ subset: disposition_slim
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0002070 ! implied link automatically realized ! affinity
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0002070 ! affinity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
@@ -14157,6 +14284,7 @@ subset: disposition_slim
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0002073 ! implied link automatically realized ! avidity
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0002073 ! avidity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
@@ -14170,6 +14298,7 @@ subset: disposition_slim
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0002073 ! implied link automatically realized ! avidity
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0002073 ! avidity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
@@ -14827,6 +14956,7 @@ def: "A radiopacity that is relatively high." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0002136 ! implied link automatically realized ! radiopacity
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0002136 ! radiopacity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -14839,6 +14969,7 @@ def: "A radiopacity that is relatively low." [PATOC:GVG]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0002136 ! implied link automatically realized ! radiopacity
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0002136 ! radiopacity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -14861,6 +14992,7 @@ def: "A virulence that is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "attenuated" EXACT []
 is_a: PATO:0002146 ! implied link automatically realized ! virulence
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0002146 ! virulence
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -14872,6 +15004,7 @@ name: increased virulence
 def: "A virulence that is relatively high." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0002146 ! implied link automatically realized ! virulence
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0002146 ! virulence
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -14987,6 +15120,7 @@ name: high-arched
 def: "A concave quality inhering in a bearer by virtue of the bearer's forming or resembling an arch of an increased apical height." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0001594 ! implied link automatically realized ! arched
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001594 ! arched
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -15569,6 +15703,7 @@ def: "A quality inhering in a bearer by virtue of the bearer's being phosphoryla
 subset: value_slim
 synonym: "hyperphosphorylated" EXACT []
 is_a: PATO:0002220 ! implied link automatically realized ! phosphorylated
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0002220 ! phosphorylated
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -15581,6 +15716,7 @@ def: "A quality inhering in a bearer by virtue of the bearer's being phosphoryla
 subset: value_slim
 synonym: "hypophosporylated " EXACT []
 is_a: PATO:0002220 ! implied link automatically realized ! phosphorylated
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0002220 ! phosphorylated
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -15808,6 +15944,7 @@ def: "A force which relative high." [PATOC:GVG]
 subset: value_slim
 synonym: "increased force amplitude" EXACT []
 is_a: PATO:0001035 ! implied link automatically realized ! force
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001035 ! force
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -15820,6 +15957,7 @@ def: "A force which is relative low." [PATOC:GVG]
 subset: value_slim
 synonym: "decreased force amplitude" EXACT []
 is_a: PATO:0001035 ! implied link automatically realized ! force
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001035 ! force
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -15863,6 +16001,7 @@ def: "A degree of pigmentation quality that is relative high." [PATOC:GVG]
 subset: value_slim
 synonym: "hyperpigmented" EXACT []
 is_a: PATO:0002248 ! implied link automatically realized ! pigmented
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0002248 ! pigmented
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -15875,6 +16014,7 @@ def: "A degree of pigmentation quality that is relative low." [PATOC:GVG]
 subset: value_slim
 synonym: "hypopigmented" EXACT []
 is_a: PATO:0002248 ! implied link automatically realized ! pigmented
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0002248 ! pigmented
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -16177,6 +16317,7 @@ name: increased mobility
 def: "A mobility which is relative high." [PATO:GVG]
 subset: value_slim
 is_a: PATO:0000299 ! implied link automatically realized ! mobile
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0000299 ! mobile
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -16188,6 +16329,7 @@ name: decreased mobility
 def: "A mobility which is relative low." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0000299 ! mobile
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0000299 ! mobile
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: george
@@ -16227,6 +16369,7 @@ name: increased elasticity
 def: "An elasticity which is relatively high." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0001171 ! implied link automatically realized ! elastic
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001171 ! elastic
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
@@ -16238,6 +16381,7 @@ name: decreased elasticity
 def: "An elasticity which is relatively low." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0001171 ! implied link automatically realized ! elastic
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001171 ! elastic
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
@@ -16321,6 +16465,7 @@ name: decreased cellular motility
 def: "A cellular motility which is lower relative to the normal or average." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0001488 ! implied link automatically realized ! cellular motility
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
 intersection_of: PATO:0001488 ! cellular motility
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -16330,6 +16475,7 @@ name: increased cellular motility
 def: "A cellular motility which is higher relative to the normal or average." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0001488 ! implied link automatically realized ! cellular motility
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
 intersection_of: PATO:0001488 ! cellular motility
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -16344,6 +16490,70 @@ is_a: PATO:0001873 ! cylindrical
 is_a: PATO:0002078 ! hollow
 created_by: George Gkoutos
 creation_date: 2011-06-08T06:33:50Z
+
+[Term]
+id: PATO:0002300
+name: increased quality
+def: "A quality that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0000069 ! deviation(from_normal)
+intersection_of: PATO:0000001 ! quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:39:43Z
+
+[Term]
+id: PATO:0002301
+name: decreased quality
+def: "A quality that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0000069 ! deviation(from_normal)
+intersection_of: PATO:0000001 ! quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:40:15Z
+
+[Term]
+id: PATO:0002302
+name: decreased process quality
+def: "A quality of a process that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001236 ! implied link automatically realized ! process quality
+is_a: PATO:0002301 ! decreased quality
+intersection_of: PATO:0001236 ! process quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:50:59Z
+
+[Term]
+id: PATO:0002303
+name: decreased object quality
+def: "A quality of an object that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001241 ! implied link automatically realized ! physical object quality
+is_a: PATO:0002301 ! decreased quality
+intersection_of: PATO:0001241 ! physical object quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:51:54Z
+
+[Term]
+id: PATO:0002304
+name: increased process quality
+def: "A quality of a process that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001236 ! implied link automatically realized ! process quality
+is_a: PATO:0002300 ! increased quality
+intersection_of: PATO:0001236 ! process quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:53:08Z
+
+[Term]
+id: PATO:0002305
+name: increased object quality
+def: "A quality of an object that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0001241 ! implied link automatically realized ! physical object quality
+is_a: PATO:0002300 ! increased quality
+intersection_of: PATO:0001241 ! physical object quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:54:01Z
 
 [Typedef]
 id: correlates_with
