@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 08:06:2011 18:41
+date: 16:06:2011 19:35
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -7292,6 +7292,7 @@ synonym: "quality of an object" EXACT []
 synonym: "quality of continuant" EXACT []
 xref: snap:Quality
 is_a: PATO:0000001 ! quality
+disjoint_from: PATO:0001236 ! process quality
 
 [Term]
 id: PATO:0001242
@@ -9219,6 +9220,7 @@ is_a: PATO:0000011 ! age
 id: PATO:0001488
 name: cellular motility
 def: "A cellular quality inhering in a cell by virtue of whether the bearer exhibits the ability to move spontaneously." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+comment: Term should be obsoleted and the GO term cellular motility should be used instead.
 subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
@@ -16128,6 +16130,66 @@ is_a: PATO:0002078 ! hollow
 created_by: George Gkoutos
 creation_date: 2011-06-08T06:33:50Z
 
+[Term]
+id: PATO:0002300
+name: increased quality
+def: "A quality that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0000069 ! deviation(from_normal)
+intersection_of: PATO:0000001 ! quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:39:43Z
+
+[Term]
+id: PATO:0002301
+name: decreased quality
+def: "A quality that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0000069 ! deviation(from_normal)
+intersection_of: PATO:0000001 ! quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:40:15Z
+
+[Term]
+id: PATO:0002302
+name: decreased process quality
+def: "A quality of a process that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0002301 ! decreased quality
+intersection_of: PATO:0001236 ! process quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:50:59Z
+
+[Term]
+id: PATO:0002303
+name: decreased object quality
+def: "A quality of an object that has a value that is decreased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0002301 ! decreased quality
+intersection_of: PATO:0001241 ! physical object quality
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:51:54Z
+
+[Term]
+id: PATO:0002304
+name: increased process quality
+def: "A quality of a process that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0002300 ! increased quality
+intersection_of: PATO:0001236 ! process quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:53:08Z
+
+[Term]
+id: PATO:0002305
+name: increased object quality
+def: "A quality of an object that has a value that is increased compared to normal or average." [PATOC:GVG]
+is_a: PATO:0002300 ! increased quality
+intersection_of: PATO:0001241 ! physical object quality
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-06-16T06:54:01Z
+
 [Typedef]
 id: correlates_with
 name: correlates_with
@@ -16278,3 +16340,4 @@ synonym: "monadic_form_of" EXACT []
 id: towards
 name: towards
 comment: Relation binding a relational quality or disposition to the relevant type of entity.
+
