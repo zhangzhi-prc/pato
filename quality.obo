@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:06:2011 19:35
+date: 27:06:2011 11:26
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -16554,6 +16554,36 @@ intersection_of: PATO:0001241 ! physical object quality
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
 creation_date: 2011-06-16T06:54:01Z
+
+[Term]
+id: PATO:0002306
+name: equilateral triangular
+def: "A triangular quality inhering in a bearer by virtue of the bearer's having all sides of the same length." [PATOC:JB]
+subset: value_slim
+is_a: PATO:0001875 ! triangular
+disjoint_from: PATO:0002307 ! isosceles triangular
+created_by: George Gkoutos
+creation_date: 2011-06-27T11:22:50Z
+
+[Term]
+id: PATO:0002307
+name: isosceles triangular
+def: "A triangular quality inhering in a bearer by virtue of the bearer's having two sides have the same length." [PATOC:JB]
+subset: scalar_slim
+is_a: PATO:0001875 ! triangular
+created_by: George Gkoutos
+creation_date: 2011-06-27T11:23:52Z
+
+[Term]
+id: PATO:0002308
+name: scalene triangular
+def: "A triangular quality inhering in a bearer by virtue of the bearer's having all sides of unequal length." [PATOC:JB]
+subset: value_slim
+is_a: PATO:0001875 ! triangular
+disjoint_from: PATO:0002306 ! equilateral triangular
+disjoint_from: PATO:0002307 ! isosceles triangular
+created_by: George Gkoutos
+creation_date: 2011-06-27T11:24:24Z
 
 [Typedef]
 id: correlates_with
