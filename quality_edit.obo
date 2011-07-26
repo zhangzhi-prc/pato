@@ -1116,8 +1116,7 @@ id: PATO:0000186
 name: behavioral quality
 alt_id: PATO:0001722
 def: "An organismal quality inhering in a bearer by virtue of the bearer's behavior aggregate of the responses or reactions or movements in a given situation." [PATOC:GVG]
-synonym: "behavioral quality" EXACT []
-synonym: "behavioural quality" RELATED []
+synonym: "behavioural quality" EXACT []
 is_a: PATO:0001995 ! organismal quality
 
 [Term]
