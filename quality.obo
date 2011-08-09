@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:06:2011 11:26
+date: 09:08:2011 17:42
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -393,7 +393,6 @@ id: PATO:0000058
 name: odor
 def: "A physical quality inhering in a bearer by virtue of the bearer's molecules being are aerially dispersed and perceived by an odorant receptor." [PATOC:GVG]
 subset: attribute_slim
-subset: relational_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
@@ -7174,7 +7173,6 @@ is_obsolete: true
 id: PATO:0001208
 name: odorless
 def: "An odor quality inhering in a bearer by virtue of the bearer's lacking odour." [PATOC:GVG]
-subset: relational_slim
 subset: value_slim
 is_a: PATO:0000058 ! odor
 disjoint_from: PATO:0001331 ! odorous
@@ -8055,7 +8053,6 @@ disjoint_from: PATO:0001329 ! flavourful
 id: PATO:0001331
 name: odorous
 def: "An odor quality inhering in a bearer by virtue of the bearer's having odour." [PATOC:GVG]
-subset: relational_slim
 subset: value_slim
 is_a: PATO:0000058 ! odor
 
@@ -12768,7 +12765,6 @@ relationship: has_cross_section PATO:0000946 ! oblong
 id: PATO:0001892
 name: decreased odor
 def: "An odor quality of having decreased odor." [PATOC:GVG]
-subset: relational_slim
 subset: value_slim
 is_a: PATO:0001331 ! implied link automatically realized ! odorous
 is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
@@ -12779,7 +12775,6 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 id: PATO:0001893
 name: increased odor
 def: "An odor quality of having increased odor." [PATOC:GVG]
-subset: relational_slim
 subset: value_slim
 is_a: PATO:0001331 ! implied link automatically realized ! odorous
 is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
