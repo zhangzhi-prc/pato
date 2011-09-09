@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:08:2011 17:42
+date: 09:09:2011 16:51
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -16578,6 +16578,16 @@ disjoint_from: PATO:0002306 ! equilateral triangular
 disjoint_from: PATO:0002307 ! isosceles triangular
 created_by: George Gkoutos
 creation_date: 2011-06-27T11:24:24Z
+
+[Term]
+id: PATO:0002309
+name: fiber shaped
+def: "A convex 3-D shape quality inhering in a bearer by virtue of the bearer's exhibiting a by virtue of the bearer's exhibiting a consistently sized and approximately round cross-section along its length, which is many times larger than its diameter." [PATOC:DC]
+comment: Note that a fiber shaped object may take any circuitous or straight path through space (think of a length of string or rope).
+subset: value_slim
+is_a: PATO:0002226 ! subcylindrical
+created_by: George Gkoutos
+creation_date: 2011-09-09T04:50:10Z
 
 [Typedef]
 id: correlates_with
