@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:09:2011 16:51
+date: 20:09:2011 18:24
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -15600,7 +15600,7 @@ creation_date: 2010-07-08T12:26:45Z
 [Term]
 id: PATO:0002212
 name: slender
-def: "A shape quality inhering in a bearer by virtue of the bearer's being \"small or narrow in circumference or width in proportion to length or height." [merriam-webster:http\://www.merriam-webster.com/dictionary/slender]
+def: "A shape quality inhering in a bearer by virtue of the bearer's being small or narrow in circumference or width in proportion to length or height." [merriam-webster:http\://www.merriam-webster.com/dictionary/slender]
 subset: value_slim
 synonym: "gracile" RELATED []
 is_a: PATO:0000052 ! shape
@@ -16588,6 +16588,15 @@ subset: value_slim
 is_a: PATO:0002226 ! subcylindrical
 created_by: George Gkoutos
 creation_date: 2011-09-09T04:50:10Z
+
+[Term]
+id: PATO:0002310
+name: robust
+def: "A quality inhering in a bearer by virtue of the bearer's being strong, thick or sturdy." [PATOC:BF]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: George Gkoutos
+creation_date: 2011-09-20T06:23:31Z
 
 [Typedef]
 id: correlates_with
