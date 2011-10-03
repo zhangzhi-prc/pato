@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 22:09:2011 15:54
+date: 03:10:2011 16:18
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -3464,6 +3464,7 @@ def: "A size quality which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "big" RELATED []
 synonym: "enlarged" RELATED []
+synonym: "expanded" RELATED []
 synonym: "great" RELATED []
 synonym: "large" RELATED []
 intersection_of: PATO:0000117 ! size
@@ -9265,6 +9266,7 @@ name: notched
 def: "A concave quality inhering in a bearer by virtue of the bearer's shape being a V-shaped cut." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
 subset: cell_quality
 subset: value_slim
+synonym: "indented" RELATED []
 is_a: PATO:0001857 ! concave
 
 [Term]
@@ -16241,6 +16243,51 @@ subset: value_slim
 is_a: PATO:0000052 ! shape
 created_by: George Gkoutos
 creation_date: 2011-09-22T03:52:11Z
+
+[Term]
+id: PATO:0002312
+name: segmented
+def: "Consisting of segments or similar parts arranged in a longitudinal series." [OED: "http://www.oed.com"]
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: George Gkoutos
+creation_date: 2011-10-03T03:42:23Z
+
+[Term]
+id: PATO:0002313
+name: telescopic
+def: "Having or resembling the shape of a telescope." [PATOC:BF]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: George Gkoutos
+creation_date: 2011-10-03T03:49:26Z
+
+[Term]
+id: PATO:0002314
+name: ligamentous 
+def: "Having the nature or characteristic of, a ligament; composed of the tissue proper to ligaments." [PATOC:BF]
+subset: value_slim
+is_a: PATO:0000025 ! composition
+created_by: George Gkoutos
+creation_date: 2011-10-03T03:57:39Z
+
+[Term]
+id: PATO:0002315
+name: brush-like shape
+def: "A shape quality inhering in a bearer by virtue of the bearer's resembling the end of a brush with a multitude of bristles." [PATOC:BF]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: George Gkoutos
+creation_date: 2011-10-03T03:59:59Z
+
+[Term]
+id: PATO:0002316
+name: autogenous
+def: "Being separate or discrete, ossifying from an independent centre and, by extension, used in the sense of bones that are not fused to the nearest neighbor." [Dictionary of Ichthyology: "http://www.briancoad.com/Dictionary/Introduction%20and%20A-F.htm"]
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: George Gkoutos
+creation_date: 2011-10-03T04:17:08Z
 
 [Typedef]
 id: correlates_with
