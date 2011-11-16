@@ -104,6 +104,7 @@ alt_id: PATO:0000020
 def: "A composite chromatic quality composed of hue, saturation and intensity parts." [PATOC:GVG]
 subset: attribute_slim
 synonym: "relative color" EXACT []
+synonym: "colour" EXACT []
 is_a: PATO:0001300 ! optical quality
 
 [Term]
