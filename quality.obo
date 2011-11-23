@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 23:11:2011 11:59
+date: 23:11:2011 12:21
 saved-by: George Gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -6276,26 +6276,26 @@ is_obsolete: true
 [Term]
 id: PATO:0001051
 name: acute angle
-def: "An angular placement quality inhering in a bearer by virtue of the bearer's placement at an angle which is less than 90 degrees." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
+def: "An angle which is less than 90 degrees." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
 subset: relational_slim
 subset: value_slim
-is_a: PATO:0000133 ! orientation
+is_a: PATO:0002326 ! angle
 
 [Term]
 id: PATO:0001052
 name: obtuse angle to
-def: "An angular placement quality inhering in a bearer by virtue of the bearer's placement at an angle which is between 90 degrees and 180 degrees to another entity." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
+def: "An angle which is between 90 degrees and 180 degrees to another entity." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
 subset: relational_slim
 subset: value_slim
-is_a: PATO:0000133 ! orientation
+is_a: PATO:0002326 ! angle
 
 [Term]
 id: PATO:0001053
 name: convex angle to
-def: "An angular placement quality inhering in a bearer by virtue of the bearer's placement at an angle which is less than 180 degrees to another entity." [maths.org:maths.org "http://thesaurus.maths.org/"]
+def: "An angle which is less than 180 degrees to another entity." [maths.org:maths.org "http://thesaurus.maths.org/"]
 subset: relational_slim
 subset: value_slim
-is_a: PATO:0000133 ! orientation
+is_a: PATO:0002326 ! angle
 
 [Term]
 id: PATO:0001054
@@ -6311,7 +6311,7 @@ name: reflex angle to
 def: "An angular placement quality inhering in a bearer by virtue of the bearer's placement at an angle that is greater than 180 degrees but less than 360 degrees to another entity." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
 subset: relational_slim
 subset: value_slim
-is_a: PATO:0000133 ! orientation
+is_a: PATO:0002326 ! angle
 
 [Term]
 id: PATO:0001056
@@ -7975,19 +7975,19 @@ is_a: PATO:0000454 ! hairy
 [Term]
 id: PATO:0001321
 name: right angle to
-def: "An angular placement quality inhering in a bearer by virtue of the bearer's placement at an angle which is 90 degrees to another entity." [thesaurus.math:thesaurus.math "http://thesaurus.maths.org/"]
+def: "An angle which is 90 degrees to another entity." [thesaurus.math:thesaurus.math "http://thesaurus.maths.org/"]
 subset: relational_slim
 subset: value_slim
-is_a: PATO:0000133 ! orientation
+is_a: PATO:0002326 ! angle
 
 [Term]
 id: PATO:0001322
 name: straight angle
-def: "An angular placement quality inhering in a bearer by virtue of the bearer's placement at an angle which is 180 degrees to another entity." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
+def: "An angle which is 180 degrees to another entity." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
 comment: TODO: decide on correct parentage.
 subset: relational_slim
 subset: value_slim
-is_a: PATO:0000133 ! orientation
+is_a: PATO:0002326 ! angle
 
 [Term]
 id: PATO:0001323
@@ -16723,6 +16723,42 @@ subset: attribute_slim
 is_a: PATO:0002323 ! temporal distribution quality
 created_by: George Gkoutos
 creation_date: 2011-11-23T11:47:34Z
+
+[Term]
+id: PATO:0002326
+name: angle
+def: "An orientation inhering in a bearer by virtue of the bearer's placement at an angle." [PATOC:GVG]
+subset: attribute_slim
+subset: relational_slim
+is_a: PATO:0000133 ! orientation
+created_by: George Gkoutos
+creation_date: 2011-11-23T12:06:09Z
+
+[Term]
+id: PATO:0002327
+name: increased angle
+def: "An angle which is relatively high." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0001475 ! implied link automatically realized ! increased position
+is_a: PATO:0002326 ! implied link automatically realized ! angle
+intersection_of: PATO:0002326 ! angle
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-11-23T12:06:38Z
+
+[Term]
+id: PATO:0002328
+name: decreased angle
+def: "An angle which is relatively low." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0001476 ! implied link automatically realized ! decreased position
+is_a: PATO:0002326 ! implied link automatically realized ! angle
+intersection_of: PATO:0002326 ! angle
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: George Gkoutos
+creation_date: 2011-11-23T12:06:54Z
 
 [Typedef]
 id: correlates_with
