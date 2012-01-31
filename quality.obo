@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:01:2012 17:07
+date: 31:01:2012 17:09
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -16988,16 +16988,16 @@ creation_date: 2012-01-31T04:29:36Z
 [Term]
 id: PATO:0002353
 name: activation quality
-def: "A physical quality that inheres in a bearer in virtue of its realizing one of its functions." [PATOC:RH]
+def: "A quality that inheres in a bearer in virtue of its realizing one of its functions." [PATOC:RH]
 subset: attribute_slim
-is_a: PATO:0001018 ! physical quality
+is_a: PATO:0001509 ! functionality
 created_by: gkoutos
 creation_date: 2012-01-31T04:51:42Z
 
 [Term]
 id: PATO:0002354
 name: active
-def: "A quality of a physical object that is currently realizing one of its functions." [PATOC:RH]
+def: "A quality of an physical object that is currently realizing one of its functions." [PATOC:RH]
 subset: attribute_slim
 is_a: PATO:0002353 ! activation quality
 created_by: gkoutos
