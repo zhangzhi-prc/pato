@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 23:11:2011 12:19
-saved-by: George Gkoutos
+date: 31:01:2012 11:42
+saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
@@ -16391,6 +16391,15 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: George Gkoutos
 creation_date: 2011-11-23T12:06:54Z
 
+[Term]
+id: PATO:0002329
+name: hyponastic
+def: "A shape quality inhering in a bearer by virtue of the bearer's exhibiting a upward bending of its leaves or other plant parts." [PATOC:DS]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2012-01-31T11:40:23Z
+
 [Typedef]
 id: correlates_with
 name: correlates_with
@@ -16511,7 +16520,7 @@ namespace: pato.ontology
 [Typedef]
 id: OBO_REL:part_of
 name: part_of
-xref: BFO:00000050
+xref: BFO:0000050
 is_transitive: true
 
 [Typedef]
