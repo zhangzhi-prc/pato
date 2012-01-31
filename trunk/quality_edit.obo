@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:01:2012 12:44
+date: 31:01:2012 15:50
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -12817,6 +12817,7 @@ id: PATO:0001936
 name: obovate
 def: "A spheroid quality inhering in a bearer by virtue of the bearer's being egg-shaped and flat, with the narrow end attached to the base." [wordreference:wordreference "http://www.wordreference.com/"]
 subset: value_slim
+synonym: "obovoid" RELATED []
 is_a: PATO:0001891 ! ovate
 
 [Term]
@@ -16450,6 +16451,96 @@ intersection_of: PATO:0002331 ! adhesive
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: gkoutos
 creation_date: 2012-01-31T12:42:22Z
+
+[Term]
+id: PATO:0002335
+name: tholiform
+def: "A shape quality inhering in a bearer by virtue of the bearer's being dome-shaped." [PATOC:dd]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2012-01-31T02:32:14Z
+
+[Term]
+id: PATO:0002336
+name: pyramidal
+def: "A shape quality inhering in a bearer by virtue of the bearer's having triangular faces that meet at a common point and containing a polygonal shaped base." [PATOC:DD]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2012-01-31T02:35:02Z
+
+[Term]
+id: PATO:0002337
+name: lance-ovate
+def: "A spheroid quality inhering in a bearer by virtue of the bearer's exhibiting a continuous convex surface with an axis of symmetry and one axis longer than the other; characterized with an egg-shaped form crossed with a lance-head shaped form." [PATOC:DD]
+subset: value_slim
+is_a: PATO:0001877 ! lanceolate
+created_by: gkoutos
+creation_date: 2012-01-31T02:43:15Z
+
+[Term]
+id: PATO:0002338
+name: lanceolate-triangular
+def: "A shape quality inhering in a bearer by virtue of the bearer's being shaped like a lance-head, considerably longer than wide, tapering towards the tip from below the middle together forming three angles; attached at the broad end." [PATOC:DD]
+subset: value_slim
+is_a: PATO:0001877 ! lanceolate
+created_by: gkoutos
+creation_date: 2012-01-31T02:46:43Z
+
+[Term]
+id: PATO:0002339
+name: hispid
+def: "A quality of being covered with stiff or rough hairs." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000454 ! hairy
+created_by: gkoutos
+creation_date: 2012-01-31T02:51:37Z
+
+[Term]
+id: PATO:0002340
+name: hispidulous
+def: "A quality of being minutely hispid." [PATOC:DD]
+subset: value_slim
+is_a: PATO:0002339 ! hispid
+created_by: gkoutos
+creation_date: 2012-01-31T02:53:21Z
+
+[Term]
+id: PATO:0002341
+name: tomentose
+def: "A quality of being covered with short, dense, matted hairs." [thefreedictionary:www.thefreedictionary.com]
+subset: value_slim
+is_a: PATO:0000454 ! hairy
+created_by: gkoutos
+creation_date: 2012-01-31T02:55:56Z
+
+[Term]
+id: PATO:0002342
+name: cupulate
+def: "A quality inhering in a bearer by virtue of the bearer's being a cupule, with a structure similar to a cup that also encloses the ovule in partiality." [PATOC:DD]
+subset: value_slim
+is_a: PATO:0002227 ! cup-shaped
+created_by: gkoutos
+creation_date: 2012-01-31T02:59:07Z
+
+[Term]
+id: PATO:0002343
+name: decumbent
+def: "A positional quality inhering in a bearer by virtue of the bearer's lying or growing on the ground but with erect or rising tips." [thefreedictionary:www.thefreedictionary.com]
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: gkoutos
+creation_date: 2012-01-31T03:13:12Z
+
+[Term]
+id: PATO:0002344
+name: arachnose
+def: "A quality inhering in a bearer by virtue of the bearer's being characterized by fine, entangled hairs giving the appearance of cobweb." [PATOC:DD]
+subset: value_slim
+is_a: PATO:0000454 ! hairy
+created_by: gkoutos
+creation_date: 2012-01-31T03:49:00Z
 
 [Typedef]
 id: correlates_with
