@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:01:2012 15:50
+date: 31:01:2012 17:07
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -12622,7 +12622,7 @@ is_a: PATO:0002006 ! 2-D shape
 [Term]
 id: PATO:0001876
 name: dumbbell-shaped
-def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's having two parts, roughly spherical, connected by a bar." [PATOC:cjm]
+def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's having two parts, roughly spherical and of equal size, connected by a bar." [PATOC:GVG]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0002008 ! concave 3-D shape
@@ -16900,7 +16900,7 @@ id: PATO:0002343
 name: decumbent
 def: "A positional quality inhering in a bearer by virtue of the bearer's lying or growing on the ground but with erect or rising tips." [thefreedictionary:www.thefreedictionary.com]
 subset: value_slim
-is_a: PATO:0000140 ! position
+is_a: PATO:0000631 ! prostrate
 created_by: gkoutos
 creation_date: 2012-01-31T03:13:12Z
 
@@ -16912,6 +16912,114 @@ subset: value_slim
 is_a: PATO:0000454 ! hairy
 created_by: gkoutos
 creation_date: 2012-01-31T03:49:00Z
+
+[Term]
+id: PATO:0002345
+name: lemon-shaped
+def: "A convex 3-D shape quality inhering in a bearer by virtue of the bearer's having a quadric surface in three dimensions obtained by rotating less than half of a circular arc about an axis passing through the endpoints of the arc" [PATOC:MH]
+subset: value_slim
+is_a: PATO:0002007 ! convex 3-D shape
+created_by: gkoutos
+creation_date: 2012-01-31T03:55:16Z
+
+[Term]
+id: PATO:0002346
+name: snowman-shaped
+def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's having two connected parts, roughly spherical, of different sizes." [PATOC:MH]
+subset: value_slim
+is_a: PATO:0002008 ! concave 3-D shape
+created_by: gkoutos
+creation_date: 2012-01-31T03:58:10Z
+
+[Term]
+id: PATO:0002347
+name: obconical
+def: "A conical quality inhering in a bearer by virtue of the bearer's resembling a cone, with the pointed end attached to an organism." [wiktionary:http\://en.wiktionary.org/wiki/obconical]
+subset: value_slim
+is_a: PATO:0002021 ! conical
+created_by: gkoutos
+creation_date: 2012-01-31T04:05:28Z
+
+[Term]
+id: PATO:0002348
+name: ligneous
+def: "A structural quality inhering in a bearer by virtue of the bearer resembling wood." [merriam-webster:http\://www.merriam-webster.com/dictionary/ligneous]
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: gkoutos
+creation_date: 2012-01-31T04:06:50Z
+
+[Term]
+id: PATO:0002349
+name: basal to
+def: "A spatial quality inhering in a bearer by virtue of the bearer's being located toward the base of an organism relative to another entity." [merriam-webster:http\://www.merriam-webster.com/dictionary/basal]
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: gkoutos
+creation_date: 2012-01-31T04:12:25Z
+
+[Term]
+id: PATO:0002350
+name: cauline to
+def: "A spatial quality inhering in a bearer by virtue of the bearer's being located toward the stalk of an organism relative to another entity." [merriam-webster:http\://www.merriam-webster.com/dictionary/cauline]
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: gkoutos
+creation_date: 2012-01-31T04:13:06Z
+
+[Term]
+id: PATO:0002351
+name: fleshy
+def: "A structural quality inhering in a bearer by virtue of the bearer resembling or containing flesh." [wiktionary:http\://en.wiktionary.org/wiki/fleshy]
+subset: value_slim
+is_a: PATO:0000025 ! composition
+created_by: gkoutos
+creation_date: 2012-01-31T04:15:30Z
+
+[Term]
+id: PATO:0002352
+name: herbaceous
+def: "A quality inhering in a bearer by virtue of the bearer's upper parts die back to the rootstock at the end of the growing season." [PATOC:PG]
+subset: scalar_slim
+is_a: PATO:0001729 ! shedability
+created_by: gkoutos
+creation_date: 2012-01-31T04:29:36Z
+
+[Term]
+id: PATO:0002353
+name: activation quality
+def: "A physical quality that inheres in a bearer in virtue of its realizing one of its functions." [PATOC:RH]
+subset: attribute_slim
+is_a: PATO:0001018 ! physical quality
+created_by: gkoutos
+creation_date: 2012-01-31T04:51:42Z
+
+[Term]
+id: PATO:0002354
+name: active
+def: "A quality of a physical object that is currently realizing one of its functions." [PATOC:RH]
+subset: attribute_slim
+is_a: PATO:0002353 ! activation quality
+created_by: gkoutos
+creation_date: 2012-01-31T04:52:04Z
+
+[Term]
+id: PATO:0002355
+name: inactive
+def: "A quality of a physical object that is currently realizing none of its functions." [PATOC:RH]
+subset: attribute_slim
+is_a: PATO:0002353 ! activation quality
+created_by: gkoutos
+creation_date: 2012-01-31T04:52:14Z
+
+[Term]
+id: PATO:0002356
+name: constitutively active
+def: "A quality of a physical object that has been constantly realizing some of its functions." [PATOC:RH]
+subset: attribute_slim
+is_a: PATO:0002354 ! active
+created_by: gkoutos
+creation_date: 2012-01-31T04:52:24Z
 
 [Typedef]
 id: correlates_with
