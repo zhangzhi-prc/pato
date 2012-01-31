@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:01:2012 11:43
+date: 31:01:2012 12:44
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -8838,7 +8838,7 @@ subset: disposition_slim
 subset: relational_slim
 synonym: "adhesiveness" EXACT []
 synonym: "stickiness" RELATED []
-is_a: PATO:0001396 ! cellular quality
+is_a: PATO:0001018 ! physical quality
 
 [Term]
 id: PATO:0001432
@@ -9634,6 +9634,7 @@ def: "A cellular quality that exists by virtue of the disposition of the cell to
 subset: attribute_slim
 subset: disposition_slim
 subset: relational_slim
+is_a: PATO:0001396 ! cellular quality
 is_a: PATO:0001431 ! adhesivity
 
 [Term]
@@ -16769,6 +16770,58 @@ is_a: PATO:0000052 ! shape
 created_by: gkoutos
 creation_date: 2012-01-31T11:40:23Z
 
+[Term]
+id: PATO:0002330
+name: oblanceolate
+def: "A quality inhering in a bearer by virtue of the bearer's being extended along a straight line, and is shaped like a reversed lance-point, with the tapering point attached to the leafstalk." [PATOC:PG]
+subset: value_slim
+is_a: PATO:0001199 ! linear
+created_by: gkoutos
+creation_date: 2012-01-31T11:57:54Z
+
+[Term]
+id: PATO:0002331
+name: adhesive
+def: "A physical quality inhering in a bearer by virtue of the bearer exhibiting molecular attraction to another entity in contact." [PATOC:GVG]
+subset: value_slim
+synonym: "resinous" RELATED []
+is_a: PATO:0001431 ! adhesivity
+created_by: gkoutos
+creation_date: 2012-01-31T12:28:16Z
+
+[Term]
+id: PATO:0002332
+name: non-adhesive
+def: "A physical quality inhering in a bearer by virtue of the bearer not exhibiting molecular attraction to another entity in contact." [PATOC:GVG]
+subset: value_slim
+synonym: "non-resinous" RELATED []
+is_a: PATO:0001431 ! adhesivity
+created_by: gkoutos
+creation_date: 2012-01-31T12:28:57Z
+
+[Term]
+id: PATO:0002333
+name: increased adhesivity
+def: "A adhesivity which is relatively high." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
+is_a: PATO:0002331 ! adhesive
+intersection_of: PATO:0002331 ! adhesive
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: gkoutos
+creation_date: 2012-01-31T12:32:43Z
+
+[Term]
+id: PATO:0002334
+name: decreased adhesivity
+def: "A adhesivity which is relatively low." [PATOC:GVG]
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
+is_a: PATO:0002331 ! adhesive
+intersection_of: PATO:0002331 ! adhesive
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: gkoutos
+creation_date: 2012-01-31T12:42:22Z
+
 [Typedef]
 id: correlates_with
 name: correlates_with
@@ -16889,7 +16942,7 @@ namespace: pato.ontology
 [Typedef]
 id: OBO_REL:part_of
 name: part_of
-xref: BFO:0000050
+xref: BFO:00000050
 is_transitive: true
 
 [Typedef]
