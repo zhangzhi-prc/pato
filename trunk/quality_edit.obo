@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 31:01:2012 17:09
+date: 21:02:2012 12:33
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -16649,6 +16649,25 @@ subset: attribute_slim
 is_a: PATO:0002354 ! active
 created_by: gkoutos
 creation_date: 2012-01-31T04:52:24Z
+
+[Term]
+id: PATO:0002357
+name: D-shaped
+def: "A shape quality inhering in a bearer by virtue of the bearer's having a strait side and an arched side giving the bearer the form of the letter D." [PATOC:AE]
+subset: value_slim
+is_a: PATO:0002007 ! convex 3-D shape
+created_by: gkoutos
+creation_date: 2012-02-21T11:46:51Z
+
+[Term]
+id: PATO:0002358
+name: ridged 
+def: "An elongated raised margin or border." [PATOC:GVG]
+subset: value_slim
+synonym: "ridge-like" EXACT []
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2012-02-21T12:27:39Z
 
 [Typedef]
 id: correlates_with
