@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 13:03:2012 18:04
+date: 12:04:2012 11:37
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -11,7 +11,7 @@ subsetdef: relational_slim "Relational slim: types of quality that require an ad
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: value_slim "Value slim"
 default-namespace: quality
-namespace-id-rule: * PATO:$sequence(7,0,9999999)$
+namespace-id-rule: * PATO:$sequence(7,1,9999999)$
 ontology: pato
 
 [Term]
@@ -2596,17 +2596,19 @@ is_a: PATO:0000057 ! occurrence quality
 id: PATO:0000442
 name: insomnia
 def: "A sleep pattern quality inhering in a bearer by virtue of the bearer's inability to sleep." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+comment: Consider NBO:0000422.
 subset: disposition_slim
 subset: value_slim
-is_a: PATO:0000062 ! sleep pattern
+is_obsolete: true
 
 [Term]
 id: PATO:0000443
 name: narcolepsy
-def: "A sleep pattern quality inhering in a bearer by virtue of the bearer's disrupted sleep during normal sleeping period; often accompanied by cataplexy, sleep paralysis." [MP:MP "OBO"]
+def: "A sleep pattern quality inhering in a bearer by virtue of the bearer's disrupted sleep during normal sleeping period; often accompanied by cataplexy, sleep paralysis." []
+comment: Consider NBO:0000423
 subset: disposition_slim
 subset: value_slim
-is_a: PATO:0000062 ! sleep pattern
+is_obsolete: true
 
 [Term]
 id: PATO:0000444
@@ -16677,6 +16679,43 @@ subset: value_slim
 is_a: PATO:0000052 ! shape
 created_by: gkoutos
 creation_date: 2012-03-13T06:04:00Z
+
+[Term]
+id: PATO:0002360
+name: tendency
+def: "A disposition that can be compared on a linear scale - that is that it can be increased or decreased." [PATOC:RH]
+subset: attribute_slim
+subset: disposition_slim
+subset: relational_slim
+is_a: PATO:0001727 ! disposition
+created_by: gkoutos
+creation_date: 2012-03-16T06:31:50Z
+
+[Term]
+id: PATO:0002361
+name: increased tendency
+def: "A tendency which is relatively high." [PATOC:GVG]
+subset: disposition_slim
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0002360 ! tendency
+intersection_of: PATO:0002360 ! tendency
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: gkoutos
+creation_date: 2012-03-16T06:31:57Z
+
+[Term]
+id: PATO:0002362
+name: decreased tendency
+def: "A tendency which is relatively low." [PATOC:GVG]
+subset: disposition_slim
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0002360 ! tendency
+intersection_of: PATO:0002360 ! tendency
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: gkoutos
+creation_date: 2012-03-16T06:32:57Z
 
 [Typedef]
 id: correlates_with
