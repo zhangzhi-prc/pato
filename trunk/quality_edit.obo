@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 03:05:2012 11:16
+date: 03:05:2012 11:31
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -16731,6 +16731,78 @@ subset: value_slim
 is_a: PATO:0000052 ! shape
 created_by: gkoutos
 creation_date: 2012-04-18T06:31:29Z
+
+[Term]
+id: PATO:0002365
+name: intact female
+def: "Female quality of having complete, unaltered reproductive organs" [PATOC:MF]
+subset: value_slim
+is_a: PATO:0000383 ! female
+created_by: gkoutos
+creation_date: 2012-05-03T11:18:41Z
+
+[Term]
+id: PATO:0002366
+name: intact male
+def: "Male quality of having complete, unaltered reproductive organs." [PATOC:MF]
+subset: value_slim
+is_a: PATO:0000384 ! male
+created_by: gkoutos
+creation_date: 2012-05-03T11:19:06Z
+
+[Term]
+id: PATO:0002367
+name: castrated male
+def: "Male quality of being incapable to reproduce because of functional loss of the testicles from surgical removal or chemical means." [PATOC:MF]
+subset: value_slim
+is_a: PATO:0000384 ! male
+created_by: gkoutos
+creation_date: 2012-05-03T11:22:29Z
+
+[Term]
+id: PATO:0002368
+name: nulliparous
+def: "A viviparous organism having never given birth." [PATOC:mf]
+subset: value_slim
+is_a: PATO:0002370 ! parity
+created_by: gkoutos
+creation_date: 2012-05-03T11:25:25Z
+
+[Term]
+id: PATO:0002369
+name: multiparous
+def: "A viviparous organism that has given birth two or more times." [wiki:http\://en.wikipedia.org/wiki/Parity_(biology)]
+subset: value_slim
+is_a: PATO:0002370 ! parity
+created_by: gkoutos
+creation_date: 2012-05-03T11:26:34Z
+
+[Term]
+id: PATO:0002370
+name: parity
+def: "The number of time that a viviparous organism has given birth." [wiki:http\://en.wikipedia.org/wiki/Parity_(biology)]
+subset: attribute_slim
+is_a: PATO:0001434 ! reproductive quality
+created_by: gkoutos
+creation_date: 2012-05-03T11:27:56Z
+
+[Term]
+id: PATO:0002371
+name: primiparous
+def: "A viviparous organism having given birth one time." [wiki:http\://en.wikipedia.org/wiki/Parity_(biology)]
+subset: value_slim
+is_a: PATO:0002370 ! parity
+created_by: gkoutos
+creation_date: 2012-05-03T11:29:38Z
+
+[Term]
+id: PATO:0002372
+name: grand multi[arous
+def: "A viviparous organism that has given birth five or more times." [wiki:http\://en.wikipedia.org/wiki/Parity_(biology)]
+subset: value_slim
+is_a: PATO:0002369 ! multiparous
+created_by: gkoutos
+creation_date: 2012-05-03T11:30:28Z
 
 [Typedef]
 id: correlates_with
