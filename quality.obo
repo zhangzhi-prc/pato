@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:04:2012 11:37
+date: 03:05:2012 11:15
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta13
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -387,7 +387,7 @@ def: "A quality of a single process inhering in a bearer by virtue of the bearer
 subset: attribute_slim
 synonym: "incidence" EXACT []
 synonym: "temporal" EXACT []
-is_a: PATO:0001236 ! process quality
+is_a: PATO:0002323 ! temporal distribution quality
 
 [Term]
 id: PATO:0000058
@@ -1703,10 +1703,14 @@ is_obsolete: true
 [Term]
 id: PATO:0000297
 name: arrested
+alt_id: PATO:0001508
 def: "A quality of a process which ends earlier than the natural end time or reference process." [PATOC:LC]
+comment: TODO: the definition is incorrect. See absent.
 subset: value_slim
+synonym: "abolished" EXACT []
 synonym: "incomplete" RELATED []
-is_a: PATO:0002302 ! implied link automatically realized ! decreased process quality
+is_a: PATO:0000057 ! occurrence quality
+is_a: PATO:0002052 ! implied link automatically realized ! decreased occurrence
 is_a: PATO:0002324 ! offset quality
 relationship: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 
@@ -8075,7 +8079,9 @@ id: PATO:0001333
 name: temporally extended
 def: "A quality of a process which ends later than the natural end time." [PATOC:melissa]
 subset: value_slim
+is_a: PATO:0002304 ! implied link automatically realized ! increased process quality
 is_a: PATO:0002324 ! offset quality
+relationship: increased_in_magnitude_relative_to PATO:0000461 ! normal
 
 [Term]
 id: PATO:0001334
@@ -9453,14 +9459,6 @@ is_a: PATO:0001505 ! separated from
 id: PATO:0001507
 name: disrupted
 def: "A quality of a single process inhering in a bearer by virtue of the bearer's being interrupted of its normal course." [PATOC:GVG]
-subset: value_slim
-is_a: PATO:0000057 ! occurrence quality
-
-[Term]
-id: PATO:0001508
-name: abolished
-def: "A quality of a single process inhering in a bearer by virtue of the bearer's inability to accomplish a biological process." [PATOC:GVG]
-comment: TODO: the definition is incorrect. See absent.
 subset: value_slim
 is_a: PATO:0000057 ! occurrence quality
 
@@ -17089,6 +17087,24 @@ intersection_of: PATO:0002360 ! tendency
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: gkoutos
 creation_date: 2012-03-16T06:32:57Z
+
+[Term]
+id: PATO:0002363
+name: bronze
+def: "A medium brown color with a metallic sheen, resembles the actual alloy bronze." [PATO:LC]
+subset: value_slim
+is_a: PATO:0000952 ! brown
+created_by: gkoutos
+creation_date: 2012-05-03T11:08:18Z
+
+[Term]
+id: PATO:0002364
+name: shortened
+def: "A quality inhering in a bearer by virtue of the bearer's length being notably lower than its width." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2012-04-18T06:31:29Z
 
 [Typedef]
 id: correlates_with
