@@ -2138,7 +2138,7 @@ is_a: PATO:0000039 ! direction
 
 [Term]
 id: PATO:0000368
-name: towards
+name: towards1
 is_obsolete: true
 
 [Term]

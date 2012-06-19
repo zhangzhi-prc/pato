@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 03:05:2012 11:31
+date: 19:06:2012 14:37
 saved-by: gkoutos
-auto-generated-by: OBO-Edit 2.1-beta13
+auto-generated-by: OBO-Edit 2.1.1-beta10
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
 subsetdef: attribute_slim "Attribute slim"
@@ -82,7 +82,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000011
 name: age
-def: "A time quality inhering in a bearer by virtue of how long the bearer has existed." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A time quality inhering in a bearer by virtue of how long the bearer has existed." [WordNet:WordNet]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0000165 ! time
@@ -261,7 +261,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000039
 name: direction
-def: "A physical quality inhering in a bearer by virtue of the bearer's orientation in space." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
+def: "A physical quality inhering in a bearer by virtue of the bearer's orientation in space." [thesaurus.maths:thesaurus.maths]
 comment: TODO: consider merging with angular placement.
 subset: attribute_slim
 is_a: PATO:0001018 ! physical quality
@@ -321,7 +321,7 @@ is_a: PATO:0001995 ! organismal quality
 [Term]
 id: PATO:0000048
 name: hardness
-def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to being turned, bowed, or twisted without breaking." [merriam-webster:merriam-webster "http://www.m-w.com/"]
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to being turned, bowed, or twisted without breaking." [merriam-webster:merriam-webster]
 subset: attribute_slim
 subset: disposition_slim
 synonym: "impenetrability" RELATED []
@@ -399,7 +399,7 @@ is_a: PATO:0001018 ! physical quality
 [Term]
 id: PATO:0000059
 name: parental quality
-def: "A parental quality inhering in a bearer by virtue of exhibiting the characteristic of a parent." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A parental quality inhering in a bearer by virtue of exhibiting the characteristic of a parent." [WordNet:WordNet]
 subset: attribute_slim
 synonym: "parental type" EXACT []
 is_obsolete: true
@@ -521,7 +521,7 @@ is_a: PATO:0001018 ! physical quality
 [Term]
 id: PATO:0000078
 name: rhythm quality
-def: "A quality of a single process inhering in a bearer by virtue of the bearer's movement or variation characterized by the regular recurrence or alternation of different quantities or conditions." [answers.com:answers.com "http://www.answers.com/"]
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's movement or variation characterized by the regular recurrence or alternation of different quantities or conditions." [answers.com:answers.com]
 subset: attribute_slim
 is_a: PATO:0002323 ! temporal distribution quality
 
@@ -533,14 +533,14 @@ is_obsolete: true
 [Term]
 id: PATO:0000080
 name: amplitude
-def: "A physical quality of a process inhering in a bearer by virtue of the size of the bearer's maximum displacement from the 'normal' position, when periodic motion is taking place." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
+def: "A physical quality of a process inhering in a bearer by virtue of the size of the bearer's maximum displacement from the 'normal' position, when periodic motion is taking place." [thesaurus.maths:thesaurus.maths]
 subset: attribute_slim
 is_a: PATO:0002062 ! physical quality of a process
 
 [Term]
 id: PATO:0000082
 name: persistence
-def: "A rhythm quality inhering in a bearer by virtue of the repetitiveness of bearer's rhythm." [reference.com:reference.com "http://thesaurus.reference.com/"]
+def: "A rhythm quality inhering in a bearer by virtue of the repetitiveness of bearer's rhythm." [reference.com:reference.com]
 subset: attribute_slim
 is_a: PATO:0000078 ! rhythm quality
 
@@ -724,7 +724,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000117
 name: size
-def: "A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude." [WordNet:WordNet]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0000051 ! morphology
@@ -1010,7 +1010,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000167
 name: bouts
-def: "A limited, often assigned period of activity." [answers.com:answers.com "http://www.answers.com/"]
+def: "A limited, often assigned period of activity." [answers.com:answers.com]
 subset: attribute_slim
 is_obsolete: true
 
@@ -1105,7 +1105,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000185
 name: balance
-def: "A behavioral quality inhering in a bearer by virtue of having physical steadiness." [thefreedictionary:thefreedictionary "www.thefreedictionary.com"]
+def: "A behavioral quality inhering in a bearer by virtue of having physical steadiness." [thefreedictionary:thefreedictionary]
 subset: attribute_slim
 subset: disposition_slim
 is_a: PATO:0000186 ! behavioral quality
@@ -1504,7 +1504,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000261
 name: maturity
-def: "A quality of a single physical entity which is held by a bearer when the latter exhibits complete growth, differentiation, or development." [Merriam-Webster:Merriam-Webster "http://www.m-w.com/"]
+def: "A quality of a single physical entity which is held by a bearer when the latter exhibits complete growth, differentiation, or development." [Merriam-Webster:Merriam-Webster]
 subset: attribute_slim
 is_a: PATO:0001995 ! organismal quality
 
@@ -1923,7 +1923,7 @@ is_a: PATO:0000017 ! color saturation
 [Term]
 id: PATO:0000329
 name: blotchy
-def: "A color pattern inhering in a bearer by virtue of bearer's being marked with irregularly shaped spots or blots of a different hue or degree of saturation." [Dictionary.com:Dictionary.com "http://dictionary.reference.com/"]
+def: "A color pattern inhering in a bearer by virtue of bearer's being marked with irregularly shaped spots or blots of a different hue or degree of saturation." [Dictionary.com:Dictionary.com]
 subset: value_slim
 synonym: "blotched" EXACT []
 is_a: PATO:0001533 ! multi-colored
@@ -1939,7 +1939,7 @@ is_a: PATO:0000060 ! spatial pattern
 [Term]
 id: PATO:0000331
 name: discolored
-def: "A color quality inhering in a bearer by virtue of the bearer's being altered or spoiled in color." [Dictionary.com:Dictionary.com "http://dictionary.reference.com/"]
+def: "A color quality inhering in a bearer by virtue of the bearer's being altered or spoiled in color." [Dictionary.com:Dictionary.com]
 subset: value_slim
 is_a: PATO:0000019 ! color pattern
 
@@ -2142,7 +2142,7 @@ is_a: PATO:0000039 ! direction
 
 [Term]
 id: PATO:0000368
-name: towards
+name: towards1
 is_obsolete: true
 
 [Term]
@@ -2296,7 +2296,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000389
 name: acute
-def: "A quality of a single process inhering in a bearer by virtue of the bearer's having a sudden onset, sharp rise, and short course." [dictionary:reference "http://dictionary.reference.com/browse/acute"]
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's having a sudden onset, sharp rise, and short course." [dictionary:reference]
 subset: value_slim
 is_a: PATO:0001309 ! duration quality of a process
 
@@ -2330,14 +2330,14 @@ is_a: PATO:0000049 ! intensity
 [Term]
 id: PATO:0000395
 name: moderate
-def: "An intensity which is less than extreme in type or degree or effect or force." [Merriam-Webster:Merriam-Webster "http://www.m-w.com/"]
+def: "An intensity which is less than extreme in type or degree or effect or force." [Merriam-Webster:Merriam-Webster]
 subset: value_slim
 is_a: PATO:0000049 ! intensity
 
 [Term]
 id: PATO:0000396
 name: severe
-def: "An intensity which is extremely bad or unpleasant in type or degree or effect or force." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "An intensity which is extremely bad or unpleasant in type or degree or effect or force." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000049 ! intensity
 
@@ -2369,7 +2369,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000402
 name: branched
-def: "A branchiness quality inhering in a bearer by virtue of the bearer's having branches." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A branchiness quality inhering in a bearer by virtue of the bearer's having branches." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 synonym: "ramified" EXACT []
@@ -2379,7 +2379,7 @@ is_a: PATO:0002009 ! branchiness
 [Term]
 id: PATO:0000403
 name: cleft
-def: "A concave quality inhering in a bearer by virtue of the bearer's resembling a groove or fissure." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A concave quality inhering in a bearer by virtue of the bearer's resembling a groove or fissure." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0001857 ! concave
@@ -2388,7 +2388,7 @@ is_a: PATO:0001857 ! concave
 id: PATO:0000404
 name: coiled
 alt_id: PATO:0001363
-def: "A shape quality inhering in a bearer by virtue of the bearer's being curled or wound (especially in concentric rings or spirals)." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's being curled or wound (especially in concentric rings or spirals)." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 synonym: "helical" RELATED []
@@ -2409,7 +2409,7 @@ is_a: PATO:0000052 ! shape
 [Term]
 id: PATO:0000406
 name: curved
-def: "A curvature quality inhering in a bearer by virtue of the bearer's having or being marked by a curve or smoothly rounded bend." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A curvature quality inhering in a bearer by virtue of the bearer's having or being marked by a curve or smoothly rounded bend." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 synonym: "bowing" NARROW []
@@ -2428,7 +2428,7 @@ is_a: PATO:0002254 ! flattened
 [Term]
 id: PATO:0000409
 name: oblate
-def: "A spheroid quality inhering in a bearer by virtue of the bearer's exhibiting an equatorial diameter greater than its polar diameter." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A spheroid quality inhering in a bearer by virtue of the bearer's exhibiting an equatorial diameter greater than its polar diameter." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 synonym: "oblate spheroid" EXACT []
@@ -2437,7 +2437,7 @@ is_a: PATO:0001865 ! spheroid
 [Term]
 id: PATO:0000410
 name: pinnate
-def: "A shape quality inhering in a bearer by virtue of the bearer's having leaflets or leaflets-like structures on each side of a common axis." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's having leaflets or leaflets-like structures on each side of a common axis." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 synonym: "feather-like" RELATED []
@@ -2447,7 +2447,7 @@ is_a: PATO:0000052 ! shape
 [Term]
 id: PATO:0000411
 name: circular
-def: "A shape quality inhering in a bearer by virtue of the bearer's being such that every part of the surface or the circumference is equidistant from the center." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's being such that every part of the surface or the circumference is equidistant from the center." [thefreedictionary.com:thefreedictionary.com]
 subset: cell_quality
 subset: value_slim
 synonym: "round" EXACT []
@@ -2457,7 +2457,7 @@ is_a: PATO:0000947 ! elliptic
 [Term]
 id: PATO:0000413
 name: square
-def: "A shape quality inhering in a bearer by virtue of the bearer's having an equal-sided rectangular form." [answers.com:answers.com "http://www.answers.com/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's having an equal-sided rectangular form." [answers.com:answers.com]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0002317 ! parellologram
@@ -2474,7 +2474,7 @@ disjoint_from: PATO:0000402 ! branched
 [Term]
 id: PATO:0000415
 name: uncoiled
-def: "A shape quality inhering in a bearer by virtue of the bearer's being not curled or wound (especially in concentric rings or spirals)." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's being not curled or wound (especially in concentric rings or spirals)." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0001794 ! coiling
@@ -2528,14 +2528,14 @@ is_obsolete: true
 [Term]
 id: PATO:0000427
 name: recurrent
-def: "A quality of a single process inhering in a bearer by virtue of the bearer's occurring or appearing again or repeatedly." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's occurring or appearing again or repeatedly." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000057 ! occurrence quality
 
 [Term]
 id: PATO:0000428
 name: sporadic
-def: "A quality of a single process inhering in a bearer by virtue of the bearer's recurring in scattered and irregular or unpredictable instances." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's recurring in scattered and irregular or unpredictable instances." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000057 ! occurrence quality
 
@@ -2557,14 +2557,14 @@ is_obsolete: true
 [Term]
 id: PATO:0000433
 name: paternal
-def: "A parental quality inhering in a bearer by virtue of exhibiting the characteristic of a father." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A parental quality inhering in a bearer by virtue of exhibiting the characteristic of a father." [WordNet:WordNet]
 subset: value_slim
 is_obsolete: true
 
 [Term]
 id: PATO:0000434
 name: maternal
-def: "A parental quality inhering in a bearer by virtue of exhibiting the characteristic of a mother." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A parental quality inhering in a bearer by virtue of exhibiting the characteristic of a mother." [WordNet:WordNet]
 subset: value_slim
 is_obsolete: true
 
@@ -2608,14 +2608,14 @@ is_a: PATO:0000060 ! spatial pattern
 [Term]
 id: PATO:0000441
 name: repetitive
-def: "A quality of a single process inhering in a bearer by virtue of the bearer's marked by tedious repetition." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's marked by tedious repetition." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000057 ! occurrence quality
 
 [Term]
 id: PATO:0000442
 name: insomnia
-def: "A sleep pattern quality inhering in a bearer by virtue of the bearer's inability to sleep." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A sleep pattern quality inhering in a bearer by virtue of the bearer's inability to sleep." [WordNet:WordNet]
 comment: Consider NBO:0000422.
 subset: disposition_slim
 subset: value_slim
@@ -2695,7 +2695,7 @@ disjoint_from: PATO:0000453 ! glabrous
 [Term]
 id: PATO:0000455
 name: pubescent
-def: "A maturity quality inhering in a bearer by virtue of the bearer's having arrived at the onset of puberty (the age at which sex glands become functional) but not yet fully mature." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A maturity quality inhering in a bearer by virtue of the bearer's having arrived at the onset of puberty (the age at which sex glands become functional) but not yet fully mature." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000261 ! maturity
 
@@ -2744,7 +2744,7 @@ is_a: PATO:0000069 ! deviation(from_normal)
 id: PATO:0000462
 name: absent
 alt_id: PATO:0001996
-def: "A quality denoting the lack of an entity." [thefreedictionary.:thefreedictionary. "http://www.thefreedictionary.com/"]
+def: "A quality denoting the lack of an entity." [thefreedictionary.:thefreedictionary.]
 comment: Example: [ E=wing Q=absent ] -applies to an organism that lacks wings. Note that this is the reciprocal quality to the relational quality "lacks all parts of type". This means that [E=wing Q=absent] is replaceable with [E=organism Q=lacks_all_parts_of_type E2=Wing]. The latter is preferable as it allows greater precision in stating what is lacking from where. E.g. We can say [E=spermatocyte Q=lacks_all_parts_of_type E2=aster] to describe spermatocytes that have no asters.
 subset: absent_slim
 subset: value_slim
@@ -2757,7 +2757,7 @@ relationship: reciprocal_of PATO:0002000 ! lacks all parts of type
 [Term]
 id: PATO:0000463
 name: conspicuous
-def: "A quality inhering in a bearer by virtue of being clearly visible." [thefreedictionary:thefreedictionary "http://www.thefreedictionary.com"]
+def: "A quality inhering in a bearer by virtue of being clearly visible." [thefreedictionary:thefreedictionary]
 subset: value_slim
 synonym: "distinct" RELATED []
 is_a: PATO:0001998 ! conspicuousness
@@ -2765,7 +2765,7 @@ is_a: PATO:0001998 ! conspicuousness
 [Term]
 id: PATO:0000464
 name: inconspicuous
-def: "A quality inhering in a bearer by virtue of not being clearly visible." [thefreedictionary:thefreedictionary "http://www.thefreedictionary.com"]
+def: "A quality inhering in a bearer by virtue of not being clearly visible." [thefreedictionary:thefreedictionary]
 subset: value_slim
 is_a: PATO:0001998 ! conspicuousness
 
@@ -3680,7 +3680,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000608
 name: closed
-def: "A morphological quality inhering in a bearer by virtue of the bearer's affording blocked passage or view." [answers.com:answers.com "http://www.answers.com/"]
+def: "A morphological quality inhering in a bearer by virtue of the bearer's affording blocked passage or view." [answers.com:answers.com]
 subset: value_slim
 synonym: "blocked" RELATED []
 is_a: PATO:0000136 ! closure
@@ -3696,7 +3696,7 @@ is_a: PATO:0000610 ! open
 [Term]
 id: PATO:0000610
 name: open
-def: "A morphological quality inhering in a bearer by virtue of the bearer's affording unobstructed passage or view." [answers.com:answers.com "http://www.answers.com/"]
+def: "A morphological quality inhering in a bearer by virtue of the bearer's affording unobstructed passage or view." [answers.com:answers.com]
 subset: value_slim
 is_a: PATO:0000136 ! closure
 disjoint_from: PATO:0000608 ! closed
@@ -3752,14 +3752,14 @@ is_a: PATO:0000052 ! shape
 [Term]
 id: PATO:0000618
 name: bilateral
-def: "A positional quality inhering in a bearer by virtue of the bearer's having two sides; two-sided." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A positional quality inhering in a bearer by virtue of the bearer's having two sides; two-sided." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000140 ! position
 
 [Term]
 id: PATO:0000619
 name: crowded
-def: "A positional quality inhering in a bearer by virtue of the bearer's being overfilled." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A positional quality inhering in a bearer by virtue of the bearer's being overfilled." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000140 ! position
 
@@ -3773,7 +3773,7 @@ is_a: PATO:0000646 ! malformed
 [Term]
 id: PATO:0000622
 name: erect
-def: "A positional quality inhering in a bearer by virtue of the bearer's being upright in position or posture." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A positional quality inhering in a bearer by virtue of the bearer's being upright in position or posture." [WordNet:WordNet]
 subset: value_slim
 synonym: "upright" EXACT []
 is_a: PATO:0000140 ! position
@@ -3781,7 +3781,7 @@ is_a: PATO:0000140 ! position
 [Term]
 id: PATO:0000623
 name: exserted
-def: "A protruding quality inhering in a bearer by virtue of the bearer's protruding or projecting from the body." [sdvc:sdvc "www.sdvc.uwyo.edu/grasshopper/ghnmglos.htm"]
+def: "A protruding quality inhering in a bearer by virtue of the bearer's protruding or projecting from the body." [sdvc:sdvc]
 subset: value_slim
 synonym: "prolapse" RELATED []
 synonym: "prolapsed" RELATED []
@@ -3809,14 +3809,14 @@ is_a: PATO:0000614 ! oriented
 [Term]
 id: PATO:0000626
 name: lateralized
-def: "A positional quality inhering in a bearer by virtue of the bearer's being moved or displaced to one side so as to make lateral." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A positional quality inhering in a bearer by virtue of the bearer's being moved or displaced to one side so as to make lateral." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000140 ! position
 
 [Term]
 id: PATO:0000627
 name: localised
-def: "A spatial pattern quality inhering in a bearer by virtue of the bearer's being confined or restricted to a particular location." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A spatial pattern quality inhering in a bearer by virtue of the bearer's being confined or restricted to a particular location." [WordNet:WordNet]
 subset: value_slim
 synonym: "focal" EXACT []
 is_a: PATO:0000060 ! spatial pattern
@@ -3834,7 +3834,7 @@ is_a: PATO:0002181 ! displaced
 [Term]
 id: PATO:0000629
 name: misrouted
-def: "A positional quality inhering in a bearer by virtue of the bearer's having mistakenly taken course, way, or passage; ill-routed." [NDI:NDI "http://www.ndif.org/"]
+def: "A positional quality inhering in a bearer by virtue of the bearer's having mistakenly taken course, way, or passage; ill-routed." [NDI:NDI]
 subset: value_slim
 is_a: PATO:0000140 ! position
 
@@ -3848,7 +3848,7 @@ is_a: PATO:0000646 ! malformed
 [Term]
 id: PATO:0000631
 name: prostrate
-def: "A positional quality inhering in a bearer by virtue of the bearer's being stretched out and lying at full length along the ground." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A positional quality inhering in a bearer by virtue of the bearer's being stretched out and lying at full length along the ground." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000140 ! position
 
@@ -3871,14 +3871,14 @@ is_a: PATO:0000060 ! spatial pattern
 [Term]
 id: PATO:0000634
 name: unilateral
-def: "A spatial pattern inhering in a bearer by virtue of the bearer's involvement of only one part or side." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A spatial pattern inhering in a bearer by virtue of the bearer's involvement of only one part or side." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000060 ! spatial pattern
 
 [Term]
 id: PATO:0000635
 name: unlocalised
-def: "A spatial pattern inhering in a bearer by virtue of the bearer's not being confined or restricted to a particular location." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A spatial pattern inhering in a bearer by virtue of the bearer's not being confined or restricted to a particular location." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000060 ! spatial pattern
 
@@ -3941,7 +3941,7 @@ is_a: PATO:0000141 ! structure
 [Term]
 id: PATO:0000643
 name: herniated
-def: "A protruding quality inhering in a bearer by virtue of the bearer's bodily structure that has protruded through an abnormal opening in the wall that contains it." [spinalstenosis:spinalstenosis "www.spinalstenosis.org/glossary.php"]
+def: "A protruding quality inhering in a bearer by virtue of the bearer's bodily structure that has protruded through an abnormal opening in the wall that contains it." [spinalstenosis:spinalstenosis]
 subset: value_slim
 is_a: PATO:0001598 ! protruding
 
@@ -3983,7 +3983,7 @@ is_a: PATO:0000141 ! structure
 [Term]
 id: PATO:0000648
 name: obstructed
-def: "A morphological quality inhering in a bearer by virtue of the bearer's being blocked or filled with obstacles or an obstacle." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A morphological quality inhering in a bearer by virtue of the bearer's being blocked or filled with obstacles or an obstacle." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000608 ! closed
 
@@ -4172,7 +4172,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000688
 name: asynchronous
-def: "A quality of a single process inhering in a bearer by virtue of the bearer's not occurring or existing at the same time or having the same period or phase." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's not occurring or existing at the same time or having the same period or phase." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000057 ! occurrence quality
 
@@ -4180,7 +4180,7 @@ is_a: PATO:0000057 ! occurrence quality
 id: PATO:0000689
 name: continuous
 alt_id: PATO:0000429
-def: "A quality of a single process inhering in a bearer by virtue of the bearer's being uninterrupted in time, sequence, substance, or extent." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's being uninterrupted in time, sequence, substance, or extent." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 synonym: "uninterrupted" EXACT []
 is_a: PATO:0000057 ! occurrence quality
@@ -4189,7 +4189,7 @@ is_a: PATO:0000057 ! occurrence quality
 id: PATO:0000690
 name: discontinuous
 alt_id: PATO:0000426
-def: "A quality of a single process inhering in a bearer by virtue of the bearer's being marked by breaks or interruptions." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's being marked by breaks or interruptions." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 synonym: "intermittent" RELATED []
 synonym: "interrupted" EXACT []
@@ -4198,7 +4198,7 @@ is_a: PATO:0000057 ! occurrence quality
 [Term]
 id: PATO:0000692
 name: heterochronic
-def: "A quality of a single process inhering in a bearer by virtue of the bearer's origin or development at an unusual time or out of the regular sequence." [answers.com:answers.com "http://www.answers.com/"]
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's origin or development at an unusual time or out of the regular sequence." [answers.com:answers.com]
 subset: value_slim
 is_a: PATO:0000057 ! occurrence quality
 
@@ -4591,7 +4591,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0000762
 name: impaired
-def: "Diminished, damaged, or weakened." [answers.com:answers.com "http://www.answers.com/"]
+def: "Diminished, damaged, or weakened." [answers.com:answers.com]
 subset: value_slim
 is_obsolete: true
 consider: PATO:0001624
@@ -4607,7 +4607,7 @@ is_a: PATO:0002076 ! movement behavioral quality
 [Term]
 id: PATO:0000764
 name: passive
-def: "A behavioral quality inhering in a bearer by virtue of the bearer's receiving or being subjected to an action without responding or initiating an action in return." [www.answers.com:www.answers.com "http://www.answers.com/"]
+def: "A behavioral quality inhering in a bearer by virtue of the bearer's receiving or being subjected to an action without responding or initiating an action in return." [www.answers.com:www.answers.com]
 subset: value_slim
 is_a: PATO:0000186 ! behavioral quality
 
@@ -5430,7 +5430,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000915
 name: thickness
-def: "A 1-D extent quality which is equal to the dimension through an object as opposed to its length or width." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A 1-D extent quality which is equal to the dimension through an object as opposed to its length or width." [WordNet:WordNet]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001708 ! 1-D extent
@@ -5501,7 +5501,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000927
 name: photosensitivity
-def: "A quality inhering in a bearer by virtue of the bearer's disposition to being sensitivity to the action of radiant energy." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A quality inhering in a bearer by virtue of the bearer's disposition to being sensitivity to the action of radiant energy." [WordNet:WordNet]
 subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
@@ -5550,7 +5550,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000936
 name: truncated
-def: "A shape quality inhering in a bearer by virtue of the bearer's terminating abruptly by having or as if having an end or point cut off." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's terminating abruptly by having or as if having an end or point cut off." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 synonym: "truncate" EXACT []
 is_a: PATO:0000052 ! shape
@@ -5784,7 +5784,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000969
 name: dwarf-like
-def: "A size quality inhering in a bearer by virtue of the bearer's being abnormally small." [Answers.com:Answers.com "http://www.answers.com/"]
+def: "A size quality inhering in a bearer by virtue of the bearer's being abnormally small." [Answers.com:Answers.com]
 subset: value_slim
 synonym: "dwarfed" EXACT []
 is_a: PATO:0000587 ! decreased size
@@ -5792,7 +5792,7 @@ is_a: PATO:0000587 ! decreased size
 [Term]
 id: PATO:0000970
 name: permeability
-def: "A structural quality inhering in a bearer by virtue of the bearer's disposition to being permeated or pervaded by a liquid (as by osmosis or diffusion)." [Biology-online:Biology-online "http://www.biology-online.org/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's disposition to being permeated or pervaded by a liquid (as by osmosis or diffusion)." [Biology-online:Biology-online]
 subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
@@ -5860,7 +5860,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000982
 name: permeable
-def: "A permeability quality inhering in a bearer by virtue of the bearer's being capable to be permeated or pervaded by a liquid (as by osmosis or diffusion)." [Biology-online:Biology-online "http://www.biology-online.org/"]
+def: "A permeability quality inhering in a bearer by virtue of the bearer's being capable to be permeated or pervaded by a liquid (as by osmosis or diffusion)." [Biology-online:Biology-online]
 subset: disposition_slim
 subset: value_slim
 synonym: "porous" RELATED []
@@ -5870,7 +5870,7 @@ disjoint_from: PATO:0000983 ! impermeable
 [Term]
 id: PATO:0000983
 name: impermeable
-def: "A permeability quality inhering in a bearer by virtue of the bearer's being incapable of being permeated or pervaded by a liquid (as by osmosis or diffusion)." [Biology-online:Biology-online "http://www.biology-online.org/"]
+def: "A permeability quality inhering in a bearer by virtue of the bearer's being incapable of being permeated or pervaded by a liquid (as by osmosis or diffusion)." [Biology-online:Biology-online]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0000970 ! permeability
@@ -5967,7 +5967,7 @@ is_a: PATO:0000992 ! viscosity
 [Term]
 id: PATO:0000999
 name: alternation
-def: "A quality of a single process inhering in a bearer by virtue of the bearer's successive change from one thing or state to another and back again." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A quality of a single process inhering in a bearer by virtue of the bearer's successive change from one thing or state to another and back again." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000057 ! occurrence quality
 
@@ -6076,7 +6076,7 @@ is_a: PATO:0001241 ! physical object quality
 [Term]
 id: PATO:0001019
 name: mass density
-def: "A physical quality which inheres in a bearer by virtue of some influence is exerted by the bearer's mass per unit size." [WordNet:WordNet "http://wordnetweb.princeton.edu/perl/webwn"]
+def: "A physical quality which inheres in a bearer by virtue of some influence is exerted by the bearer's mass per unit size." [WordNet:WordNet]
 subset: attribute_slim
 subset: scalar_slim
 synonym: "density" RELATED []
@@ -6085,7 +6085,7 @@ is_a: PATO:0001018 ! physical quality
 [Term]
 id: PATO:0001020
 name: damage
-def: "A structural quality inhering in a bearer by virtue of whether the bearer has been harmed or injured or spoiled." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A structural quality inhering in a bearer by virtue of whether the bearer has been harmed or injured or spoiled." [WordNet:WordNet]
 subset: attribute_slim
 is_a: PATO:0000141 ! structure
 
@@ -6151,14 +6151,14 @@ is_a: PATO:0001906 ! movement quality
 [Term]
 id: PATO:0001029
 name: efficiency
-def: "A physical quality inhering in a bearer by virtue of ratio of the bearer's output to the bearer's input." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A physical quality inhering in a bearer by virtue of ratio of the bearer's output to the bearer's input." [WordNet:WordNet]
 subset: attribute_slim
 is_a: PATO:0001018 ! physical quality
 
 [Term]
 id: PATO:0001030
 name: flux
-def: "A physical quality that exists by virtue of the rate of flow of the bearer across a given surface." [WordNet:WordNet "http://wordnet.princeton.edu/perl/webwn"]
+def: "A physical quality that exists by virtue of the rate of flow of the bearer across a given surface." [WordNet:WordNet]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001906 ! movement quality
@@ -6166,7 +6166,7 @@ is_a: PATO:0001906 ! movement quality
 [Term]
 id: PATO:0001031
 name: elasticity
-def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to recover its size and shape after deformation in any way." [merriam-webster:merriam-webster "http://www.m-w.com/"]
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to recover its size and shape after deformation in any way." [merriam-webster:merriam-webster]
 subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
@@ -6187,7 +6187,7 @@ is_a: PATO:0001018 ! physical quality
 [Term]
 id: PATO:0001035
 name: force
-def: "A physical quality inhering in a bearer by virtue of the bearer's rate of change of momentum." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
+def: "A physical quality inhering in a bearer by virtue of the bearer's rate of change of momentum." [thesaurus.maths:thesaurus.maths]
 subset: attribute_slim
 subset: scalar_slim
 synonym: "force amplitude" EXACT []
@@ -6282,7 +6282,7 @@ is_obsolete: true
 [Term]
 id: PATO:0001051
 name: acute angle
-def: "An angle which is less than 90 degrees." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
+def: "An angle which is less than 90 degrees." [thesaurus.maths:thesaurus.maths]
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0002326 ! angle
@@ -6290,7 +6290,7 @@ is_a: PATO:0002326 ! angle
 [Term]
 id: PATO:0001052
 name: obtuse angle to
-def: "An angle which is between 90 degrees and 180 degrees to another entity." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
+def: "An angle which is between 90 degrees and 180 degrees to another entity." [thesaurus.maths:thesaurus.maths]
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0002326 ! angle
@@ -6298,7 +6298,7 @@ is_a: PATO:0002326 ! angle
 [Term]
 id: PATO:0001053
 name: convex angle to
-def: "An angle which is less than 180 degrees to another entity." [maths.org:maths.org "http://thesaurus.maths.org/"]
+def: "An angle which is less than 180 degrees to another entity." [maths.org:maths.org]
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0002326 ! angle
@@ -6314,7 +6314,7 @@ is_a: PATO:0001053 ! convex angle to
 [Term]
 id: PATO:0001055
 name: reflex angle to
-def: "An angular placement quality inhering in a bearer by virtue of the bearer's placement at an angle that is greater than 180 degrees but less than 360 degrees to another entity." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
+def: "An angular placement quality inhering in a bearer by virtue of the bearer's placement at an angle that is greater than 180 degrees but less than 360 degrees to another entity." [thesaurus.maths:thesaurus.maths]
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0002326 ! angle
@@ -6823,7 +6823,7 @@ disjoint_from: PATO:0001152 ! susceptible toward
 [Term]
 id: PATO:0001154
 name: elongated
-def: "A quality inhering in a bearer by virtue of the bearer's length being notably higher than its width." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A quality inhering in a bearer by virtue of the bearer's length being notably higher than its width." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000052 ! shape
 
@@ -6912,7 +6912,7 @@ is_obsolete: true
 [Term]
 id: PATO:0001167
 name: damaged
-def: "A structural quality inhering in a bearer by virtue of the bearer being harmed or injured or spoiled, such that its functionality is impaired." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer being harmed or injured or spoiled, such that its functionality is impaired." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0001020 ! damage
 disjoint_from: PATO:0001168 ! undamaged
@@ -6920,7 +6920,7 @@ disjoint_from: PATO:0001168 ! undamaged
 [Term]
 id: PATO:0001168
 name: undamaged
-def: "A structural quality inhering in a bearer by virtue of not being harmed or injured or spoiled." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A structural quality inhering in a bearer by virtue of not being harmed or injured or spoiled." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0001020 ! damage
 disjoint_from: PATO:0001167 ! damaged
@@ -6933,7 +6933,7 @@ is_obsolete: true
 [Term]
 id: PATO:0001171
 name: elastic
-def: "An elasticity quality inhering in a bearer by virtue of the bearer's ability to recover its size and shape after deformation in any way." [merriam-webster:merriam-webster "http://www.m-w.com/"]
+def: "An elasticity quality inhering in a bearer by virtue of the bearer's ability to recover its size and shape after deformation in any way." [merriam-webster:merriam-webster]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0001031 ! elasticity
@@ -6941,7 +6941,7 @@ is_a: PATO:0001031 ! elasticity
 [Term]
 id: PATO:0001172
 name: inelastic
-def: "An elasticity quality inhering in a bearer by virtue of the bearer's inability to recover its size and shape after deformation in any way." [merriam-webster:merriam-webster "http://www.m-w.com/"]
+def: "An elasticity quality inhering in a bearer by virtue of the bearer's inability to recover its size and shape after deformation in any way." [merriam-webster:merriam-webster]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0001031 ! elasticity
@@ -7022,35 +7022,35 @@ is_a: PATO:0000261 ! maturity
 [Term]
 id: PATO:0001186
 name: prepubescent
-def: "A maturity quality inhering in a bearer by virtue of the bearer's being at the age immediately before puberty." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A maturity quality inhering in a bearer by virtue of the bearer's being at the age immediately before puberty." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000261 ! maturity
 
 [Term]
 id: PATO:0001187
 name: pupal
-def: "A maturity quality inhering in a insect by virtue of the bearer's being in the chrysalis (cocoon) or post larval stage." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A maturity quality inhering in a insect by virtue of the bearer's being in the chrysalis (cocoon) or post larval stage." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000261 ! maturity
 
 [Term]
 id: PATO:0001188
 name: prepupal
-def: "A maturity quality inhering in a bearer by virtue of the bearer's being in an inactive stage in the development of some insects, between the larval and the pupal stages." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A maturity quality inhering in a bearer by virtue of the bearer's being in an inactive stage in the development of some insects, between the larval and the pupal stages." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000261 ! maturity
 
 [Term]
 id: PATO:0001189
 name: adolescent
-def: "A maturity quality inhering in a bearer by virtue of the bearer's being between the onset of puberty and maturity." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A maturity quality inhering in a bearer by virtue of the bearer's being between the onset of puberty and maturity." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000261 ! maturity
 
 [Term]
 id: PATO:0001190
 name: juvenile
-def: "A maturity quality inhering in a bearer by virtue the bearer's being not fully grown or developed." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A maturity quality inhering in a bearer by virtue the bearer's being not fully grown or developed." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000261 ! maturity
 
@@ -7137,7 +7137,7 @@ is_a: PATO:0000052 ! shape
 [Term]
 id: PATO:0001200
 name: T-shaped
-def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's being shaped in the form of the letter T." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's being shaped in the form of the letter T." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0001890 ! tripartite
@@ -7145,7 +7145,7 @@ is_a: PATO:0001890 ! tripartite
 [Term]
 id: PATO:0001201
 name: Y-shaped
-def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's being shaped in the form of the letter Y." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's being shaped in the form of the letter Y." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0001890 ! tripartite
@@ -7158,7 +7158,7 @@ is_obsolete: true
 [Term]
 id: PATO:0001205
 name: dentated
-def: "A surface feature shape quality inhering in a bearer by virtue of the bearer's having toothlike projections in the margin." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A surface feature shape quality inhering in a bearer by virtue of the bearer's having toothlike projections in the margin." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 synonym: "dentate" EXACT []
@@ -7299,7 +7299,7 @@ is_a: PATO:0000017 ! color saturation
 [Term]
 id: PATO:0001230
 name: strength
-def: "A quality inhering in a bearer by virtue of the bearer's power or force." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A quality inhering in a bearer by virtue of the bearer's power or force." [thefreedictionary.com:thefreedictionary.com]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
@@ -7981,7 +7981,7 @@ is_a: PATO:0000454 ! hairy
 [Term]
 id: PATO:0001321
 name: right angle to
-def: "An angle which is 90 degrees to another entity." [thesaurus.math:thesaurus.math "http://thesaurus.maths.org/"]
+def: "An angle which is 90 degrees to another entity." [thesaurus.math:thesaurus.math]
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0002326 ! angle
@@ -7989,7 +7989,7 @@ is_a: PATO:0002326 ! angle
 [Term]
 id: PATO:0001322
 name: straight angle
-def: "An angle which is 180 degrees to another entity." [thesaurus.maths:thesaurus.maths "http://thesaurus.maths.org/"]
+def: "An angle which is 180 degrees to another entity." [thesaurus.maths:thesaurus.maths]
 comment: TODO: decide on correct parentage.
 subset: relational_slim
 subset: value_slim
@@ -8029,7 +8029,7 @@ is_obsolete: true
 [Term]
 id: PATO:0001327
 name: zygomorphic
-def: "A symmetry quality inhering in a bearer by virtue of the bearer's being capable of division into symmetrical halves by only one longitudinal plane passing through the axis." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A symmetry quality inhering in a bearer by virtue of the bearer's being capable of division into symmetrical halves by only one longitudinal plane passing through the axis." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0001324 ! bilateral symmetry
@@ -8037,7 +8037,7 @@ is_a: PATO:0001324 ! bilateral symmetry
 [Term]
 id: PATO:0001328
 name: actinomorphic
-def: "A symmetry quality inhering in a bearer by virtue of the bearer's being capable of division into symmetrical halves by any longitudinal plane passing through the axis." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A symmetry quality inhering in a bearer by virtue of the bearer's being capable of division into symmetrical halves by any longitudinal plane passing through the axis." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0001325 ! radial symmetry
@@ -8305,7 +8305,7 @@ is_a: PATO:0000700 ! rough
 [Term]
 id: PATO:0001362
 name: fragile
-def: "A structural quality inhering in a bearer by virtue of the bearer's disposition to being easily damaged or destroyed." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's disposition to being easily damaged or destroyed." [WordNet:WordNet]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0001662 ! fragility
@@ -8376,7 +8376,7 @@ is_a: PATO:0000025 ! composition
 [Term]
 id: PATO:0001372
 name: refractivity
-def: "A physical quality that inheres in propagating wave (light or sound) virtue of the bearer's change in direction when passing from one medium to another." [WordNet:WordNet "wordnet.princeton.edu/perl/webwn"]
+def: "A physical quality that inheres in propagating wave (light or sound) virtue of the bearer's change in direction when passing from one medium to another." [WordNet:WordNet]
 subset: attribute_slim
 subset: disposition_slim
 is_a: PATO:0001294 ! radiation reflective quality
@@ -8642,7 +8642,7 @@ is_a: PATO:0001396 ! cellular quality
 [Term]
 id: PATO:0001405
 name: anucleate
-def: "A nucleate quality inhering in a bearer by virtue of the bearer's having no nucleus." [Biology-online:Biology-online "http://www.biology-online.org/"]
+def: "A nucleate quality inhering in a bearer by virtue of the bearer's having no nucleus." [Biology-online:Biology-online]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0001404 ! nucleate quality
@@ -8650,7 +8650,7 @@ is_a: PATO:0001404 ! nucleate quality
 [Term]
 id: PATO:0001406
 name: binucleate
-def: "A nucleate quality inhering in a bearer by virtue of the bearer's having two nuclei." [Biology-online:Biology-online "http://www.biology-online.org/"]
+def: "A nucleate quality inhering in a bearer by virtue of the bearer's having two nuclei." [Biology-online:Biology-online]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0001908 ! multinucleate
@@ -8658,7 +8658,7 @@ is_a: PATO:0001908 ! multinucleate
 [Term]
 id: PATO:0001407
 name: mononucleate
-def: "A nucleate quality inhering in a bearer by virtue of the bearer's having one nucleus." [Biology-online:Biology-online "http://www.biology-online.org/"]
+def: "A nucleate quality inhering in a bearer by virtue of the bearer's having one nucleus." [Biology-online:Biology-online]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0001404 ! nucleate quality
@@ -8674,7 +8674,7 @@ is_a: PATO:0001396 ! cellular quality
 [Term]
 id: PATO:0001409
 name: spindle-shaped
-def: "A shape quality inhering in a bearer by virtue of the bearer's resembling a long tapered rod." [Biology-online:Biology-online "http://www.biology-online.org/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's resembling a long tapered rod." [Biology-online:Biology-online]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0002007 ! convex 3-D shape
@@ -8682,7 +8682,7 @@ is_a: PATO:0002007 ! convex 3-D shape
 [Term]
 id: PATO:0001410
 name: striated
-def: "A shape quality inhering in a bearer by virtue of the bearer's being marked by narrow lines or grooves, usually parallel." [Biology-online:Biology-online "http://www.biology-online.org/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's being marked by narrow lines or grooves, usually parallel." [Biology-online:Biology-online]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0000052 ! shape
@@ -8742,7 +8742,7 @@ is_a: PATO:0001309 ! duration quality of a process
 [Term]
 id: PATO:0001418
 name: lethargic
-def: "A behavioral quality inhering in a bearer by virtue of the bearer's being deficient in alertness or activity." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A behavioral quality inhering in a bearer by virtue of the bearer's being deficient in alertness or activity." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0002265 ! behavioural activity
 
@@ -8780,7 +8780,7 @@ is_a: PATO:0000169 ! viability
 [Term]
 id: PATO:0001423
 name: refractile
-def: "A reflectivity quality inhering in the bearer by virtue of the bearer's ability to refract light." [biology-online:biology-online "www.biology-online.org/"]
+def: "A reflectivity quality inhering in the bearer by virtue of the bearer's ability to refract light." [biology-online:biology-online]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0001372 ! refractivity
@@ -8809,7 +8809,7 @@ is_a: PATO:0000014 ! color
 [Term]
 id: PATO:0001427
 name: compound acidity
-def: "A concentration quality inhering in compound by virtue of the bearer's tendency to act as a hydron donor." [chemicool:chemicool "http://www.chemicool.com/"]
+def: "A concentration quality inhering in compound by virtue of the bearer's tendency to act as a hydron donor." [chemicool:chemicool]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001842 ! acidity
@@ -8817,7 +8817,7 @@ is_a: PATO:0001842 ! acidity
 [Term]
 id: PATO:0001428
 name: medium acidity
-def: "A concentration quality inhering in a medium by virtue of the bearer's tendency to hydronate a specific reference base." [chemicool:chemicool "http://www.chemicool.com/"]
+def: "A concentration quality inhering in a medium by virtue of the bearer's tendency to hydronate a specific reference base." [chemicool:chemicool]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001842 ! acidity
@@ -8825,14 +8825,14 @@ is_a: PATO:0001842 ! acidity
 [Term]
 id: PATO:0001429
 name: acidic
-def: "An medium acidity quality inhering in a solution by virtue of the bearer's a high concentration of H+ ions." [chemicool:chemicool "http://www.chemicool.com/"]
+def: "An medium acidity quality inhering in a solution by virtue of the bearer's a high concentration of H+ ions." [chemicool:chemicool]
 subset: value_slim
 is_a: PATO:0001428 ! medium acidity
 
 [Term]
 id: PATO:0001430
 name: alkaline
-def: "An medium acidity quality inhering in a solution by virtue of the bearer's a low concentration of H+ ions." [chemicool:chemicool "http://www.chemicool.com/"]
+def: "An medium acidity quality inhering in a solution by virtue of the bearer's a low concentration of H+ ions." [chemicool:chemicool]
 subset: value_slim
 is_a: PATO:0001428 ! medium acidity
 
@@ -8851,7 +8851,7 @@ is_a: PATO:0001018 ! physical quality
 [Term]
 id: PATO:0001432
 name: decayed
-def: "A quality inhering in a bearer by virtue of the bearer's decomposition into component parts." [Medical-dictionary:Medical-dictionary "http://medical-dictionary.thefreedictionary.com/"]
+def: "A quality inhering in a bearer by virtue of the bearer's decomposition into component parts." [Medical-dictionary:Medical-dictionary]
 subset: value_slim
 is_a: PATO:0000169 ! viability
 
@@ -8868,7 +8868,7 @@ is_a: PATO:0001236 ! process quality
 [Term]
 id: PATO:0001434
 name: reproductive quality
-def: "An organismal quality inhering in a bearer by virtue of the bearer's ability to produce new life or offspring." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "An organismal quality inhering in a bearer by virtue of the bearer's ability to produce new life or offspring." [WordNet:WordNet]
 is_a: PATO:0001995 ! organismal quality
 
 [Term]
@@ -8898,7 +8898,7 @@ is_a: PATO:0001435 ! attachment quality
 [Term]
 id: PATO:0001438
 name: pedicellate
-def: "A attachment quality inhering in a bearer by virtue of the bearer's having or being supported by a pedicel or pedicle." [MedTerms:MedTerms "www.medterms.com/"]
+def: "A attachment quality inhering in a bearer by virtue of the bearer's having or being supported by a pedicel or pedicle." [MedTerms:MedTerms]
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0001435 ! attachment quality
@@ -8907,7 +8907,7 @@ is_a: PATO:0001435 ! attachment quality
 id: PATO:0001439
 name: tonicity
 alt_id: PATO:0001498
-def: "A contractile quality inhering in a bearer by virtue of the bearer's elastic tension that facilitate response to stimuli." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A contractile quality inhering in a bearer by virtue of the bearer's elastic tension that facilitate response to stimuli." [WordNet:WordNet]
 comment: TODO: we need a clearer differentium between this and contractility - or merge?
 subset: attribute_slim
 subset: disposition_slim
@@ -8936,7 +8936,7 @@ disjoint_from: PATO:0001440 ! homophilic
 [Term]
 id: PATO:0001442
 name: wholeness
-def: "A structural quality inhering in a bearer by virtue of whether the bearer includes all its components." [thefreedictionary.com:thefreedictionary.com "www.thefreedictionary.com/"]
+def: "A structural quality inhering in a bearer by virtue of whether the bearer includes all its components." [thefreedictionary.com:thefreedictionary.com]
 subset: attribute_slim
 is_a: PATO:0000141 ! structure
 
@@ -8962,14 +8962,14 @@ disjoint_from: PATO:0001446 ! whole
 [Term]
 id: PATO:0001445
 name: disassembled
-def: "A wholeness quality inhering in a bearer by virtue of the bearer's being taken apart into its constituent parts." [thefreedictionary.com:thefreedictionary.com "www.thefreedictionary.com/"]
+def: "A wholeness quality inhering in a bearer by virtue of the bearer's being taken apart into its constituent parts." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0001444 ! broken
 
 [Term]
 id: PATO:0001446
 name: whole
-def: "A wholeness quality inhering in a bearer by virtue of the bearer's including all its components." [thefreedictionary.com:thefreedictionary.com "www.thefreedictionary.com/"]
+def: "A wholeness quality inhering in a bearer by virtue of the bearer's including all its components." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0001442 ! wholeness
 disjoint_from: PATO:0001444 ! broken
@@ -8977,7 +8977,7 @@ disjoint_from: PATO:0001444 ! broken
 [Term]
 id: PATO:0001447
 name: calcified
-def: "A composition quality inhering in an bearer by virtue of the bearer's being encrusted or impregnated with calcium carbonate (CHEBI:3311)." [thefreedictionary.com:thefreedictionary.com "www.thefreedictionary.com/"]
+def: "A composition quality inhering in an bearer by virtue of the bearer's being encrusted or impregnated with calcium carbonate (CHEBI:3311)." [thefreedictionary.com:thefreedictionary.com]
 subset: cell_quality
 subset: value_slim
 synonym: "calcareous" EXACT []
@@ -8987,7 +8987,7 @@ is_a: PATO:0000025 ! composition
 [Term]
 id: PATO:0001448
 name: ossified
-def: "A composition quality inhering in an bearer by virtue of the bearer's being hardened by the deposition of calcium into bone." [MAMMALOGY:MAMMALOGY "http://www.uvm.edu/~jdecher/GoT.html"]
+def: "A composition quality inhering in an bearer by virtue of the bearer's being hardened by the deposition of calcium into bone." [MAMMALOGY:MAMMALOGY]
 subset: value_slim
 is_a: PATO:0001447 ! calcified
 
@@ -9002,7 +9002,7 @@ is_a: PATO:0000025 ! composition
 [Term]
 id: PATO:0001450
 name: edematous
-def: "A structural quality which is held by a bearer when the latter exhibits an excessive accumulation of extracellular fluid." [thefreedictionary.com:thefreedictionary.com "www.thefreedictionary.com/"]
+def: "A structural quality which is held by a bearer when the latter exhibits an excessive accumulation of extracellular fluid." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 synonym: "edema" NARROW []
 synonym: "edemic" EXACT []
@@ -9014,7 +9014,7 @@ is_a: PATO:0000025 ! composition
 [Term]
 id: PATO:0001451
 name: edematous (sensu botany)
-def: "An extended swelling in plant organs caused primarily by an excessive accumulation of water." [thefreedictionary.com:thefreedictionary.com "www.thefreedictionary.com/"]
+def: "An extended swelling in plant organs caused primarily by an excessive accumulation of water." [thefreedictionary.com:thefreedictionary.com]
 synonym: "edemic" EXACT []
 synonym: "oedematous" EXACT []
 synonym: "oedemic" EXACT []
@@ -9196,7 +9196,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001473
 name: duplicated
-def: "A quality inhering in a bearer by virtue of the bearer's being present in two copies." [Dictionary.com:Dictionary.com "http://dictionary.reference.com/"]
+def: "A quality inhering in a bearer by virtue of the bearer's being present in two copies." [Dictionary.com:Dictionary.com]
 subset: value_slim
 synonym: "doubled" EXACT []
 is_a: PATO:0000470 ! present in greater numbers in organism
@@ -9204,7 +9204,7 @@ is_a: PATO:0000470 ! present in greater numbers in organism
 [Term]
 id: PATO:0001474
 name: anteverted
-def: "An oriented quality inhering in a bearer by virtue of the bearer's axis being positioned forward." [bdid:bdid "http://www.bdid.com/"]
+def: "An oriented quality inhering in a bearer by virtue of the bearer's axis being positioned forward." [bdid:bdid]
 subset: attribute_slim
 subset: value_slim
 is_a: PATO:0000614 ! oriented
@@ -9234,7 +9234,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001477
 name: retracted
-def: "A positional quality inhering in a bearer by virtue of the bearer's being drawn in or pulled back from any given point." [Dictionary.com:Dictionary.com "http://dictionary.reference.com/"]
+def: "A positional quality inhering in a bearer by virtue of the bearer's being drawn in or pulled back from any given point." [Dictionary.com:Dictionary.com]
 subset: value_slim
 synonym: "moved " BROAD []
 synonym: "retruded" RELATED []
@@ -9243,14 +9243,14 @@ is_a: PATO:0000140 ! position
 [Term]
 id: PATO:0001478
 name: collapsed
-def: "A structural quality inhering in a bearer by virtue of the bearer's being broken down; caved in." [Dictionary.com:Dictionary.com "http://dictionary.reference.com/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's being broken down; caved in." [Dictionary.com:Dictionary.com]
 subset: value_slim
 is_a: PATO:0000141 ! structure
 
 [Term]
 id: PATO:0001480
 name: spongy
-def: "A structural quality inhering in a bearer by virtue of the bearer's resembling a sponge in elasticity, absorbency, or porousness." [Answers.com:Answers.com "http://www.answers.com/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's resembling a sponge in elasticity, absorbency, or porousness." [Answers.com:Answers.com]
 subset: value_slim
 is_a: PATO:0000141 ! structure
 relationship: has_part PATO:0000982 ! permeable
@@ -9258,14 +9258,14 @@ relationship: has_part PATO:0000982 ! permeable
 [Term]
 id: PATO:0001481
 name: sloped
-def: "A shape quality inhering in a bearer by virtue of the bearer's having an oblique or slanted direction." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's having an oblique or slanted direction." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000052 ! shape
 
 [Term]
 id: PATO:0001482
 name: prominent
-def: "A protruding quality inhering in a bearer by virtue of the bearer's standing out or projecting beyond a surface or line." [Dictionary.com:Dictionary.com "http://dictionary.reference.com/"]
+def: "A protruding quality inhering in a bearer by virtue of the bearer's standing out or projecting beyond a surface or line." [Dictionary.com:Dictionary.com]
 subset: value_slim
 is_a: PATO:0001598 ! protruding
 
@@ -9282,7 +9282,7 @@ is_a: PATO:0002290 ! aplastic/hypoplastic
 [Term]
 id: PATO:0001484
 name: recent
-def: "A quality of a process which occurs near to or not long before the present." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A quality of a process which occurs near to or not long before the present." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0002325 ! onset quality
 
@@ -9301,21 +9301,21 @@ is_a: PATO:0000141 ! structure
 [Term]
 id: PATO:0001486
 name: chronological age
-def: "An age quality that exists by virtue of the time (years and months) that the bearer has existed." [WordNet:Wordnet "http://wordnet.princeton.edu/"]
+def: "An age quality that exists by virtue of the time (years and months) that the bearer has existed." [WordNet:Wordnet]
 subset: attribute_slim
 is_a: PATO:0000011 ! age
 
 [Term]
 id: PATO:0001487
 name: senescent
-def: "A time quality inhering in a bearer by virtue of the bearer's growing old; aging." [answers.com:answers.com "http://www.answers.com/"]
+def: "A time quality inhering in a bearer by virtue of the bearer's growing old; aging." [answers.com:answers.com]
 subset: value_slim
 is_a: PATO:0000011 ! age
 
 [Term]
 id: PATO:0001488
 name: cellular motility
-def: "A cellular quality inhering in a cell by virtue of whether the bearer exhibits the ability to move spontaneously." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A cellular quality inhering in a cell by virtue of whether the bearer exhibits the ability to move spontaneously." [thefreedictionary.com:thefreedictionary.com]
 comment: Term should be obsoleted and the GO term cellular motility should be used instead.
 subset: attribute_slim
 subset: disposition_slim
@@ -9362,7 +9362,7 @@ is_a: PATO:0001492 ! growth rate
 [Term]
 id: PATO:0001495
 name: notched
-def: "A concave quality inhering in a bearer by virtue of the bearer's shape being a V-shaped cut." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A concave quality inhering in a bearer by virtue of the bearer's shape being a V-shaped cut." [thefreedictionary.com:thefreedictionary.com]
 subset: cell_quality
 subset: value_slim
 synonym: "indented" RELATED []
@@ -9371,7 +9371,7 @@ is_a: PATO:0001857 ! concave
 [Term]
 id: PATO:0001496
 name: brood quality
-def: "A reproductive quality inhering in the young of an animal by virtue of the bearer's being cared for at one time." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A reproductive quality inhering in the young of an animal by virtue of the bearer's being cared for at one time." [WordNet:WordNet]
 subset: attribute_slim
 is_a: PATO:0001434 ! reproductive quality
 
@@ -9387,7 +9387,7 @@ is_a: PATO:0000169 ! viability
 id: PATO:0001499
 name: spherical
 alt_id: PATO:0000408
-def: "A spheroid quality inhering in a bearer by virtue of the bearer's resembling a ball (a sphere whose equatorial diameter is equal to the polar diameter)." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A spheroid quality inhering in a bearer by virtue of the bearer's resembling a ball (a sphere whose equatorial diameter is equal to the polar diameter)." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 synonym: "globular" EXACT []
@@ -9398,7 +9398,7 @@ relationship: has_cross_section PATO:0000411 ! circular
 [Term]
 id: PATO:0001500
 name: tapered
-def: "A shape quality inhering in a bearer by virtue of the bearer's being gradually narrower or thinner toward one end." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's being gradually narrower or thinner toward one end." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 synonym: "taper" EXACT []
@@ -9407,7 +9407,7 @@ is_a: PATO:0001419 ! sharp
 [Term]
 id: PATO:0001501
 name: immature
-def: "A quality inhering in a bearer by virtue of the bearer's lacking complete growth, differentiation, or development." [Merriam-Webster:Merriam-Webster "http://www.m-w.com/"]
+def: "A quality inhering in a bearer by virtue of the bearer's lacking complete growth, differentiation, or development." [Merriam-Webster:Merriam-Webster]
 subset: value_slim
 synonym: "underdeveloped" RELATED []
 is_a: PATO:0000261 ! maturity
@@ -9415,7 +9415,7 @@ is_a: PATO:0000261 ! maturity
 [Term]
 id: PATO:0001502
 name: complexity
-def: "A monadic quality of continuant inhering in a bearer by virtue of the bearer's being intricate and compounded." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A monadic quality of continuant inhering in a bearer by virtue of the bearer's being intricate and compounded." [WordNet:WordNet]
 comment: TODO: obsolete this.
 subset: attribute_slim
 is_a: PATO:0000141 ! structure
@@ -9423,7 +9423,7 @@ is_a: PATO:0000141 ! structure
 [Term]
 id: PATO:0001503
 name: simple
-def: "A complexity quality in a bearer by virtue of the bearer's having few parts or being complicated or compound." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A complexity quality in a bearer by virtue of the bearer's having few parts or being complicated or compound." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0001502 ! complexity
 disjoint_from: PATO:0001504 ! complex
@@ -9431,7 +9431,7 @@ disjoint_from: PATO:0001504 ! complex
 [Term]
 id: PATO:0001504
 name: complex
-def: "A complexity quality inhering in a bearer by virtue of the bearer's being intricate and compounded." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A complexity quality inhering in a bearer by virtue of the bearer's being intricate and compounded." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0001502 ! complexity
 disjoint_from: PATO:0001503 ! simple
@@ -9439,7 +9439,7 @@ disjoint_from: PATO:0001503 ! simple
 [Term]
 id: PATO:0001505
 name: separated from
-def: "A structural quality inhering in a bearer by virtue of the bearer's not being in contact with another entity, or of no longer being connected or joined with another entity." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's not being in contact with another entity, or of no longer being connected or joined with another entity." [WordNet:WordNet]
 subset: relational_slim
 subset: value_slim
 synonym: "discontiguous" RELATED []
@@ -9450,7 +9450,7 @@ is_a: PATO:0000141 ! structure
 [Term]
 id: PATO:0001506
 name: diastatic
-def: "A structural quality inhering in a bearer by virtue of the bearer's separation of normally joined parts, such as the separation of adjacent bones without fracture or of certain abdominal muscles during pregnancy." [answers.com:answers.com "http://www.answers.com/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's separation of normally joined parts, such as the separation of adjacent bones without fracture or of certain abdominal muscles during pregnancy." [answers.com:answers.com]
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0001505 ! separated from
@@ -9495,7 +9495,7 @@ is_a: PATO:0001509 ! functionality
 [Term]
 id: PATO:0001512
 name: punctate
-def: "A pattern inhering in a surface by virtue of the bearer's being marked by the presence of dots, punctures, points or pits." [medical-dictionary:medical-dictionary "http://medical-dictionary.thefreedictionary.com/punctate"]
+def: "A pattern inhering in a surface by virtue of the bearer's being marked by the presence of dots, punctures, points or pits." [medical-dictionary:medical-dictionary]
 subset: value_slim
 synonym: "dotted" RELATED []
 synonym: "spotted" RELATED []
@@ -9548,7 +9548,7 @@ is_a: PATO:0001018 ! physical quality
 [Term]
 id: PATO:0001520
 name: sound frequency
-def: "The frequency of transmitted vibrations." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "The frequency of transmitted vibrations." [thefreedictionary.com:thefreedictionary.com]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0000044 ! frequency
@@ -9556,7 +9556,7 @@ is_a: PATO:0000044 ! frequency
 [Term]
 id: PATO:0001521
 name: sound amplitude
-def: "A physical quality inhering in a sound wave by virtue of the maximum magnitude (value without regard to sign) of its disturbance." [answers.com:answers.com "http://www.answers.com/"]
+def: "A physical quality inhering in a sound wave by virtue of the maximum magnitude (value without regard to sign) of its disturbance." [answers.com:answers.com]
 subset: attribute_slim
 synonym: "loudness" BROAD []
 is_a: PATO:0000080 ! amplitude
@@ -9580,7 +9580,7 @@ is_a: PATO:0001242 ! wavelength
 [Term]
 id: PATO:0001524
 name: intrasonic
-def: "A sound frequency in the range of 0-20 Hz." [studyphysics:studyphysics "http://www.studyphysics.ca/"]
+def: "A sound frequency in the range of 0-20 Hz." [studyphysics:studyphysics]
 subset: value_slim
 is_a: PATO:0001520 ! sound frequency
 
@@ -9594,7 +9594,7 @@ is_a: PATO:0001520 ! sound frequency
 [Term]
 id: PATO:0001526
 name: ultrasonic
-def: "A sound frequency in the range of 20 000 + Hz." [studyphysics:studyphysics "http://www.studyphysics.ca/"]
+def: "A sound frequency in the range of 20 000 + Hz." [studyphysics:studyphysics]
 subset: value_slim
 is_a: PATO:0001520 ! sound frequency
 
@@ -9659,14 +9659,14 @@ is_a: PATO:0000019 ! color pattern
 [Term]
 id: PATO:0001534
 name: motley
-def: "A color pattern inhering in a bearer by virtue of bearer's having 3 or more hues or degrees of saturations." [merriam-webster.:merriam-webster. "www.m-w.com/"]
+def: "A color pattern inhering in a bearer by virtue of bearer's having 3 or more hues or degrees of saturations." [merriam-webster.:merriam-webster.]
 subset: value_slim
 is_a: PATO:0001533 ! multi-colored
 
 [Term]
 id: PATO:0001535
 name: dappled
-def: "A color pattern inhering in a bearer by virtue of bearer's being marked with small spots, patches, or specks of hue or degree of saturation differing from that of the background." [merriam-webster.:merriam-webster. "www.m-w.com/"]
+def: "A color pattern inhering in a bearer by virtue of bearer's being marked with small spots, patches, or specks of hue or degree of saturation differing from that of the background." [merriam-webster.:merriam-webster.]
 subset: value_slim
 synonym: "speckled" RELATED []
 is_a: PATO:0001533 ! multi-colored
@@ -9674,7 +9674,7 @@ is_a: PATO:0001533 ! multi-colored
 [Term]
 id: PATO:0001536
 name: solubility
-def: "A molecular quality that inheres in a molecular entity by virtue of the bearer's disposition to dissolve in a liquid." [edp:edp "www.edp-uk.com/glossaries/terms.htm"]
+def: "A molecular quality that inheres in a molecular entity by virtue of the bearer's disposition to dissolve in a liquid." [edp:edp]
 subset: attribute_slim
 subset: disposition_slim
 subset: relational_slim
@@ -9684,7 +9684,7 @@ is_a: PATO:0002182 ! molecular quality
 [Term]
 id: PATO:0001537
 name: soluble in
-def: "A solubility quality inhering in a substance by virtue of the bearer's disposition to dissolve in a liquid." [edp:edp "www.edp-uk.com/glossaries/terms.htm"]
+def: "A solubility quality inhering in a substance by virtue of the bearer's disposition to dissolve in a liquid." [edp:edp]
 subset: disposition_slim
 subset: relational_slim
 subset: value_slim
@@ -9694,7 +9694,7 @@ is_a: PATO:0001536 ! solubility
 [Term]
 id: PATO:0001538
 name: insoluble in
-def: "A solubility quality inhering in a substance by virtue of the bearer's inability of a substance to dissolve in a liquid." [edp:edp "www.edp-uk.com/glossaries/terms.htm"]
+def: "A solubility quality inhering in a substance by virtue of the bearer's inability of a substance to dissolve in a liquid." [edp:edp]
 subset: disposition_slim
 subset: relational_slim
 subset: value_slim
@@ -9714,14 +9714,14 @@ is_a: PATO:0000025 ! composition
 [Term]
 id: PATO:0001540
 name: glutinous
-def: "An amylose composition quality inhering in an bearer by virtue of the bearer's having negligible or no amylose content." [TO:TO "http://www.gramene.org/"]
+def: "An amylose composition quality inhering in an bearer by virtue of the bearer's having negligible or no amylose content." [TO:TO]
 subset: value_slim
 is_a: PATO:0001539 ! amylose composition
 
 [Term]
 id: PATO:0001541
 name: non-glutinous
-def: "An amylose composition quality inhering in an bearer by virtue of the bearer's having high amount of amylose content." [TO:TO "http://www.gramene.org/"]
+def: "An amylose composition quality inhering in an bearer by virtue of the bearer's having high amount of amylose content." [TO:TO]
 subset: value_slim
 is_a: PATO:0001539 ! amylose composition
 
@@ -9735,7 +9735,7 @@ is_a: PATO:0000083 ! phase
 [Term]
 id: PATO:0001543
 name: flexibility
-def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to being turned, bowed, or twisted without breaking." [merriam-webster:merriam-webster "http://www.m-w.com/"]
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to being turned, bowed, or twisted without breaking." [merriam-webster:merriam-webster]
 subset: attribute_slim
 subset: disposition_slim
 is_a: PATO:0001546 ! quality of a solid
@@ -9743,7 +9743,7 @@ is_a: PATO:0001546 ! quality of a solid
 [Term]
 id: PATO:0001544
 name: flexible
-def: "A physical quality inhering in a bearer by virtue of the bearer's ability of being turned, bowed, or twisted without breaking." [merriam-webster:merriam-webster "http://www.m-w.com/"]
+def: "A physical quality inhering in a bearer by virtue of the bearer's ability of being turned, bowed, or twisted without breaking." [merriam-webster:merriam-webster]
 subset: disposition_slim
 subset: value_slim
 synonym: "bendy" EXACT []
@@ -9752,7 +9752,7 @@ is_a: PATO:0001543 ! flexibility
 [Term]
 id: PATO:0001545
 name: inflexible
-def: "A physical quality inhering in a bearer by virtue of the bearer's inability of being turned, bowed, or twisted without breaking." [merriam-webster:merriam-webster "http://www.m-w.com/"]
+def: "A physical quality inhering in a bearer by virtue of the bearer's inability of being turned, bowed, or twisted without breaking." [merriam-webster:merriam-webster]
 subset: disposition_slim
 subset: value_slim
 synonym: "stiff" EXACT []
@@ -9942,7 +9942,7 @@ is_a: PATO:0001236 ! process quality
 id: PATO:0001566
 name: distributed
 alt_id: PATO:0001513
-def: "A spatial pattern inhering in a bearer by virtue of the bearer's being spread out or scattered about or divided up." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A spatial pattern inhering in a bearer by virtue of the bearer's being spread out or scattered about or divided up." [WordNet:WordNet]
 synonym: "diffuse" EXACT []
 synonym: "scattered" EXACT []
 is_a: PATO:0000060 ! spatial pattern
@@ -9950,7 +9950,7 @@ is_a: PATO:0000060 ! spatial pattern
 [Term]
 id: PATO:0001567
 name: undistributed
-def: "A spatial pattern inhering in a bearer by virtue of the bearer's not being spread out or scattered about or divided up." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A spatial pattern inhering in a bearer by virtue of the bearer's not being spread out or scattered about or divided up." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000060 ! spatial pattern
 
@@ -9965,7 +9965,7 @@ is_a: PATO:0001564 ! extra or missing processual parts
 [Term]
 id: PATO:0001571
 name: dilated
-def: "A size quality inhering in a bearer by virtue of the bearer's being made wider or larger in all dimensions." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A size quality inhering in a bearer by virtue of the bearer's being made wider or larger in all dimensions." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000586 ! increased size
 
@@ -9980,7 +9980,7 @@ is_a: PATO:0001786 ! split
 [Term]
 id: PATO:0001573
 name: isometrical
-def: "A symmetry quality inhering in a bearer by virtue of the bearer's having equal dimensions or measurements." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A symmetry quality inhering in a bearer by virtue of the bearer's having equal dimensions or measurements." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0000965 ! symmetry
@@ -9988,7 +9988,7 @@ is_a: PATO:0000965 ! symmetry
 [Term]
 id: PATO:0001574
 name: flow rate
-def: "A physical quality inhering in a bearer by virtue of the bearer's motion characteristic." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A physical quality inhering in a bearer by virtue of the bearer's motion characteristic." [WordNet:WordNet]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001906 ! movement quality
@@ -10042,7 +10042,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001579
 name: contractility
-def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to shrink or contract." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A physical quality inhering in a bearer by virtue of the bearer's disposition to shrink or contract." [WordNet:WordNet]
 subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
@@ -10075,7 +10075,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001582
 name: relaxational quality
-def: "A spatial quality inhering in an inactive muscle or muscle fibers by virtue of the bearer's exhibiting gradual lengthening." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A spatial quality inhering in an inactive muscle or muscle fibers by virtue of the bearer's exhibiting gradual lengthening." [WordNet:WordNet]
 comment: GO has now relevant relation terms which should be used instead.
 is_obsolete: true
 
@@ -10161,7 +10161,7 @@ is_a: PATO:0000141 ! structure
 [Term]
 id: PATO:0001591
 name: curvature
-def: "A surface shape quality inhering in a bearer by virtue of the bearer's exhibiting a degree of bending." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A surface shape quality inhering in a bearer by virtue of the bearer's exhibiting a degree of bending." [WordNet:WordNet]
 subset: attribute_slim
 is_a: PATO:0000052 ! shape
 
@@ -10188,14 +10188,14 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001594
 name: arched
-def: "A concave quality inhering in a bearer by virtue of the bearer's forming or resembling an arch." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A concave quality inhering in a bearer by virtue of the bearer's forming or resembling an arch." [WordNet:WordNet]
 subset: cell_quality
 is_a: PATO:0001857 ! concave
 
 [Term]
 id: PATO:0001595
 name: depth
-def: "A 1-D extent quality inhering in a bearer by virtue of the bearer's downward or backward or inward dimenision." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A 1-D extent quality inhering in a bearer by virtue of the bearer's downward or backward or inward dimenision." [WordNet:WordNet]
 comment: This term is for curator easiness - denote downward/inward length - we might consider obsoleting this but we have to consider how curators are going to represent them if we do.
 subset: attribute_slim
 subset: scalar_slim
@@ -10216,14 +10216,14 @@ intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001597
 name: everted
-def: "An oriented quality inhering in a bearer by virtue of the bearer's being turned outward in placement." [thefreedictionary:thefreedictionary "http://medical-dictionary.thefreedictionary.com/everted"]
+def: "An oriented quality inhering in a bearer by virtue of the bearer's being turned outward in placement." [thefreedictionary:thefreedictionary]
 is_a: PATO:0000614 ! oriented
 
 [Term]
 id: PATO:0001598
 name: protruding
 alt_id: PATO:0001644
-def: "A shape quality inhering in a bearer by virtue of the bearer's extending out above or beyond a surface or boundary." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's extending out above or beyond a surface or boundary." [WordNet:WordNet]
 subset: value_slim
 synonym: "protruding " EXACT []
 synonym: "relational protruding quality" EXACT []
@@ -10232,7 +10232,7 @@ is_a: PATO:0000052 ! shape
 [Term]
 id: PATO:0001599
 name: rotated
-def: "An oriented quality inhering in a bearer by virtue of the bearer's being relocated around an axis." [answers.com:answers.com "http://www.answers.com/"]
+def: "An oriented quality inhering in a bearer by virtue of the bearer's being relocated around an axis." [answers.com:answers.com]
 subset: attribute_slim
 synonym: "rotation" EXACT []
 is_a: PATO:0000614 ! oriented
@@ -10254,7 +10254,7 @@ is_a: PATO:0001599 ! rotated
 [Term]
 id: PATO:0001602
 name: distended
-def: "A size quality inhering in a bearer by virtue of the bearer's being abnormally expanded or increased in size." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A size quality inhering in a bearer by virtue of the bearer's being abnormally expanded or increased in size." [WordNet:WordNet]
 subset: value_slim
 synonym: "expanded " RELATED []
 is_a: PATO:0000586 ! increased size
@@ -10282,7 +10282,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001605
 name: disheveled
-def: "A spatial pattern inhering in a bearer by virtue of the bearer's being in disarray; extremely disorderly." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A spatial pattern inhering in a bearer by virtue of the bearer's being in disarray; extremely disorderly." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0000330 ! irregular spatial pattern
@@ -10290,7 +10290,7 @@ is_a: PATO:0000330 ! irregular spatial pattern
 [Term]
 id: PATO:0001606
 name: greasy
-def: "A coating which is oily and slippery." [.answers.com:.answers.com "http://www.answers.com/"]
+def: "A coating which is oily and slippery." [.answers.com:.answers.com]
 subset: value_slim
 is_a: PATO:0002012 ! coating
 
@@ -10304,14 +10304,14 @@ is_a: PATO:0001846 ! tangled
 [Term]
 id: PATO:0001608
 name: patchy
-def: "A spatial pattern inhering in a bearer by virtue of the bearer's being marked by, consisting of, or diversified with patches." [Merriam-Webster:Merriam-Webster "http://www.m-w.com/"]
+def: "A spatial pattern inhering in a bearer by virtue of the bearer's being marked by, consisting of, or diversified with patches." [Merriam-Webster:Merriam-Webster]
 subset: value_slim
 is_a: PATO:0000330 ! irregular spatial pattern
 
 [Term]
 id: PATO:0001609
 name: sparse
-def: "A spatial pattern inhering in a bearer by virtue of the bearer's being scattered; spread irregularly, and at a distance from each other." [biology.lsu:biology.lsu "http://www.biology.lsu.edu/"]
+def: "A spatial pattern inhering in a bearer by virtue of the bearer's being scattered; spread irregularly, and at a distance from each other." [biology.lsu:biology.lsu]
 subset: value_slim
 is_a: PATO:0000060 ! spatial pattern
 
@@ -10362,7 +10362,7 @@ is_a: PATO:0001611 ! variability of color
 [Term]
 id: PATO:0001617
 name: deformed
-def: "A morphological quality inhering in a bearer by virtue of the bearer's being distorted in form." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A morphological quality inhering in a bearer by virtue of the bearer's being distorted in form." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 synonym: "disfigured" RELATED []
 synonym: "distorted" RELATED []
@@ -10395,7 +10395,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001620
 name: turgor
-def: "A structural quality inhering in a cell or blood vessel or capillary by virtue of the bearer's being in a rigid state of fullness resulting from pressure of the contents against the wall or membrane." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A structural quality inhering in a cell or blood vessel or capillary by virtue of the bearer's being in a rigid state of fullness resulting from pressure of the contents against the wall or membrane." [WordNet:WordNet]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0000141 ! structure
@@ -10427,7 +10427,7 @@ intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001623
 name: atrophied
-def: "A size quality inhering in a bearer by virtue of a part or parts of the bearer's being decreased in size due to reduction in tissue mass through wasting." [Wiikipedia:Wasting "http://www.wikipedia.org", Wikipedia:Atrophy]
+def: "A size quality inhering in a bearer by virtue of a part or parts of the bearer's being decreased in size due to reduction in tissue mass through wasting." [Wiikipedia:Wasting, Wikipedia:Atrophy]
 subset: value_slim
 synonym: "atrophic" EXACT []
 is_a: PATO:0000587 ! decreased size
@@ -10494,7 +10494,7 @@ is_a: PATO:0001626 ! sufficiency
 [Term]
 id: PATO:0001629
 name: aggregated
-def: "A spatial pattern inhering in a bearer by virtue of the bearer's being gathered or tending to gather into a mass or whole." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A spatial pattern inhering in a bearer by virtue of the bearer's being gathered or tending to gather into a mass or whole." [WordNet:WordNet]
 synonym: "clustered" EXACT []
 is_a: PATO:0000330 ! irregular spatial pattern
 disjoint_from: PATO:0001566 ! distributed
@@ -10502,7 +10502,7 @@ disjoint_from: PATO:0001566 ! distributed
 [Term]
 id: PATO:0001630
 name: dispersed
-def: "A positional quality inhering in a bearer by virtue of the bearer's being distributed or spread over a considerable extent." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A positional quality inhering in a bearer by virtue of the bearer's being distributed or spread over a considerable extent." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0000140 ! position
 
@@ -10529,14 +10529,14 @@ is_a: PATO:0000140 ! position
 [Term]
 id: PATO:0001634
 name: necessity (continuant)
-def: "A quality of a single physical entity inhering in a bearer by virtue of whether the bearer is essential or indispensable." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A quality of a single physical entity inhering in a bearer by virtue of whether the bearer is essential or indispensable." [WordNet:WordNet]
 subset: attribute_slim
 is_a: PATO:0001509 ! functionality
 
 [Term]
 id: PATO:0001635
 name: necessary (continuant)
-def: "A necessity quality (continuant) inhering in a bearer by virtue of the bearer's being essential or indispensable." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A necessity quality (continuant) inhering in a bearer by virtue of the bearer's being essential or indispensable." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0001634 ! necessity (continuant)
 disjoint_from: PATO:0001636 ! unnecessary (continuant)
@@ -10544,7 +10544,7 @@ disjoint_from: PATO:0001636 ! unnecessary (continuant)
 [Term]
 id: PATO:0001636
 name: unnecessary (continuant)
-def: "A necessity quality (continuant) inhering in a bearer by virtue of the bearer's being non-essential or dispensable." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A necessity quality (continuant) inhering in a bearer by virtue of the bearer's being non-essential or dispensable." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0001634 ! necessity (continuant)
 disjoint_from: PATO:0001635 ! necessary (continuant)
@@ -10573,7 +10573,7 @@ is_a: PATO:0001637 ! necessity of occurrent
 [Term]
 id: PATO:0001643
 name: stubby
-def: "A size quality inhering in a bearer by virtue of the bearer's having a short, stocky build." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A size quality inhering in a bearer by virtue of the bearer's having a short, stocky build." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000052 ! shape
 
@@ -10598,7 +10598,7 @@ is_a: PATO:0001598 ! protruding
 [Term]
 id: PATO:0001648
 name: circumference
-def: "An 1-D extent quality which is equal to the length of the closed curve of a circle." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "An 1-D extent quality which is equal to the length of the closed curve of a circle." [WordNet:WordNet]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001711 ! perimeter
@@ -10734,7 +10734,7 @@ is_obsolete: true
 [Term]
 id: PATO:0001662
 name: fragility
-def: "A structural quality inhering in a bearer by virtue of the bearer's disposition to being damaged or destroyed." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's disposition to being damaged or destroyed." [WordNet:WordNet]
 subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
@@ -10770,7 +10770,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 id: PATO:0001665
 name: superficial
 alt_id: PATO:0001471
-def: "A spatial pattern inhering in a bearer by virtue of the bearer's being located near a surface." [Dictionary.com:Dictionary.com "http://dictionary.reference.com/"]
+def: "A spatial pattern inhering in a bearer by virtue of the bearer's being located near a surface." [Dictionary.com:Dictionary.com]
 subset: relational_slim
 subset: value_slim
 synonym: "superficial to" EXACT []
@@ -10857,7 +10857,7 @@ is_a: PATO:0002014 ! structure, cavities
 [Term]
 id: PATO:0001674
 name: catalytic (activity) concentration
-def: "A concentration quality inhering in a bearer by virtue of the bearer's catalytic activity divided by the volume of the system." [IUPAC:IUPAC "http://goldbook.iupac.org/"]
+def: "A concentration quality inhering in a bearer by virtue of the bearer's catalytic activity divided by the volume of the system." [IUPAC:IUPAC]
 subset: attribute_slim
 subset: relational_slim
 subset: scalar_slim
@@ -10978,7 +10978,7 @@ disjoint_from: PATO:0001685 ! magnetic
 [Term]
 id: PATO:0001687
 name: elevation
-def: "A positional quality inhering in a bearer by virtue of the bearer's vertical distance of a point above or below a reference surface." [Trailillustrated:Trailillustrated "www.trailsillustrated.com/skills/glossary.cfm"]
+def: "A positional quality inhering in a bearer by virtue of the bearer's vertical distance of a point above or below a reference surface." [Trailillustrated:Trailillustrated]
 subset: attribute_slim
 is_a: PATO:0000140 ! position
 
@@ -11115,7 +11115,7 @@ is_a: PATO:0000062 ! sleep pattern
 [Term]
 id: PATO:0001701
 name: mature
-def: "A quality inhering in a bearer by virtue of the bearer's exhibiting complete growth, differentiation, or development." [Merriam-Webster:Merriam-Webster "http://www.m-w.com/"]
+def: "A quality inhering in a bearer by virtue of the bearer's exhibiting complete growth, differentiation, or development." [Merriam-Webster:Merriam-Webster]
 subset: value_slim
 is_a: PATO:0000261 ! maturity
 
@@ -11241,7 +11241,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001716
 name: non-fragile
-def: "A structural quality inhering in a bearer by virtue of the bearer's ability to withstand great strain without tearing or breaking." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's ability to withstand great strain without tearing or breaking." [thefreedictionary.com:thefreedictionary.com]
 subset: attribute_slim
 subset: disposition_slim
 synonym: "resilient" RELATED []
@@ -11340,7 +11340,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001727
 name: disposition
-def: "A quality inhering in a bearer by virtue of the bearer's prevailing tendency, mood, or inclination." [Merriam-Webster:Merriam-Webster "http://www.m-w.com/"]
+def: "A quality inhering in a bearer by virtue of the bearer's prevailing tendency, mood, or inclination." [Merriam-Webster:Merriam-Webster]
 subset: attribute_slim
 subset: disposition_slim
 subset: relational_slim
@@ -11458,7 +11458,7 @@ is_a: PATO:0001739 ! radiation quality
 [Term]
 id: PATO:0001741
 name: radioactive
-def: "A radiation quality inhering in bearer by virtue of the bearer's exhibiting or being caused by radioactivity." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A radiation quality inhering in bearer by virtue of the bearer's exhibiting or being caused by radioactivity." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0001740 ! activity (of a radionuclide)
 
@@ -11487,7 +11487,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001744
 name: radiation exposure
-def: "A radiation quality inhering in a bearer by virtue of what the bearer receives as a result of being exposed to ionizing radiation." [hps:hps "http://hps.org/"]
+def: "A radiation quality inhering in a bearer by virtue of what the bearer receives as a result of being exposed to ionizing radiation." [hps:hps]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001739 ! radiation quality
@@ -11495,7 +11495,7 @@ is_a: PATO:0001739 ! radiation quality
 [Term]
 id: PATO:0001745
 name: radiation absorbed dose
-def: "A radiation exposure quality inhering in a substance by virtue of the radiation energy \"deposited\" in a kilogram of a substance." [arpansa:arpansa "http://www.arpansa.gov.au/"]
+def: "A radiation exposure quality inhering in a substance by virtue of the radiation energy \"deposited\" in a kilogram of a substance." [arpansa:arpansa]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001744 ! radiation exposure
@@ -11503,7 +11503,7 @@ is_a: PATO:0001744 ! radiation exposure
 [Term]
 id: PATO:0001746
 name: radiation equivalent dose
-def: "A radiation exposure quality inhering in a tissue by virtue of the relation between the absorbed dose to the effective biological damage of the radiation to that tissue." [arpansa:arpansa "http://www.arpansa.gov.au/"]
+def: "A radiation exposure quality inhering in a tissue by virtue of the relation between the absorbed dose to the effective biological damage of the radiation to that tissue." [arpansa:arpansa]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001744 ! radiation exposure
@@ -11511,7 +11511,7 @@ is_a: PATO:0001744 ! radiation exposure
 [Term]
 id: PATO:0001747
 name: radiation effective dose
-def: "A radiation exposure quality inhering in an organ by virtue of the multiplication of an equivalent dose to that organ multiplied by the tissue weighting factor for that organ." [arpansa:arpansa "http://www.arpansa.gov.au/"]
+def: "A radiation exposure quality inhering in an organ by virtue of the multiplication of an equivalent dose to that organ multiplied by the tissue weighting factor for that organ." [arpansa:arpansa]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001744 ! radiation exposure
@@ -11608,7 +11608,7 @@ is_a: PATO:0001757 ! electrical conductivity
 [Term]
 id: PATO:0001759
 name: granular
-def: "A composition quality inhering in a bearer by virtue of the bearer's containing granules." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A composition quality inhering in a bearer by virtue of the bearer's containing granules." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000025 ! composition
 
@@ -11705,7 +11705,7 @@ is_a: PATO:0000169 ! viability
 [Term]
 id: PATO:0001772
 name: surrounding
-def: "A spatial quality inhering in a bearer by virtue of the bearer's being extended on all sides of another entity simultaneously." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A spatial quality inhering in a bearer by virtue of the bearer's being extended on all sides of another entity simultaneously." [thefreedictionary.com:thefreedictionary.com]
 subset: relational_slim
 subset: value_slim
 synonym: "encircling" EXACT []
@@ -11714,7 +11714,7 @@ is_a: PATO:0000140 ! position
 [Term]
 id: PATO:0001773
 name: monophasic
-def: "A quality inhering in a bearer by virtue of the bearer's having only one phase or stage." [hefreedictionary.com:hefreedictionary.com "http://www..thefreedictionary.com/"]
+def: "A quality inhering in a bearer by virtue of the bearer's having only one phase or stage." [hefreedictionary.com:hefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000083 ! phase
 
@@ -11781,7 +11781,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001780
 name: dystrophic
-def: "A size quality inhering in a bearer by virtue of the bearer's being abnormally developed, usually due to malnutrition." [Wiikipedia:Wiikipedia "http://www.wikipedia.org"]
+def: "A size quality inhering in a bearer by virtue of the bearer's being abnormally developed, usually due to malnutrition." [Wiikipedia:Wiikipedia]
 subset: value_slim
 synonym: "dystrophied" EXACT []
 synonym: "dystrophy" RELATED []
@@ -11818,7 +11818,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001784
 name: bifurcated
-def: "A branched quality inhering in a bearer by virtue of the bearer's being divided into two branches." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A branched quality inhering in a bearer by virtue of the bearer's being divided into two branches." [thefreedictionary.com:thefreedictionary.com]
 subset: cell_quality
 subset: value_slim
 synonym: "forked" RELATED []
@@ -11837,7 +11837,7 @@ is_a: PATO:0000406 ! curved
 [Term]
 id: PATO:0001786
 name: split
-def: "A shape quality inhering in a bearer by virtue of the bearer's being divided or broken up into parts or divisions." [die.net:die.net "http://dict.die.net"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's being divided or broken up into parts or divisions." [die.net:die.net]
 subset: value_slim
 synonym: "clefted" EXACT []
 synonym: "divided" RELATED []
@@ -11909,7 +11909,7 @@ is_a: PATO:0000140 ! position
 [Term]
 id: PATO:0001794
 name: coiling
-def: "A shape quality inhering in a bearer by virtue of the bearer's being wound in a continuous series of loops." [Online_Dictionary:Online_Dictionary "http://dict.die.net/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's being wound in a continuous series of loops." [Online_Dictionary:Online_Dictionary]
 subset: attribute_slim
 is_a: PATO:0000052 ! shape
 
@@ -11940,7 +11940,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001798
 name: kinked
-def: "A shape quality inhering in a bearer by virtue of the bearer's having multiple angles in its length." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's having multiple angles in its length." [thefreedictionary.com:thefreedictionary.com]
 subset: cell_quality
 subset: value_slim
 synonym: "tightly curled" RELATED []
@@ -11950,7 +11950,7 @@ is_a: PATO:0000617 ! bent
 [Term]
 id: PATO:0001799
 name: ruffled
-def: "A shape quality inhering in a bearer by virtue of the bearer's exhibiting disturbance of its smoothness or regularity." [.thefreedictionary.com:.thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's exhibiting disturbance of its smoothness or regularity." [.thefreedictionary.com:.thefreedictionary.com]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0000052 ! shape
@@ -11978,14 +11978,14 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001802
 name: loose
-def: "A pattern quality inhering in a bearer by virtue of the bearer's not being compact or dense in arrangement." [answers.com:answers.com "http://www.answers.com/"]
+def: "A pattern quality inhering in a bearer by virtue of the bearer's not being compact or dense in arrangement." [answers.com:answers.com]
 subset: value_slim
 is_a: PATO:0000330 ! irregular spatial pattern
 
 [Term]
 id: PATO:0001803
 name: phototoxic
-def: "A photosensitivity quality inhering in a bearer by virtue of the bearer's disposition to being susceptible to damage by light." [answers.com:answers.com "http://www.answers.com/"]
+def: "A photosensitivity quality inhering in a bearer by virtue of the bearer's disposition to being susceptible to damage by light." [answers.com:answers.com]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0000927 ! photosensitivity
@@ -11993,7 +11993,7 @@ is_a: PATO:0000927 ! photosensitivity
 [Term]
 id: PATO:0001804
 name: scaly
-def: "A texture quality inhering in a bearer by virtue of the bearer's being covered or partially covered with scales." [answers.com:answers.com "http://www.answers.com/t"]
+def: "A texture quality inhering in a bearer by virtue of the bearer's being covered or partially covered with scales." [answers.com:answers.com]
 subset: value_slim
 synonym: "squamous" RELATED []
 is_a: PATO:0000150 ! texture
@@ -12001,7 +12001,7 @@ is_a: PATO:0000150 ! texture
 [Term]
 id: PATO:0001805
 name: flaky
-def: "A texture quality inhering in a bearer by virtue of the bearer's formed or tending to form flakes or thin, crisp fragments." [answers.com:answers.com "http://www.answers.com/"]
+def: "A texture quality inhering in a bearer by virtue of the bearer's formed or tending to form flakes or thin, crisp fragments." [answers.com:answers.com]
 subset: value_slim
 is_a: PATO:0000150 ! texture
 
@@ -12089,7 +12089,7 @@ is_a: PATO:0001439 ! tonicity
 [Term]
 id: PATO:0001815
 name: fatigability
-def: "A strength quality inhering in a bearer by virtue of the bearer's disposition to lose strength." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A strength quality inhering in a bearer by virtue of the bearer's disposition to lose strength." [WordNet:WordNet]
 subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
@@ -12129,7 +12129,7 @@ is_a: PATO:0000057 ! occurrence quality
 [Term]
 id: PATO:0001819
 name: atretic
-def: "A morphological quality inhering in a bearer by virtue of the bearer's absence or closure of a normal body orifice or tubular passage." [answers.com:answers.com "http://www.answers.com/"]
+def: "A morphological quality inhering in a bearer by virtue of the bearer's absence or closure of a normal body orifice or tubular passage." [answers.com:answers.com]
 subset: value_slim
 synonym: "atresia" EXACT []
 is_a: PATO:0000608 ! closed
@@ -12137,14 +12137,14 @@ is_a: PATO:0000608 ! closed
 [Term]
 id: PATO:0001821
 name: imperforate
-def: "A structural quality inhering in a bearer by virtue of the bearer's having no opening." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's having no opening." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0002014 ! structure, cavities
 
 [Term]
 id: PATO:0001822
 name: wetness
-def: "A quality inhering in a bearer by virtue of whether the bearer's being covered by a liquid." [wordreference.com:wordreference.com "http://www.wordreference.com/"]
+def: "A quality inhering in a bearer by virtue of whether the bearer's being covered by a liquid." [wordreference.com:wordreference.com]
 subset: attribute_slim
 subset: scalar_slim
 is_a: PATO:0001018 ! physical quality
@@ -12188,7 +12188,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001827
 name: pseudohermaphrodite
-def: "A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of one sex and external sexual characteristics of the other sex." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of one sex and external sexual characteristics of the other sex." [WordNet:WordNet]
 subset: value_slim
 is_a: PATO:0001894 ! phenotypic sex
 
@@ -12281,7 +12281,7 @@ intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001836
 name: congested
-def: "A structural quality inhering in a bearer with some kind of aperture or opening that is blocked or clogged." [answers.com:answers.com "http://www.answers.com/"]
+def: "A structural quality inhering in a bearer with some kind of aperture or opening that is blocked or clogged." [answers.com:answers.com]
 subset: value_slim
 is_a: PATO:0000141 ! structure
 
@@ -12310,13 +12310,13 @@ intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001841
 name: remittent
-def: "An intensity which is characterized by temporary abatement in severity." [answers.com:answers.com "http://www.answers.com/"]
+def: "An intensity which is characterized by temporary abatement in severity." [answers.com:answers.com]
 is_a: PATO:0000049 ! intensity
 
 [Term]
 id: PATO:0001842
 name: acidity
-def: "A concentration quality inhering in a bearer by virtue of the bearer's containing acid (hydrogen ions)." [biology-online:biology-online "http://www.biology-online.org/"]
+def: "A concentration quality inhering in a bearer by virtue of the bearer's containing acid (hydrogen ions)." [biology-online:biology-online]
 subset: scalar_slim
 subset: value_slim
 synonym: "pH" EXACT []
@@ -12354,7 +12354,7 @@ is_a: PATO:0000078 ! rhythm quality
 [Term]
 id: PATO:0001846
 name: tangled
-def: "A structural quality inhering in a bearer by virtue of the bearer's being entwined and difficult to unravel." [answers.com:answers.com "http://www.answers.com/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's being entwined and difficult to unravel." [answers.com:answers.com]
 subset: value_slim
 is_a: PATO:0000141 ! structure
 
@@ -12362,7 +12362,7 @@ is_a: PATO:0000141 ! structure
 id: PATO:0001847
 name: constricted
 alt_id: PATO:0001837
-def: "A structural quality inhering in a bearer by virtue of the bearer's being drawn together, compressed or squeezed physically." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's being drawn together, compressed or squeezed physically." [WordNet:WordNet]
 subset: value_slim
 synonym: "stenosis" EXACT []
 synonym: "stricture" EXACT []
@@ -12379,21 +12379,21 @@ is_a: PATO:0000406 ! curved
 [Term]
 id: PATO:0001849
 name: abrased
-def: "A texture quality inhering in a bearer by virtue of a portion of the bearer's surface being scraped away." [answers.com:answers.com "http://www.answers.com/"]
+def: "A texture quality inhering in a bearer by virtue of a portion of the bearer's surface being scraped away." [answers.com:answers.com]
 subset: value_slim
 is_a: PATO:0000150 ! texture
 
 [Term]
 id: PATO:0001850
 name: scarred
-def: "A structural quality inhering in a bearer by virtue of the bearer's being fibrous tissue that replaces normal tissue destroyed by injury or disease." [answers.com:answers.com "http://www.answers.com/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's being fibrous tissue that replaces normal tissue destroyed by injury or disease." [answers.com:answers.com]
 subset: value_slim
 is_a: PATO:0000141 ! structure
 
 [Term]
 id: PATO:0001851
 name: swollen
-def: "A structure quality inhering in a bearer by virtue of the bearer's exhibiting transient abnormal enlargement, not due to cell proliferation." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A structure quality inhering in a bearer by virtue of the bearer's exhibiting transient abnormal enlargement, not due to cell proliferation." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 synonym: "swelling" NARROW []
 is_a: PATO:0000141 ! structure
@@ -12406,7 +12406,7 @@ name: dislocated
 alt_id: PATO:0001479
 alt_id: PATO:0002158
 alt_id: PATO:0002159
-def: "A positional quality inhering in a bearer by virtue of the bearer's being out of its usual or proper place, or position." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A positional quality inhering in a bearer by virtue of the bearer's being out of its usual or proper place, or position." [thefreedictionary.com:thefreedictionary.com]
 subset: attribute_slim
 subset: relational_slim
 subset: value_slim
@@ -12426,21 +12426,21 @@ is_a: PATO:0001450 ! edematous
 [Term]
 id: PATO:0001854
 name: vertical
-def: "A spatial pattern inhering in a bearer by virtue of the bearer's being situated at right angles to the horizon." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A spatial pattern inhering in a bearer by virtue of the bearer's being situated at right angles to the horizon." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000060 ! spatial pattern
 
 [Term]
 id: PATO:0001855
 name: horizontal
-def: "A positional quality inhering in a bearer by virtue of the bearer's being in the plane of the horizon." [thefreedictionary.com:thefreedictionary.com "http://www.thefreedictionary.com/"]
+def: "A positional quality inhering in a bearer by virtue of the bearer's being in the plane of the horizon." [thefreedictionary.com:thefreedictionary.com]
 subset: value_slim
 is_a: PATO:0000140 ! position
 
 [Term]
 id: PATO:0001856
 name: introverted
-def: "An oriented quality inhering in a bearer by virtue of the bearer's being turned inward upon itself." [die.net:die.net "http://dict.die.net/"]
+def: "An oriented quality inhering in a bearer by virtue of the bearer's being turned inward upon itself." [die.net:die.net]
 comment: For example, a tubular organ or part.
 subset: value_slim
 is_a: PATO:0000614 ! oriented
@@ -12448,7 +12448,7 @@ is_a: PATO:0000614 ! oriented
 [Term]
 id: PATO:0001857
 name: concave
-def: "A shape quality in a bearer by virtue of the bearer's curving inward." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A shape quality in a bearer by virtue of the bearer's curving inward." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0002005 ! concavity
@@ -12487,7 +12487,7 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001861
 name: fasciculated
-def: "A structural quality inhering in a bearer by virtue of the bearer's forming a bundle of aligned anatomical fibers, as of muscle or nerve." [answers.com:answers.com "http://www.answers.com/"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's forming a bundle of aligned anatomical fibers, as of muscle or nerve." [answers.com:answers.com]
 subset: value_slim
 synonym: "fascicled" EXACT []
 is_a: PATO:0002013 ! fasciculation
@@ -12611,7 +12611,7 @@ is_a: PATO:0001873 ! cylindrical
 [Term]
 id: PATO:0001875
 name: triangular
-def: "A shape quality inhering in a bearer by virtue of the bearer's having three angles." [wordreference:wordreference "http://www.wordreference.com/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's having three angles." [wordreference:wordreference]
 subset: cell_quality
 subset: value_slim
 synonym: "deltoid" EXACT []
@@ -12649,7 +12649,7 @@ is_a: PATO:0000052 ! shape
 [Term]
 id: PATO:0001879
 name: U-shaped
-def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's being shaped in the form of the letter U." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's being shaped in the form of the letter U." [WordNet:WordNet]
 subset: cell_quality
 subset: value_slim
 synonym: "horseshoe" NARROW []
@@ -12697,7 +12697,7 @@ is_a: PATO:0002008 ! concave 3-D shape
 [Term]
 id: PATO:0001884
 name: hydrophobicity
-def: "A physical quality inhering in a bearer by virtue the bearer's disposition to being water-repellent; tending to repel and not absorb water." [WordNet:WordNet "http://wordnet.princeton.edu"]
+def: "A physical quality inhering in a bearer by virtue the bearer's disposition to being water-repellent; tending to repel and not absorb water." [WordNet:WordNet]
 subset: attribute_slim
 subset: disposition_slim
 is_a: PATO:0001018 ! physical quality
@@ -12706,7 +12706,7 @@ disjoint_from: PATO:0001886 ! hydrophilicity
 [Term]
 id: PATO:0001885
 name: hydrophobic
-def: "A quality inhering in a bearer by virtue of the bearer's lacking affinity for water; tending to repel and not absorb water; tending not to dissolve in or mix with or be wetted by water." [WordNet:WordNet "http://wordnet.princeton.edu"]
+def: "A quality inhering in a bearer by virtue of the bearer's lacking affinity for water; tending to repel and not absorb water; tending not to dissolve in or mix with or be wetted by water." [WordNet:WordNet]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0001884 ! hydrophobicity
@@ -12714,7 +12714,7 @@ is_a: PATO:0001884 ! hydrophobicity
 [Term]
 id: PATO:0001886
 name: hydrophilicity
-def: "A physical quality inhering in a bearer by virtue the bearer's disposition to having an affinity for water; it is readily absorbing or dissolving in water." [answers.com:answers.com "http://www.answers.com/"]
+def: "A physical quality inhering in a bearer by virtue the bearer's disposition to having an affinity for water; it is readily absorbing or dissolving in water." [answers.com:answers.com]
 subset: attribute_slim
 subset: disposition_slim
 is_a: PATO:0001018 ! physical quality
@@ -12722,7 +12722,7 @@ is_a: PATO:0001018 ! physical quality
 [Term]
 id: PATO:0001887
 name: hydrophilic
-def: "A quality inhering in a bearer by virtue of the bearer's disposition to having a strong affinity for water; tending to dissolve in, mix with, or be wetted by water." [WordNet:WordNet "http://wordnet.princeton.edu/"]
+def: "A quality inhering in a bearer by virtue of the bearer's disposition to having a strong affinity for water; tending to dissolve in, mix with, or be wetted by water." [WordNet:WordNet]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0001886 ! hydrophilicity
@@ -12730,7 +12730,7 @@ is_a: PATO:0001886 ! hydrophilicity
 [Term]
 id: PATO:0001888
 name: miscibility
-def: "A quality of a liquid inhering in a bearer by virtue of the bearer's ability to mix with (dissolve in) another liquid." [Chemicool:Chemicool "http://www.chemicool.com/"]
+def: "A quality of a liquid inhering in a bearer by virtue of the bearer's ability to mix with (dissolve in) another liquid." [Chemicool:Chemicool]
 subset: attribute_slim
 subset: disposition_slim
 is_a: PATO:0001548 ! quality of a liquid
@@ -12748,7 +12748,7 @@ is_a: PATO:0001976 ! serration
 [Term]
 id: PATO:0001890
 name: tripartite
-def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's being divided into three branches." [InfoVisual:InfoVisual "http://www.infovisual.info/01/011_en.html"]
+def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's being divided into three branches." [InfoVisual:InfoVisual]
 subset: cell_quality
 subset: value_slim
 synonym: "trifurcate" EXACT []
@@ -12796,7 +12796,7 @@ is_a: PATO:0000047 ! biological sex
 [Term]
 id: PATO:0001895
 name: mating type
-def: "A biological sex quality inhering in an individual or a population that undergo sexual reproduction." [wikipedia:wikipedia "http://en.wikipedia.org/wiki/Mating_type"]
+def: "A biological sex quality inhering in an individual or a population that undergo sexual reproduction." [wikipedia:wikipedia]
 subset: attribute_slim
 is_a: PATO:0000047 ! biological sex
 
@@ -12902,7 +12902,7 @@ is_a: PATO:0001404 ! nucleate quality
 [Term]
 id: PATO:0001909
 name: trinucleate
-def: "A nucleate quality inhering in a bearer by virtue of the bearer's having three nuclei." [thefreedictionary:thefreedictionary "www.thefreedictionary.com/"]
+def: "A nucleate quality inhering in a bearer by virtue of the bearer's having three nuclei." [thefreedictionary:thefreedictionary]
 subset: value_slim
 is_a: PATO:0001908 ! multinucleate
 
@@ -13105,7 +13105,7 @@ is_a: PATO:0000411 ! circular
 [Term]
 id: PATO:0001936
 name: obovate
-def: "A spheroid quality inhering in a bearer by virtue of the bearer's being egg-shaped and flat, with the narrow end attached to the base." [wordreference:wordreference "http://www.wordreference.com/"]
+def: "A spheroid quality inhering in a bearer by virtue of the bearer's being egg-shaped and flat, with the narrow end attached to the base." [wordreference:wordreference]
 subset: value_slim
 synonym: "obovoid" RELATED []
 is_a: PATO:0001891 ! ovate
@@ -13164,7 +13164,7 @@ is_a: PATO:0000953 ! orange
 [Term]
 id: PATO:0001945
 name: ochre
-def: "A moderate yellow-orange to orange color." [wordreference:wordreference "http://www.wordreference.com/"]
+def: "A moderate yellow-orange to orange color." [wordreference:wordreference]
 subset: value_slim
 is_a: PATO:0001944 ! yellow orange
 
@@ -13243,7 +13243,7 @@ is_a: PATO:0001199 ! linear
 [Term]
 id: PATO:0001955
 name: cuneate
-def: "A shape quality inhering in a bearer by virtue of the bearer's being narrowly triangular, wider at the apex and tapering toward the base." [wordreference:wordreference "http://www.wordreference.com/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's being narrowly triangular, wider at the apex and tapering toward the base." [wordreference:wordreference]
 subset: value_slim
 synonym: "wedge-shaped" EXACT []
 is_a: PATO:0001875 ! triangular
@@ -13433,7 +13433,7 @@ is_a: PATO:0000052 ! shape
 [Term]
 id: PATO:0001980
 name: digitate
-def: "A shape quality inhering in a bearer by virtue of the bearer's having distinct parts arising from a common point or center." [thefreedictionary:thefreedictionary "http://www.thefreedictionary.com/"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's having distinct parts arising from a common point or center." [thefreedictionary:thefreedictionary]
 subset: value_slim
 is_a: PATO:0000052 ! shape
 
@@ -13511,7 +13511,7 @@ is_a: PATO:0001309 ! duration quality of a process
 [Term]
 id: PATO:0001991
 name: immortal
-def: "A quality inhering in a bearer by virtue of the bearer's disposition to being capable of indefinite growth or division." [answers.com:answers.com "http://www.answers.com/"]
+def: "A quality inhering in a bearer by virtue of the bearer's disposition to being capable of indefinite growth or division." [answers.com:answers.com]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0000169 ! viability
@@ -13698,7 +13698,7 @@ is_a: PATO:0000141 ! structure
 [Term]
 id: PATO:0002012
 name: coating
-def: "A texture quality that exists through a liquid cover on the surface of the bearer." [Wikipedia:Wikipedia "htpp://en.wikipedia.org/wiki/Coating"]
+def: "A texture quality that exists through a liquid cover on the surface of the bearer." [Wikipedia:Wikipedia]
 subset: value_slim
 is_a: PATO:0000150 ! texture
 
@@ -14268,7 +14268,7 @@ creation_date: 2009-09-18T01:30:11Z
 [Term]
 id: PATO:0002073
 name: avidity
-def: "A molecular quality that arises from the synergistic strength of bond affinities between multiple bond interactions." [Wikipedia:Wikipedia "http://en.wikipedia.org/wiki/Avidity"]
+def: "A molecular quality that arises from the synergistic strength of bond affinities between multiple bond interactions." [Wikipedia:Wikipedia]
 subset: attribute_slim
 subset: disposition_slim
 subset: relational_slim
@@ -14373,7 +14373,7 @@ creation_date: 2009-09-21T10:41:58Z
 [Term]
 id: PATO:0002084
 name: post-mortem
-def: "The period after death of the organism." [thefreedictionary:thefreedictionary "http://www.thefreedictionary.com/postmortem"]
+def: "The period after death of the organism." [thefreedictionary:thefreedictionary]
 comment: Terms were requested by the OBI consortium but it was later decided that the term was not reflecting a quality rather what it might be refered to as a "conferred quality".
 subset: value_slim
 is_obsolete: true
@@ -14383,7 +14383,7 @@ creation_date: 2009-09-25T11:29:21Z
 [Term]
 id: PATO:0002085
 name: pre-mortem
-def: "The period before death of the organism." [merriam-webster:merriam-webster "http://www.merriam-webster.com/medical/premortem"]
+def: "The period before death of the organism." [merriam-webster:merriam-webster]
 comment: Terms were requested by the OBI consortium but it was later decided that the term was not reflecting a quality rather what it might be refered to as a "conferred quality".
 subset: value_slim
 is_obsolete: true
@@ -14402,7 +14402,7 @@ creation_date: 2009-09-30T09:53:43Z
 [Term]
 id: PATO:0002088
 name: monocystic
-def: "A structure quality inhering in a bearer by virtue of the bearer's body consisting of one sac." [mondofacto:mondofacto "http://www.mondofacto.com/facts/dictionary?monocystic"]
+def: "A structure quality inhering in a bearer by virtue of the bearer's body consisting of one sac." [mondofacto:mondofacto]
 subset: value_slim
 is_a: PATO:0001673 ! cystic
 created_by: George Gkoutos
@@ -14605,7 +14605,7 @@ creation_date: 2009-10-05T03:04:52Z
 [Term]
 id: PATO:0002109
 name: caseous
-def: "A structural quality inhering in a bearer by virtue of the bearer's resembling cheese." [answers.com:answers.com "http://www.answers.com/topic/caseous"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's resembling cheese." [answers.com:answers.com]
 subset: value_slim
 synonym: "cheese-like" EXACT []
 is_a: PATO:0000141 ! structure
@@ -14634,7 +14634,7 @@ creation_date: 2009-10-05T03:29:42Z
 id: PATO:0002112
 name: perforate
 alt_id: PATO:0000649
-def: "A structural quality inhering in a bearer by virtue of the bearer's having a hole or holes, especially a row or array of small holes." [answers.com:answers.com "http://www.answers.com/topic/perforated"]
+def: "A structural quality inhering in a bearer by virtue of the bearer's having a hole or holes, especially a row or array of small holes." [answers.com:answers.com]
 subset: value_slim
 synonym: "permeable" RELATED []
 synonym: "pierced" RELATED []
@@ -14645,7 +14645,7 @@ creation_date: 2009-10-05T03:37:05Z
 [Term]
 id: PATO:0002113
 name: cribriform
-def: "Perforated like a sieve." [merriam-webster:merriam-webster "www.merriam-webster.com/dictionary/cribriform"]
+def: "Perforated like a sieve." [merriam-webster:merriam-webster]
 subset: value_slim
 is_a: PATO:0002112 ! perforate
 created_by: george
@@ -14813,7 +14813,7 @@ creation_date: 2009-10-06T05:03:13Z
 [Term]
 id: PATO:0002131
 name: abduction
-def: "A displaced angular placement quality inhering in a body part by virtue of the bearer's movement away from the medial plane of the body." [wikipedia:wikipedia "en.wikipedia.org/wiki/Abduction_(kinesiology)"]
+def: "A displaced angular placement quality inhering in a body part by virtue of the bearer's movement away from the medial plane of the body." [wikipedia:wikipedia]
 subset: attribute_slim
 subset: relational_slim
 is_a: PATO:0002168 ! displaced to
@@ -14833,7 +14833,7 @@ creation_date: 2009-10-06T05:04:18Z
 [Term]
 id: PATO:0002133
 name: adduction
-def: "A displaced angular placement quality inhering in a body part by virtue of the bearer's movement closer the medial plane of the body." [wikipedia:wikipedia "en.wikipedia.org/wiki/adduction"]
+def: "A displaced angular placement quality inhering in a body part by virtue of the bearer's movement closer the medial plane of the body." [wikipedia:wikipedia]
 comment: This term is also used in reference to the operation of the muscle in anatomy or musculature.
 subset: attribute_slim
 subset: relational_slim
@@ -14844,7 +14844,7 @@ creation_date: 2009-10-13T06:41:39Z
 [Term]
 id: PATO:0002134
 name: fibrillary
-def: "A composition quaity inhering in a bearer by virtue of the bearer's containing of or pertaining to fibrils, or nanoscale fibers." [wikipedia:wikipedia "en.wiktionary.org/wiki/fibrillar"]
+def: "A composition quaity inhering in a bearer by virtue of the bearer's containing of or pertaining to fibrils, or nanoscale fibers." [wikipedia:wikipedia]
 subset: value_slim
 synonym: "fibrillate" EXACT []
 is_a: PATO:0000025 ! composition
@@ -14862,7 +14862,7 @@ creation_date: 2009-10-26T01:03:17Z
 [Term]
 id: PATO:0002136
 name: radiopacity
-def: "A quality inhering in a bearer by virtue of the bearer's relative inability of electromagnetism to pass through a particular material, particularly X-rays." [Wikipedia:Wikipedia "http://en.wikipedia.org/wiki/Radiopacity"]
+def: "A quality inhering in a bearer by virtue of the bearer's relative inability of electromagnetism to pass through a particular material, particularly X-rays." [Wikipedia:Wikipedia]
 subset: attribute_slim
 subset: disposition_slim
 subset: scalar_slim
@@ -14873,7 +14873,7 @@ creation_date: 2009-10-26T01:14:38Z
 [Term]
 id: PATO:0002137
 name: radiopaque
-def: "A readiopacity quality inhering in a bearer by virtue of the bearer's prevention of the passage of electromagnetic radiation." [Wikipedia:Wikipedia "http://en.wikipedia.org/wiki/Radiopacity"]
+def: "A readiopacity quality inhering in a bearer by virtue of the bearer's prevention of the passage of electromagnetic radiation." [Wikipedia:Wikipedia]
 subset: disposition_slim
 subset: value_slim
 is_a: PATO:0002136 ! radiopacity
@@ -15100,7 +15100,7 @@ creation_date: 2009-11-06T03:34:15Z
 [Term]
 id: PATO:0002161
 name: bicornuate
-def: "Having two horns or horn-shaped branches." [mondofacto:mondofacto "http://www.mondofacto.com/facts/dictionary?bicornuate"]
+def: "Having two horns or horn-shaped branches." [mondofacto:mondofacto]
 subset: value_slim
 is_a: PATO:0002008 ! concave 3-D shape
 created_by: george
@@ -15140,7 +15140,7 @@ creation_date: 2009-12-02T10:06:21Z
 [Term]
 id: PATO:0002165
 name: drooping
-def: "To bent or hang downwards." [thefreedictionary.:thefreedictionary. "http://www.thefreedictionary.com/"]
+def: "To bent or hang downwards." [thefreedictionary.:thefreedictionary.]
 subset: value_slim
 synonym: "sagging" EXACT []
 is_a: PATO:0000052 ! shape
@@ -15280,7 +15280,7 @@ creation_date: 2010-02-25T12:34:48Z
 [Term]
 id: PATO:0002180
 name: straight
-def: "A shape quality inhering in a bearer by virtue of the bearer's being free of curves, bends, or angles." [merriam-webster:merriam-webster "http://www.merriam-webster.com/dictionary/straight"]
+def: "A shape quality inhering in a bearer by virtue of the bearer's being free of curves, bends, or angles." [merriam-webster:merriam-webster]
 subset: value_slim
 is_a: PATO:0000052 ! shape
 created_by: George Gkoutos
@@ -15527,7 +15527,7 @@ creation_date: 2010-03-22T05:49:30Z
 [Term]
 id: PATO:0002205
 name: capacitance
-def: "A quality inhering in a bearer by virtue of the bearer's ability to hold an electrical charge." [Wikipedia:Wikipedia "http://en.wikipedia.org/wiki/Capacitance"]
+def: "A quality inhering in a bearer by virtue of the bearer's ability to hold an electrical charge." [Wikipedia:Wikipedia]
 comment: Capacitance is also a measure of the amount of electrical energy stored (or separated) for a given electric potential.
 subset: attribute_slim
 subset: disposition_slim
@@ -16382,7 +16382,7 @@ creation_date: 2011-03-30T11:50:39Z
 [Term]
 id: PATO:0002289
 name: setose
-def: "A hairy quality inhering in a bearer by virtue of the bearer's being covered with setae." [ISBN:0913424137 "Nichols SW (1989) The Torre-Bueno Glossary of Entomology. The New York E"]
+def: "A hairy quality inhering in a bearer by virtue of the bearer's being covered with setae." [ISBN:0913424137]
 comment: Setose as a label is used extensively to describe insect phenotypes that have hairy-like appearances (i.e., they are covered in setae, not the hairs of mammals). A bristle is a type of seta.
 subset: value_slim
 is_a: PATO:0000454 ! hairy
@@ -16427,7 +16427,7 @@ creation_date: 2011-05-03T03:03:50Z
 [Term]
 id: PATO:0002294
 name: scrobiculate
-def: "A texture that is uniformly covered in short, oblong, or trench-like depressions." [Book:Book "Harris, R. 1979. A glossary of surface sculpturing. Occasional Papers in Entomology 28:1-31."]
+def: "A texture that is uniformly covered in short, oblong, or trench-like depressions." [Book:Book]
 is_a: PATO:0000150 ! texture
 created_by: George Gkoutos
 creation_date: 2011-05-03T03:12:47Z
@@ -16435,7 +16435,7 @@ creation_date: 2011-05-03T03:12:47Z
 [Term]
 id: PATO:0002295
 name: areolate
-def: "A surface feature shape inhering in a surface by virtue of the bearer's being divided by ridge-like structures into a number of small, irregular spaces." [Book:Book "Harris, R. 1979. A glossary of surface sculpturing. Occasional Papers in Entomology 28:1-31."]
+def: "A surface feature shape inhering in a surface by virtue of the bearer's being divided by ridge-like structures into a number of small, irregular spaces." [Book:Book]
 subset: value_slim
 is_a: PATO:0001925 ! surface feature shape
 created_by: George Gkoutos
@@ -16444,7 +16444,7 @@ creation_date: 2011-05-17T07:57:45Z
 [Term]
 id: PATO:0002296
 name: foveate
-def: "A texture quality inhering in a surface by virtue of the bearer's being marked by the presence of small, shallow, regular depressions called fovae." [Book:Book "Harris, R. 1979. A glossary of surface sculpturing. Occasional Papers in Entomology 28:1-31."]
+def: "A texture quality inhering in a surface by virtue of the bearer's being marked by the presence of small, shallow, regular depressions called fovae." [Book:Book]
 subset: value_slim
 synonym: "foveolate" RELATED []
 is_a: PATO:0000150 ! texture
@@ -16608,7 +16608,7 @@ creation_date: 2011-09-22T03:52:11Z
 [Term]
 id: PATO:0002312
 name: segmented
-def: "Consisting of segments or similar parts arranged in a longitudinal series." [OED: "http://www.oed.com"]
+def: "Consisting of segments or similar parts arranged in a longitudinal series." [OED:]
 subset: value_slim
 is_a: PATO:0000141 ! structure
 created_by: George Gkoutos
@@ -16644,7 +16644,7 @@ creation_date: 2011-10-03T03:59:59Z
 [Term]
 id: PATO:0002316
 name: autogenous
-def: "Being separate or discrete, ossifying from an independent centre and, by extension, used in the sense of bones that are not fused to the nearest neighbor." [Dictionary of Ichthyology: "http://www.briancoad.com/Dictionary/Introduction%20and%20A-F.htm"]
+def: "Being separate or discrete, ossifying from an independent centre and, by extension, used in the sense of bones that are not fused to the nearest neighbor." [Dictionary of Ichthyology:]
 subset: value_slim
 is_a: PATO:0000141 ! structure
 created_by: George Gkoutos
