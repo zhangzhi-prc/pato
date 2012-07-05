@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 19:06:2012 14:37
+date: 05:07:2012 15:56
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1.1-beta10
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -5279,7 +5279,7 @@ def: "A male fertility quality inhering in a male by virtue of the bearer's bein
 subset: disposition_slim
 subset: value_slim
 synonym: "male infertile" RELATED []
-is_a: PATO:0000279 ! male fertility
+is_a: PATO:0000956 ! sterile
 disjoint_from: PATO:0000891 ! male fertile
 
 [Term]
@@ -5297,7 +5297,7 @@ def: "A female fertility quality inhering in a female by virtue of the bearer's 
 subset: disposition_slim
 subset: value_slim
 synonym: "female infertile" RELATED []
-is_a: PATO:0000277 ! female fertility
+is_a: PATO:0000956 ! sterile
 disjoint_from: PATO:0000888 ! female fertile
 
 [Term]
@@ -11617,14 +11617,14 @@ id: PATO:0001760
 name: female semi-fertile
 subset: disposition_slim
 subset: value_slim
-is_a: PATO:0000277 ! female fertility
+is_a: PATO:0001767 ! semi-fertile
 
 [Term]
 id: PATO:0001761
 name: male semi-fertile
 subset: disposition_slim
 subset: value_slim
-is_a: PATO:0000279 ! male fertility
+is_a: PATO:0001767 ! semi-fertile
 
 [Term]
 id: PATO:0001762
@@ -17177,6 +17177,119 @@ subset: value_slim
 is_a: PATO:0002369 ! multiparous
 created_by: gkoutos
 creation_date: 2012-05-03T11:30:28Z
+
+[Term]
+id: PATO:0002373
+name: mediolateral polarity
+def: "A positional quality inhering in a bearer by virtue of the bearer's location of features or characteristics along the mediolateral axis." [PATOC:DS]
+subset: value_slim
+is_a: PATO:0001769 ! positional polarity
+created_by: gkoutos
+creation_date: 2012-07-05T13:49:04Z
+
+[Term]
+id: PATO:0002374
+name: fluctuating
+def: "Recurrent and often more or less cyclic alteration." [PATOC:DS]
+subset: value_slim
+is_a: PATO:0001227 ! variant
+created_by: gkoutos
+creation_date: 2012-07-05T13:52:36Z
+
+[Term]
+id: PATO:0002375
+name: trumpet-shaped
+def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer's shape form resembling the shape of a trumpet." [PATOC:DS]
+subset: value_slim
+is_a: PATO:0002008 ! concave 3-D shape
+created_by: gkoutos
+creation_date: 2012-07-05T14:45:17Z
+
+[Term]
+id: PATO:0002376
+name: inflated
+def: "A structure quality inhering in a bearer by virtue of the bearer's being filled with air." [PATOC:CVS]
+subset: value_slim
+is_a: PATO:0002014 ! structure, cavities
+created_by: gkoutos
+creation_date: 2012-07-05T14:55:10Z
+
+[Term]
+id: PATO:0002377
+name: uninflated
+def: "A structure quality inhering in a bearer by virtue of the bearer's being not filed with air." [PATOC:CVS]
+subset: value_slim
+is_a: PATO:0002014 ! structure, cavities
+created_by: gkoutos
+creation_date: 2012-07-05T14:56:07Z
+
+[Term]
+id: PATO:0002378
+name: acinus
+def: "Having a shape that resembles a many-lobed \"berry,\" such as a raspberry." [wikipedia:https\://en.wikipedia.org/wiki/Acinus]
+subset: value_slim
+is_a: PATO:0001979 ! lobed
+created_by: gkoutos
+creation_date: 2012-07-05T14:58:05Z
+
+[Term]
+id: PATO:0002379
+name: ovariohysterectomized female
+def: "A female fertility quality inhering in a female by virtue of the bearer's not being capable of reproducing because of surgical removal of ovaries and uterus." [PATOC:MF]
+subset: value_slim
+is_a: PATO:0000892 ! female sterile
+created_by: gkoutos
+creation_date: 2012-07-05T15:04:28Z
+
+[Term]
+id: PATO:0002380
+name: ovariectomized female
+def: "A female fertility quality inhering in a female by virtue of the bearer's not being capable of reproducing because of surgical removal of ovaries." [PATOC:MF]
+subset: value_slim
+is_a: PATO:0000892 ! female sterile
+created_by: gkoutos
+creation_date: 2012-07-05T15:06:12Z
+
+[Term]
+id: PATO:0002381
+name: waxiness
+def: "A composition quality inhering in an bearer by virtue of the presence of long chain aliphatic lipids on the surface of an organism." [PATOC:lm]
+subset: attribute_slim
+is_a: PATO:0000025 ! composition
+created_by: gkoutos
+creation_date: 2012-07-05T15:17:00Z
+
+[Term]
+id: PATO:0002382
+name: increased waxiness
+def: "A waxiness which is relatively high." [PATOC:GVG]
+subset: value_slim
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
+is_a: PATO:0002381 ! implied link automatically realized ! waxiness
+intersection_of: PATO:0002381 ! waxiness
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: gkoutos
+creation_date: 2012-07-05T15:18:03Z
+
+[Term]
+id: PATO:0002383
+name: decreased waxiness
+def: "A waxiness which is relatively low." []
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
+is_a: PATO:0002381 ! implied link automatically realized ! waxiness
+intersection_of: PATO:0002381 ! waxiness
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: gkoutos
+creation_date: 2012-07-05T15:18:14Z
+
+[Term]
+id: PATO:0002384
+name: waxy
+def: "Presence of long chain aliphatic lipids on the surface of an organism." [PATOC:lm]
+subset: value_slim
+is_a: PATO:0002381 ! waxiness
+created_by: gkoutos
+creation_date: 2012-07-05T15:18:21Z
 
 [Typedef]
 id: correlates_with
