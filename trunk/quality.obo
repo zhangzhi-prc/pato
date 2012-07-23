@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 05:07:2012 17:17
+date: 23:07:2012 15:15
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1.1-beta10
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -17299,6 +17299,15 @@ subset: value_slim
 is_a: PATO:0001410 ! striated
 created_by: gkoutos
 creation_date: 2012-07-05T17:17:07Z
+
+[Term]
+id: PATO:0002386
+name: anvil
+def: "A concave 3-D shape that inheres in the bearer by virtue of the bearer's shape that is wider at one end and narrow in the middle." [PATOC:AD]
+synonym: "anvil shaped" EXACT []
+is_a: PATO:0002008 ! concave 3-D shape
+created_by: gkoutos
+creation_date: 2012-07-23T15:13:41Z
 
 [Typedef]
 id: correlates_with
