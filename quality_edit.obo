@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 16:09:2012 08:33
+date: 12:10:2012 13:38
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -2474,7 +2474,7 @@ name: square
 def: "A shape quality inhering in a bearer by virtue of the bearer's having an equal-sided rectangular form." [answers.com:answers.com]
 subset: cell_quality
 subset: value_slim
-is_a: PATO:0002317 ! parellologram
+is_a: PATO:0002317 ! parallelogram
 
 [Term]
 id: PATO:0000414
@@ -10269,7 +10269,7 @@ def: "A shape quality inhering in a bearer by virtue of the bearer's extending o
 subset: value_slim
 synonym: "protruding " EXACT []
 synonym: "relational protruding quality" EXACT []
-is_a: PATO:0000052 ! shape
+is_a: PATO:0000140 ! position
 
 [Term]
 id: PATO:0001599
@@ -12481,7 +12481,7 @@ def: "A shape quality inhering in a bearer by virtue of it being a quadrilateral
 subset: cell_quality
 subset: value_slim
 xref: Image:http\://upload.wikimedia.org/wikipedia/en/e/ee/Shaperec.svg
-is_a: PATO:0002317 ! parellologram
+is_a: PATO:0002317 ! parallelogram
 
 [Term]
 id: PATO:0001868
@@ -13060,7 +13060,7 @@ id: PATO:0001938
 name: rhomboid
 def: "A spheroid quality inhering in a bearer by virtue of the bearer's being oval and a little angular in the middle." [ISBN:0881923214]
 subset: value_slim
-is_a: PATO:0002317 ! parellologram
+is_a: PATO:0002317 ! parallelogram
 
 [Term]
 id: PATO:0001940
@@ -15830,6 +15830,7 @@ id: PATO:0002240
 name: teardrop-shaped
 def: "A convex 3-D shape quality inhering in a bearer by virtue of the bearer's shape resembling falling drop." [url:wordnetweb.princeton.edu/perl/webwn]
 subset: value_slim
+synonym: "drop shaped" EXACT []
 is_a: PATO:0002007 ! convex 3-D shape
 created_by: george
 creation_date: 2010-07-23T02:31:11Z
@@ -16580,7 +16581,7 @@ creation_date: 2011-10-03T04:17:08Z
 
 [Term]
 id: PATO:0002317
-name: parellologram
+name: parallelogram
 def: "A convex quadrilateral is a parallelogram if and only if any one of the following statements are true:\n1. Each diagonal divides the quadrilateral into two congruent triangles with the same orientation.\n2. The opposite sides are congruent in pairs.\n3. The diagonals bisect each other.\n4. The opposite angles are congruent in pairs.\n5. The sum of the squares of the sides equals the sum of the squares of the diagonals. (This is the parallelogram law)\n6.It possesses rotational symmetry.\n7.One pair of opposite sides are parallel and congruent.\n8.Two pairs of adjacent angles are supplementary." [wikipedia:Parallelogram]
 subset: value_slim
 is_a: PATO:0001988 ! quadrangular
@@ -17236,6 +17237,24 @@ subset: value_slim
 is_a: PATO:0000389 ! acute
 created_by: gkoutos
 creation_date: 2012-09-15T14:57:46Z
+
+[Term]
+id: PATO:0002388
+name: pedunculate
+def: "Being supported by a peduncle or stalk." [PATOC:GV]
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: gkoutos
+creation_date: 2012-10-12T13:10:41Z
+
+[Term]
+id: PATO:0002389
+name: procumbent
+def: "Growing horizontal to the ground without setting roots." [PATO:PG]
+subset: value_slim
+is_a: PATO:0000631 ! prostrate
+created_by: gkoutos
+creation_date: 2012-10-12T13:33:50Z
 
 [Typedef]
 id: correlates_with
