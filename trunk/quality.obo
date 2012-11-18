@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 12:10:2012 13:39
+date: 18:11:2012 09:30
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -3130,7 +3130,7 @@ is_obsolete: true
 [Term]
 id: PATO:0000515
 name: tolerant to
-def: "A resistance quality inhering in a bearer by virtue of its disposition to tolerate or being insensitive to a stimulus." [PATOC:GVG]
+def: "A resistance quality inhering in a bearer by virtue of its disposition to endure or being insensitive to a stimulus." [PATOC:GVG]
 subset: disposition_slim
 subset: relational_slim
 subset: value_slim
@@ -3833,7 +3833,7 @@ is_a: PATO:0000140 ! position
 [Term]
 id: PATO:0000623
 name: exserted
-def: "A protruding quality inhering in a bearer by virtue of the bearer's protruding or projecting from the body." [sdvc:sdvc]
+def: "A quality inhering in a bearer by virtue of the bearer's protruding or projecting from the body." [sdvc:sdvc]
 subset: value_slim
 synonym: "prolapse" RELATED []
 synonym: "prolapsed" RELATED []
@@ -4004,7 +4004,7 @@ is_a: PATO:0000141 ! structure
 [Term]
 id: PATO:0000643
 name: herniated
-def: "A protruding quality inhering in a bearer by virtue of the bearer's bodily structure that has protruded through an abnormal opening in the wall that contains it." [spinalstenosis:spinalstenosis]
+def: "A quality inhering in a bearer by virtue of the bearer's bodily structure that has protruded through an abnormal opening in the wall that contains it." [spinalstenosis:spinalstenosis]
 subset: mpath_slim
 subset: value_slim
 is_a: PATO:0001598 ! protruding
@@ -8411,7 +8411,7 @@ is_a: PATO:0002007 ! convex 3-D shape
 [Term]
 id: PATO:0001358
 name: umbonate
-def: "A protruding quality inhering in a bearer by virtue of the bearer's having a knob or knoblike protuberance." [PATOC:GVG]
+def: "A quality inhering in a bearer by virtue of the bearer's having a knob or knoblike protuberance." [PATOC:GVG]
 subset: cell_quality
 subset: value_slim
 is_a: PATO:0001598 ! protruding
@@ -8452,7 +8452,7 @@ is_a: PATO:0001662 ! fragility
 [Term]
 id: PATO:0001364
 name: rhizoidal
-def: "A protruding quality inhering in a bearer by virtue of the bearer's having root like extensions radiating from its center." [PATOC:GVG]
+def: "A quality inhering in a bearer by virtue of the bearer's having root like extensions radiating from its center." [PATOC:GVG]
 subset: value_slim
 is_a: PATO:0001598 ! protruding
 
@@ -9424,7 +9424,7 @@ is_a: PATO:0000052 ! shape
 [Term]
 id: PATO:0001482
 name: prominent
-def: "A protruding quality inhering in a bearer by virtue of the bearer's standing out or projecting beyond a surface or line." [Dictionary.com:Dictionary.com]
+def: "A quality inhering in a bearer by virtue of the bearer's standing out or projecting beyond a surface or line." [Dictionary.com:Dictionary.com]
 subset: value_slim
 is_a: PATO:0001598 ! protruding
 
@@ -10398,7 +10398,7 @@ is_a: PATO:0000614 ! oriented
 id: PATO:0001598
 name: protruding
 alt_id: PATO:0001644
-def: "A shape quality inhering in a bearer by virtue of the bearer's extending out above or beyond a surface or boundary." [WordNet:WordNet]
+def: "A quality inhering in a bearer by virtue of the bearer's extending out above or beyond a surface or boundary." [WordNet:WordNet]
 subset: value_slim
 synonym: "protruding " EXACT []
 synonym: "relational protruding quality" EXACT []
@@ -10769,7 +10769,7 @@ is_a: PATO:0000052 ! shape
 [Term]
 id: PATO:0001645
 name: protruding into
-def: "A protruding quality inhering into a bearer by virtue of the bearer's extending out above or beyond its surface or boundary into the surface or boundary of another entity." [PATOC:nc]
+def: "A quality inhering into a bearer by virtue of the bearer's extending out above or beyond its surface or boundary into the surface or boundary of another entity." [PATOC:nc]
 subset: relational_slim
 subset: value_slim
 is_a: PATO:0001598 ! protruding
@@ -10777,7 +10777,7 @@ is_a: PATO:0001598 ! protruding
 [Term]
 id: PATO:0001646
 name: protruding out of
-def: "A protruding quality inhering into a bearer by virtue of the bearer's extending out above or beyond its surface or boundary and outwards in relation to the physical space occupied by another entity." [PATOC:nc]
+def: "A quality inhering into a bearer by virtue of the bearer's extending out above or beyond its surface or boundary and outwards in relation to the physical space occupied by another entity." [PATOC:nc]
 subset: relational_slim
 subset: value_slim
 synonym: "exposed" RELATED []
@@ -12883,7 +12883,7 @@ is_a: PATO:0002008 ! concave 3-D shape
 [Term]
 id: PATO:0001880
 name: caudate
-def: "A protruding quality inhering in a bearer by virtue of the bearer's having a tail or tail-like projection." [PATOC:cjm]
+def: "A quality inhering in a bearer by virtue of the bearer's having a tail or tail-like projection." [PATOC:cjm]
 subset: value_slim
 synonym: "caudal" EXACT []
 synonym: "tailed" RELATED []
@@ -14858,7 +14858,7 @@ creation_date: 2009-10-05T02:58:16Z
 [Term]
 id: PATO:0002108
 name: papillary
-def: "An exserted quality inhering in a bearer by virtue of the bearer's resembling small nipple like projection." [PATO:GVG]
+def: "A quality inhering in a bearer by virtue of the bearer's resembling small nipple like projection." [PATO:GVG]
 subset: mpath_slim
 subset: value_slim
 is_a: PATO:0000623 ! exserted
@@ -15406,7 +15406,7 @@ creation_date: 2009-11-26T02:34:06Z
 [Term]
 id: PATO:0002163
 name: herniated into
-def: "A protruding quality inhering in a bearer by virtue of the bearer's bodily structure that has protruded through an abnormal opening in the wall that contains it into the surface or boundary of another entity." [PATOC:GVG]
+def: "A quality inhering in a bearer by virtue of the bearer's bodily structure that has protruded through an abnormal opening in the wall that contains it into the surface or boundary of another entity." [PATOC:GVG]
 subset: mpath_slim
 subset: relational_slim
 subset: value_slim
@@ -17633,6 +17633,59 @@ subset: value_slim
 is_a: PATO:0000631 ! prostrate
 created_by: gkoutos
 creation_date: 2012-10-12T13:33:50Z
+
+[Term]
+id: PATO:0002390
+name: radius
+def: "A length quality which is equal to the length of any straight line segment that passes from the center of a circle to any endpoint on the circular boundary. The radius is half of the diameter." [PATO:DS]
+subset: attribute_slim
+subset: scalar_slim
+is_a: PATO:0000122 ! length
+created_by: gkoutos
+creation_date: 2012-11-15T17:17:15Z
+
+[Term]
+id: PATO:0002391
+name: triradiate
+def: "A shape quality inhering in a bearer by virtue of the bearer's having three rays or radiating branches." [merriam-webster:merriam-webster]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2012-11-15T17:19:32Z
+
+[Term]
+id: PATO:0002392
+name: diagonal to
+def: "A spatial quality inhering in a bearer by virtue of the bearer's being located on a sloping line joining two nonconsecutive points of an entity relative to another entity." [PATOC:GVG]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: gkoutos
+creation_date: 2012-11-15T17:21:51Z
+
+[Term]
+id: PATO:0002393
+name: increased tolerance to
+def: "A tolerance quality inhering in a bearer by virtue of the bearer's increased ability to endure a stimulus." [PATOC:LC]
+subset: value_slim
+is_a: PATO:0000515 ! tolerant to
+is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
+intersection_of: PATO:0000515 ! tolerant to
+intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: gkoutos
+creation_date: 2012-11-15T17:32:07Z
+
+[Term]
+id: PATO:0002394
+name: decreased tolerance to
+def: "A tolerance quality inhering in a bearer by virtue of the bearer's decreased ability to endure a stimulus." [PATOC:LC]
+subset: value_slim
+is_a: PATO:0000515 ! tolerant to
+is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
+intersection_of: PATO:0000515 ! tolerant to
+intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
+created_by: gkoutos
+creation_date: 2012-11-15T17:33:05Z
 
 [Typedef]
 id: correlates_with
