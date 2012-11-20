@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 18:11:2012 09:30
+date: 20:11:2012 17:32
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -17686,6 +17686,24 @@ intersection_of: PATO:0000515 ! tolerant to
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: gkoutos
 creation_date: 2012-11-15T17:33:05Z
+
+[Term]
+id: PATO:0002395
+name: mislocalized abaxially
+def: "A positional quality inhering in a bearer by virtue of the bearer's being positioned away from the axis of an organism." [PATOC:EH]
+subset: value_slim
+is_a: PATO:0000628 ! mislocalised
+created_by: gkoutos
+creation_date: 2012-11-20T16:13:32Z
+
+[Term]
+id: PATO:0002396
+name: mislocalized adaxially
+def: "A positional quality inhering in a bearer by virtue of the bearer's being positioned towards the axis of an organism." [PATOC:EH]
+subset: value_slim
+is_a: PATO:0000628 ! mislocalised
+created_by: gkoutos
+creation_date: 2012-11-20T16:15:12Z
 
 [Typedef]
 id: correlates_with
