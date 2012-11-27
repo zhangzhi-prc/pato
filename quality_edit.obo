@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:11:2012 17:31
+date: 27:11:2012 17:33
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -12,7 +12,7 @@ subsetdef: relational_slim "Relational slim: types of quality that require an ad
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: value_slim "Value slim"
 default-namespace: quality
-namespace-id-rule: * PATO:$sequence(7,0,9999999)$
+namespace-id-rule: * NBO:$sequence(7,0,9999999)$
 ontology: pato
 
 [Term]
@@ -10477,8 +10477,8 @@ alt_id: PATO:0001642
 def: "A functionality quality held by the bearer when the latter exhibits decreased ability to perform a regular function(s)." [PATO:MAH]
 subset: disposition_slim
 subset: value_slim
-synonym: "dysfunction" NARROW []
-synonym: "dysfunctional" EXACT []
+synonym: "dysfunction" BROAD []
+synonym: "dysfunctional" BROAD []
 synonym: "having decreased function" EXACT []
 synonym: "impaired" RELATED []
 synonym: "lacks function of type" EXACT []
