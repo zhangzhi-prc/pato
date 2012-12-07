@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 27:11:2012 17:33
+date: 07:12:2012 18:01
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -10143,15 +10143,6 @@ subset: value_slim
 is_a: PATO:0000586 ! increased size
 
 [Term]
-id: PATO:0001572
-name: bifid
-def: "A shape quality inhering in a bearer by virtue of the bearer's being forked or partially split into two parts." [PATOC:GVG]
-subset: mpath_slim
-subset: value_slim
-synonym: "forked" RELATED []
-is_a: PATO:0001786 ! split
-
-[Term]
 id: PATO:0001573
 name: isometrical
 def: "A symmetry quality inhering in a bearer by virtue of the bearer's having equal dimensions or measurements." [WordNet:WordNet]
@@ -12018,12 +12009,15 @@ intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 [Term]
 id: PATO:0001784
 name: bifurcated
+alt_id: PATO:0001572
 def: "A branched quality inhering in a bearer by virtue of the bearer's being divided into two branches." [thefreedictionary.com:thefreedictionary.com]
 subset: cell_quality
 subset: mpath_slim
 subset: value_slim
+synonym: "bifid" EXACT []
 synonym: "forked" RELATED []
 is_a: PATO:0000402 ! branched
+is_a: PATO:0001786 ! split
 
 [Term]
 id: PATO:0001785
@@ -17705,6 +17699,42 @@ subset: value_slim
 is_a: PATO:0000628 ! mislocalised
 created_by: gkoutos
 creation_date: 2012-11-20T16:15:12Z
+
+[Term]
+id: PATO:0002397
+name: subcircular
+def: "A circular shape quality inhering in a bearer by virtue of the bearer's being nearly, but not perfectly, circular." [PATOC:AD]
+subset: value_slim
+is_a: PATO:0002006 ! 2-D shape
+created_by: gkoutos
+creation_date: 2012-12-07T17:32:18Z
+
+[Term]
+id: PATO:0002398
+name: <new term>
+is_a: PATO:0000467 ! present
+created_by: gkoutos
+creation_date: 2012-12-07T17:34:16Z
+
+[Term]
+id: PATO:0002399
+name: anteromedially rotated
+def: "A rotation quality inhering in a bearer by virtue of being rotated towards the front and the middle of an organism." [PATOC:JI]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001599 ! rotated
+created_by: gkoutos
+creation_date: 2012-12-07T17:41:01Z
+
+[Term]
+id: PATO:0002400
+name: fusiform
+def: "Having a spindle-like shape that is wide in the middle and tapers at both ends." [wikipedia:wikipedia]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001409 ! spindle-shaped
+created_by: gkoutos
+creation_date: 2012-12-07T17:43:25Z
 
 [Typedef]
 id: correlates_with
