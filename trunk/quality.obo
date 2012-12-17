@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:12:2012 14:19
+date: 17:12:2012 15:14
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -12580,6 +12580,7 @@ alt_id: PATO:0001837
 def: "A structural quality inhering in a bearer by virtue of the bearer's being drawn together, compressed or squeezed physically." [WordNet:WordNet]
 subset: value_slim
 synonym: "stenosis" EXACT []
+synonym: "stenotic" EXACT []
 synonym: "stricture" EXACT []
 is_a: PATO:0000141 ! structure
 
@@ -15042,13 +15043,14 @@ name: osseous
 def: "A quality inhering in a bearer by virtue of the bearer's containing bone." [PATOC:GVG]
 subset: mpath_slim
 subset: value_slim
+synonym: "bony" EXACT []
 is_a: PATO:0000025 ! composition
 created_by: george
 creation_date: 2009-10-06T04:42:11Z
 
 [Term]
 id: PATO:0002127
-name: schirrous
+name: scirrhous
 def: "A hardness quality of being rigid and resistant to pressure and fibrous." [PATOC:GVG]
 subset: disposition_slim
 subset: mpath_slim
@@ -17606,10 +17608,11 @@ creation_date: 2012-07-23T15:13:41Z
 
 [Term]
 id: PATO:0002387
-name: per acute
+name: peracute
 def: "Extremely acute and aggressive onset of a pathological process." [PATOC:PNS]
 subset: mpath_slim
 subset: value_slim
+synonym: "per-acute" EXACT []
 is_a: PATO:0000389 ! acute
 created_by: gkoutos
 creation_date: 2012-09-15T14:57:46Z
@@ -17869,7 +17872,7 @@ creation_date: 2012-12-17T10:57:27Z
 [Term]
 id: PATO:0002414
 name: chronic-active
-def: "Aa quality of duration having progressive course of indefinite duration with active, acute-like elements." [PATOC:MPATH]
+def: "A quality of duration having progressive course of indefinite duration with active, acute-like elements." [PATOC:MPATH]
 subset: mpath_slim
 subset: value_slim
 is_a: PATO:0001863 ! chronic
@@ -17905,6 +17908,67 @@ subset: value_slim
 is_a: PATO:0000140 ! position
 created_by: gkoutos
 creation_date: 2012-12-17T14:16:18Z
+
+[Term]
+id: PATO:0002418
+name: acidophilic
+def: "An affinity inhering in a tissue constituent by virtue of the bearer exhibiting a molecular interaction for acidic dyes under specific ph conditions." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0002070 ! affinity
+created_by: gkoutos
+creation_date: 2012-12-17T15:01:19Z
+
+[Term]
+id: PATO:0002419
+name: eosinophilic
+def: "An affinity inhering in a tissue constituent by virtue of the bearer exhibiting a molecular interaction for eosin dye." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0002070 ! affinity
+created_by: gkoutos
+creation_date: 2012-12-17T15:02:09Z
+
+[Term]
+id: PATO:0002420
+name: amphiphilic
+def: "Having both hydrophilic and hydrophobic (or lipophilic) groups." [wikipedia:http\://en.wiktionary.org/wiki/amphiphilic]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0002070 ! affinity
+created_by: gkoutos
+creation_date: 2012-12-17T15:04:39Z
+
+[Term]
+id: PATO:0002421
+name: cicatricial
+def: "Having or resembling the characteristic of a cicatrix - a scar resulting from formation and contraction of fibrous tissue." [mw:http\://www.merriam-webster.com/dictionary/cicatricial]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2012-12-17T15:08:09Z
+
+[Term]
+id: PATO:0002422
+name: acinar
+def: "Pertaining to the individual parts making up an aggregate fruit like a many-lobed \"berry,\" such as a raspberry." [wikipedia:https\://en.wikipedia.org/wiki/Acinus]
+comment: Acinus is Latin for berry.
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: gkoutos
+creation_date: 2012-12-17T15:11:10Z
+
+[Term]
+id: PATO:0002423
+name: papillomatous
+def: "A round or lobulated protruding form resembling a nipple." [PATOC:MPATH]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2012-12-17T15:13:44Z
 
 [Typedef]
 id: correlates_with
