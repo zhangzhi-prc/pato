@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:12:2012 12:08
+date: 17:12:2012 14:19
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -17618,6 +17618,7 @@ creation_date: 2012-09-15T14:57:46Z
 id: PATO:0002388
 name: pedunculate
 def: "Being supported by a peduncle or stalk." [PATOC:GV]
+subset: mpath_slim
 subset: value_slim
 is_a: PATO:0000141 ! structure
 created_by: gkoutos
@@ -17894,6 +17895,16 @@ subset: value_slim
 is_a: PATO:0001687 ! elevation
 created_by: gkoutos
 creation_date: 2012-12-17T12:06:55Z
+
+[Term]
+id: PATO:0002417
+name: transmural
+def: "Extending through or affecting the entire thickness of the wall of an organ or cavity or boundary." [PATOC:MPATH]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: gkoutos
+creation_date: 2012-12-17T14:16:18Z
 
 [Typedef]
 id: correlates_with
