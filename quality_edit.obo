@@ -18107,7 +18107,7 @@ name: is_unit_of
 namespace: pato.ontology
 
 [Typedef]
-id: OBO_REL:part_of
+id: part_of
 name: part_of
 xref: BFO:00000050
 is_transitive: true
