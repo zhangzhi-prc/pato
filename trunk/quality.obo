@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 20:12:2012 11:54
+date: 09:01:2013 22:28
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -10045,7 +10045,7 @@ synonym: "has or lacks parts of type" EXACT []
 synonym: "mereological quality" EXACT []
 synonym: "number" RELATED []
 synonym: "number of" EXACT []
-xref: BFO:0000051
+xref: OBO_REL:has_part
 is_a: PATO:0001241 ! physical object quality
 
 [Term]
@@ -17719,7 +17719,7 @@ creation_date: 2012-12-07T17:32:18Z
 [Term]
 id: PATO:0002398
 name: <new term>
-is_a: PATO:0000467 ! present
+is_obsolete: true
 created_by: gkoutos
 creation_date: 2012-12-07T17:34:16Z
 
@@ -18107,7 +18107,7 @@ name: is_unit_of
 namespace: pato.ontology
 
 [Typedef]
-id: part_of
+id: OBO_REL:part_of
 name: part_of
 xref: BFO:00000050
 is_transitive: true
