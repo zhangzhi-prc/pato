@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:01:2013 09:43
+date: 29:01:2013 11:12
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -18110,6 +18110,89 @@ synonym: "subcutaneous" EXACT []
 is_a: PATO:0000141 ! structure
 created_by: gkoutos
 creation_date: 2013-01-29T09:41:50Z
+
+[Term]
+id: PATO:0002439
+name: w-shaped
+def: "An angular shape quality inhering in a bearer by virtue of the bearer's having two angles in its length giving the bearer the form of the letter W." [PATOC:WC]
+subset: value_slim
+is_a: PATO:0001977 ! angular
+created_by: gkoutos
+creation_date: 2013-01-29T09:45:54Z
+
+[Term]
+id: PATO:0002440
+name: ornamentation
+def: "A surface feature shape quality inhering in a bearer by virtue of the degree of the bearer's  highly topographical with ridges, pits, rugosity or other surface structures." [PATOC:GVG]
+subset: disposition_slim
+is_a: PATO:0001925 ! surface feature shape
+created_by: gkoutos
+creation_date: 2013-01-29T10:57:42Z
+
+[Term]
+id: PATO:0002441
+name: ornamented
+def: "A surface feature shape in which the bearer's surface is highly topographical with ridges, pits, rugosity or other surface structures." [PATOC:AD]
+subset: value_slim
+is_a: PATO:0002440 ! ornamentation
+created_by: gkoutos
+creation_date: 2013-01-29T10:59:42Z
+
+[Term]
+id: PATO:0002442
+name: unornamented
+def: "A surface feature shape in which the bearer's surface is lacking ridges, pits, rugosity or other surface structures." [PATOC:AD]
+subset: value_slim
+is_a: PATO:0002440 ! ornamentation
+created_by: gkoutos
+creation_date: 2013-01-29T11:00:20Z
+
+[Term]
+id: PATO:0002443
+name: level with
+def: "A positional quality inhering in a bearer by virtue of the bearer's being located at the same level as another entity." [PATOC:NI]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: gkoutos
+creation_date: 2013-01-29T11:01:46Z
+
+[Term]
+id: PATO:0002444
+name: mineralized
+def: "A composition quality inhering in a bearer by virtue of the bearer's being composed of or possessing inorganic material." [PATOC:WC]
+subset: value_slim
+is_a: PATO:0000025 ! composition
+created_by: gkoutos
+creation_date: 2013-01-29T11:03:49Z
+
+[Term]
+id: PATO:0002445
+name: torsioned
+def: "A shape quality inhering in a bearer by virtue of the bearer's being twisted or turned." [freedictionary:freedictionary]
+comment: The word "torsion" has multiple different meanings in different context (e.g. the act of twisting or the morphology of the digestive tract in gastropods). This term refers purely to the resulting shape and is not to be used in the engineering and mechanics sense of torsion. \nNote: kinked PATO:0001798(synonym twisted) is similar to 'torsioned', but it is different in that something that is kinked has sharp twists or turns.
+synonym: "twisted" EXACT []
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2013-01-29T11:05:26Z
+
+[Term]
+id: PATO:0002446
+name: anchor-shaped
+def: "A shape quality inhering in a bearer by virtue of the bearer's having a shape resembling an anchor." [PATOC:WC]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2013-01-29T11:07:17Z
+
+[Term]
+id: PATO:0002447
+name: quadripartite
+def: "A shape quality inhering in a bearer by virtue of the bearer being divided into four parts." [PATOC:WC]
+subset: value_slim
+is_a: PATO:0002008 ! concave 3-D shape
+created_by: gkoutos
+creation_date: 2013-01-29T11:08:28Z
 
 [Typedef]
 id: correlates_with
