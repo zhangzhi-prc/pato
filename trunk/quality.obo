@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 09:01:2013 22:27
+date: 29:01:2013 09:43
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -12,7 +12,7 @@ subsetdef: relational_slim "Relational slim: types of quality that require an ad
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: value_slim "Value slim"
 default-namespace: quality
-namespace-id-rule: * PATO:$sequence(7,1,9999999)$ 
+namespace-id-rule: * PATO:$sequence(7,1,9999999)$
 ontology: pato
 
 [Term]
@@ -17988,6 +17988,128 @@ subset: value_slim
 is_a: PATO:0000140 ! position
 created_by: gkoutos
 creation_date: 2012-12-20T11:47:16Z
+
+[Term]
+id: PATO:0002426
+name: scaphoid
+def: "A shape quality inhering in a bearer by virtue of the bearer's being shaped like a boat." [wordnetweb:wordnetweb]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2013-01-29T09:12:03Z
+
+[Term]
+id: PATO:0002427
+name: knobbled
+def: "A surface feature shape having numerous very small circular rounded projections or protuberances." [thefreedictionary.com:thefreedictionary.com]
+subset: value_slim
+is_a: PATO:0001925 ! surface feature shape
+created_by: gkoutos
+creation_date: 2013-01-29T09:15:53Z
+
+[Term]
+id: PATO:0002428
+name: tripodal
+def: "A 3-D shape with three supports or legs." [PATOC:WC]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2013-01-29T09:18:44Z
+
+[Term]
+id: PATO:0002429
+name: x-shaped
+def: "A shape quality inhering in a bearer by virtue of the bearer's being shaped in the form of the letter X." [PATOC:WC]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2013-01-29T09:19:53Z
+
+[Term]
+id: PATO:0002430
+name: strap-shaped
+def: "A shape quality in which the bearer is shaped like a narrow band; ligulate." [thefreedictionary:thefreedictionary]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2013-01-29T09:21:17Z
+
+[Term]
+id: PATO:0002431
+name: waisted
+def: "A shape quality in which the bearer possesses a gradual, yet distinct, thinning from a wide starting point." [PATOC:WC]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2013-01-29T09:24:46Z
+
+[Term]
+id: PATO:0002432
+name: spade-shaped
+def: "A shape that is in the form of a spade." [PATOC:WC]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2013-01-29T09:26:49Z
+
+[Term]
+id: PATO:0002433
+name: sculpted surface
+def: "A surface feature shape marked by large amounts of relief, often with multiple ridges and grooves in close association. Topographically complex." [PATOC:AD]
+subset: value_slim
+is_a: PATO:0001925 ! surface feature shape
+created_by: gkoutos
+creation_date: 2013-01-29T09:27:55Z
+
+[Term]
+id: PATO:0002434
+name: perpendicular to
+def: "A spatial quality inhering in a bearer by virtue of the bearer's being located at a right angle relative to another entity." [PATOC:WC]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: gkoutos
+creation_date: 2013-01-29T09:29:55Z
+
+[Term]
+id: PATO:0002435
+name: abut
+def: "A positional quality inhering in a bearer by virtue of the bearer touching another entity along a border or with a projecting part." [merriam-webster:merriam-webster]
+subset: scalar_slim
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: gkoutos
+creation_date: 2013-01-29T09:31:12Z
+
+[Term]
+id: PATO:0002436
+name: offset
+def: "A positional quality inhering in a bearer by virtue of the bearer's position being displaced from a reference point." [PATOC:AD]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: gkoutos
+creation_date: 2013-01-29T09:32:22Z
+
+[Term]
+id: PATO:0002437
+name: interlocked with
+def: "A structural quality inhering in a bearer by virtue of the bearer's being locked together or interconnected to another entity." [merriam-webster:merriam-webster]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: gkoutos
+creation_date: 2013-01-29T09:37:13Z
+
+[Term]
+id: PATO:0002438
+name: subdermal
+def: "A structural quality inhering in a bearer by virtue of the bearer's being located or placed beneath the skin." [thefreedictionary:thefreedictionary]
+subset: value_slim
+synonym: "subcutaneous" EXACT []
+is_a: PATO:0000141 ! structure
+created_by: gkoutos
+creation_date: 2013-01-29T09:41:50Z
 
 [Typedef]
 id: correlates_with
