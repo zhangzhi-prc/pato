@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 29:01:2013 11:12
+date: 16:02:2013 15:01
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -18193,6 +18193,26 @@ subset: value_slim
 is_a: PATO:0002008 ! concave 3-D shape
 created_by: gkoutos
 creation_date: 2013-01-29T11:08:28Z
+
+[Term]
+id: PATO:0002448
+name: oriented towards
+def: "A quality inhering in a bearer by virtue of the bearer's bing aligned or positioned towards another entity." [PATOC:WD]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-02-16T14:57:06Z
+
+[Term]
+id: PATO:0002449
+name: posteromedial to
+def: "A spatial quality inhering in a bearer by virtue of the bearer's being located toward the rear and mid-line surface of an organism relative to another entity." [PATOC:WC]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0001633 ! posterior to
+created_by: gkoutos
+creation_date: 2013-02-16T15:00:46Z
 
 [Typedef]
 id: correlates_with
