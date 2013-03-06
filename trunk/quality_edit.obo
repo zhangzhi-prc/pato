@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 26:02:2013 14:04
+date: 06:03:2013 00:18
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -12,7 +12,7 @@ subsetdef: relational_slim "Relational slim: types of quality that require an ad
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: value_slim "Value slim"
 default-namespace: quality
-namespace-id-rule: * PATO:$sequence(7,1,9999999)$
+namespace-id-rule: * PATO:$sequence(7,1,9999999)$ 
 ontology: pato
 
 [Term]
@@ -9805,7 +9805,6 @@ name: cellular adhesivity
 def: "A cellular quality that exists by virtue of the disposition of the cell to adhere to other cells and molecules, through the emergent action of the molecular parts of the cell surface." [PATOC:cjm]
 subset: attribute_slim
 subset: disposition_slim
-subset: relational_slim
 is_a: PATO:0001396 ! cellular quality
 is_a: PATO:0001431 ! adhesivity
 
@@ -16973,7 +16972,8 @@ creation_date: 2011-10-12T12:47:48Z
 
 [Term]
 id: PATO:0002320
-name: diamond shaped with corners
+name: diamond shaped
+def: "A superelptic shape inhering in a bearer by virtue of the bearer's shape resembling a diamond." [PATO:WC]
 subset: value_slim
 is_a: PATO:0002318 ! superelliptic
 created_by: George Gkoutos
