@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 06:03:2013 00:18
+date: 11:03:2013 09:32
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.3
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -18222,6 +18222,15 @@ subset: value_slim
 is_a: PATO:0000048 ! hardness
 created_by: gkoutos
 creation_date: 2013-02-26T14:02:38Z
+
+[Term]
+id: PATO:0002451
+name: sexually dimorphic
+def: "A quality inhering in a bearer by virtue of the bearer's exhibiting a phenotypic difference between males and females of the same species." [PATOC:WC]
+subset: value_slim
+is_a: PATO:0001995 ! organismal quality
+created_by: gkoutos
+creation_date: 2013-03-11T09:22:04Z
 
 [Typedef]
 id: correlates_with
