@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 15:09:2013 12:36
+date: 30:09:2013 18:16
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta19
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -7953,7 +7953,7 @@ name: variability
 def: "A quality inhering in a bearer by virtue of the bearer's disposition to varying or changing." [Dictionary:http\://dictionary.reference.com/]
 subset: attribute_slim
 synonym: "variability of a physical quality" RELATED []
-is_a: PATO:0001018 ! physical quality
+is_a: PATO:0001236 ! process quality
 
 [Term]
 id: PATO:0001304
@@ -12830,6 +12830,7 @@ name: triangular
 def: "A shape quality inhering in a bearer by virtue of the bearer's having three angles." [wordreference:wordreference]
 subset: cell_quality
 subset: value_slim
+synonym: "delta shaped" RELATED []
 synonym: "deltoid" EXACT []
 synonym: "triangle" RELATED []
 synonym: "triangle-shaped" RELATED []
@@ -18370,7 +18371,7 @@ creation_date: 2013-09-15T11:45:53Z
 
 [Term]
 id: PATO:0002467
-name:  lathlike
+name: lathlike
 def: "A shape quality inhering in a bearer by virtue of the bearer resembling a thin narrow strip." [PATOC:WD]
 subset: value_slim
 is_a: PATO:0000052 ! shape
@@ -18379,7 +18380,7 @@ creation_date: 2013-09-15T11:47:11Z
 
 [Term]
 id: PATO:0002468
-name:  distensible
+name: distensible
 def: "A structure quality inhering in a bearer by virtue of the bearer's being capable of swelling or stretching." [PATOC:WD]
 subset: value_slim
 is_a: PATO:0000141 ! structure
@@ -18398,7 +18399,7 @@ creation_date: 2013-09-15T11:55:50Z
 
 [Term]
 id: PATO:0002470
-name:  transformed to
+name: transformed to
 def: "A morphological quality between two bearers inhering that one bearer is subject to change the nature, function, or condition of itself to become the other." [PATOC:LC]
 subset: relational_slim
 subset: value_slim
@@ -18497,6 +18498,43 @@ subset: value_slim
 is_a: PATO:0001410 ! striated
 created_by: gkoutos
 creation_date: 2013-09-15T12:29:42Z
+
+[Term]
+id: PATO:0002480
+name: poorly ossified
+def: "A quality inhering in an bearer by virtue of the bearer's possessing only minor levels of ossification." [PATOC:AD]
+subset: value_slim
+is_a: PATO:0001448 ! ossified
+created_by: gkoutos
+creation_date: 2013-09-30T05:47:07Z
+
+[Term]
+id: PATO:0002481
+name: oblique orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a slanting direction or position : neither perpendicular nor parallel." [merriam-wester:http\://www.merriam-webster.com/dictionary/oblique]
+subset: value_slim
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-09-30T05:49:50Z
+
+[Term]
+id: PATO:0002482
+name: slit-like
+def: "Shape quality inhering in a bearer by virtue of the bearer exhibiting a narrow and elongate opening." [PATOC:WD]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2013-09-30T05:51:39Z
+
+[Term]
+id: PATO:0002483
+name: external to
+def: "Positional quality in which an entity is located outside of another entity." [PATOC:WD]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: gkoutos
+creation_date: 2013-09-30T06:06:27Z
 
 [Typedef]
 id: correlates_with
