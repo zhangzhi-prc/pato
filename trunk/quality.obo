@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:09:2013 18:16
+date: 10:10:2013 16:45
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta19
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -7996,7 +7996,7 @@ def: "A variability of temperature which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "low variability of temperature" EXACT []
 is_a: PATO:0001314 ! variant temperature
-is_a: PATO:0002302 ! implied link automatically realized ! decreased process quality
+is_a: PATO:0002302 ! decreased process quality
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0001314 ! variant temperature
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
@@ -8008,7 +8008,7 @@ def: "A variability of temperature which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high variability of temperature" EXACT []
 is_a: PATO:0001314 ! variant temperature
-is_a: PATO:0002304 ! implied link automatically realized ! increased process quality
+is_a: PATO:0002304 ! increased process quality
 is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0001314 ! variant temperature
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
@@ -10251,7 +10251,7 @@ def: "A variability which is relatively low." [PATO:GVG]
 subset: value_slim
 synonym: "low variability" EXACT []
 is_a: PATO:0001227 ! variant
-is_a: PATO:0002302 ! implied link automatically realized ! decreased process quality
+is_a: PATO:0002302 ! decreased process quality
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0001227 ! variant
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
@@ -10263,7 +10263,7 @@ def: "A variability which is relatively high." [PATO:GVG]
 subset: value_slim
 synonym: "high variability" EXACT []
 is_a: PATO:0001227 ! variant
-is_a: PATO:0002304 ! implied link automatically realized ! increased process quality
+is_a: PATO:0002304 ! increased process quality
 is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0001227 ! variant
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
@@ -10293,7 +10293,7 @@ def: "A variability of rate which is relatively high." [PATO:GVG]
 subset: value_slim
 synonym: "high variability of rate" EXACT []
 is_a: PATO:0001586 ! variability of rate
-is_a: PATO:0002304 ! implied link automatically realized ! increased process quality
+is_a: PATO:0002304 ! increased process quality
 is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0001586 ! variability of rate
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
@@ -10305,7 +10305,7 @@ def: "A variability of rate which is relatively low." [PATO:GVG]
 subset: value_slim
 synonym: "low variability of rate" EXACT []
 is_a: PATO:0001586 ! variability of rate
-is_a: PATO:0002302 ! implied link automatically realized ! decreased process quality
+is_a: PATO:0002302 ! decreased process quality
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0001586 ! variability of rate
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
@@ -10509,7 +10509,7 @@ def: "A variability of color which is relatively high." [PATO:GVG]
 subset: value_slim
 synonym: "high variability of color" EXACT []
 is_a: PATO:0001615 ! variant color
-is_a: PATO:0002304 ! implied link automatically realized ! increased process quality
+is_a: PATO:0002304 ! increased process quality
 is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0001615 ! variant color
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
@@ -10521,7 +10521,7 @@ def: "A variability of color which is relatively low." [PATO:GVG]
 subset: value_slim
 synonym: "low variability of color" EXACT []
 is_a: PATO:0001615 ! variant color
-is_a: PATO:0002302 ! implied link automatically realized ! decreased process quality
+is_a: PATO:0002302 ! decreased process quality
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0001615 ! variant color
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
@@ -13495,7 +13495,7 @@ def: "A variability of size which is relatively low." [PATOC:GVG]
 subset: value_slim
 synonym: "low variability of size" EXACT []
 is_a: PATO:0001956 ! variability of size
-is_a: PATO:0002302 ! implied link automatically realized ! decreased process quality
+is_a: PATO:0002302 ! decreased process quality
 is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0001956 ! variability of size
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
@@ -13507,7 +13507,7 @@ def: "A variability of size which is relatively high." [PATOC:GVG]
 subset: value_slim
 synonym: "high variability of size" EXACT []
 is_a: PATO:0001956 ! variability of size
-is_a: PATO:0002304 ! implied link automatically realized ! increased process quality
+is_a: PATO:0002304 ! increased process quality
 is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0001956 ! variability of size
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
@@ -18423,7 +18423,7 @@ name: increased velocity
 def: "A physical quality inhering in a bearer by virtue of the bearer's increased rate of change of the position." [PATOC:NV]
 subset: value_slim
 is_a: PATO:0002242 ! velocity
-is_a: PATO:0002305 ! implied link automatically realized ! increased object quality
+is_a: PATO:0002305 ! increased object quality
 intersection_of: PATO:0002242 ! velocity
 intersection_of: increased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: gkoutos
@@ -18435,7 +18435,7 @@ name: decreased velocity
 def: "A physical quality inhering in a bearer by virtue of the bearer's decreased rate of change of the position." [PATOC:NV]
 subset: value_slim
 is_a: PATO:0002242 ! velocity
-is_a: PATO:0002303 ! implied link automatically realized ! decreased object quality
+is_a: PATO:0002303 ! decreased object quality
 intersection_of: PATO:0002242 ! velocity
 intersection_of: decreased_in_magnitude_relative_to PATO:0000461 ! normal
 created_by: gkoutos
@@ -18547,6 +18547,62 @@ subset: value_slim
 is_a: PATO:0000140 ! position
 created_by: gkoutos
 creation_date: 2013-09-30T06:06:27Z
+
+[Term]
+id: PATO:0002484
+name:  chevron shaped
+def: "An angular shape quality inhering in a bearer by virtue of the bearer's having a single angle in its length giving the bearer the form of an inverted letter V." [PATOC:WD]
+subset: value_slim
+is_a: PATO:0001977 ! angular
+created_by: gkoutos
+creation_date: 2013-10-10T03:55:44Z
+
+[Term]
+id: PATO:0002485
+name:  parallel-sided
+def: "A shape quality inhering in a bearer by virtue of the bearer's possessing two sides that are at the same continuous distance relative to each other." [PATOC:WD]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: gkoutos
+creation_date: 2013-10-10T03:58:37Z
+
+[Term]
+id: PATO:0002486
+name: multi-organismal process
+def: "A quality inhering in a process by virtue of that process having two or more organisms as participants." [PATOC:DS]
+subset: attribute_slim
+is_a: PATO:0001236 ! process quality
+created_by: gkoutos
+creation_date: 2013-10-10T04:08:44Z
+
+[Term]
+id: PATO:0002487
+name: single organismal
+def: "A quality inhering in a process by virtue of that process having exactly one organism as a participant." [PATOC:DS]
+subset: attribute_slim
+is_a: PATO:0001236 ! process quality
+created_by: gkoutos
+creation_date: 2013-10-10T04:09:51Z
+
+[Term]
+id: PATO:0002488
+name: overlapping
+def: "Overlap with quality inhering in a bearer by virtue of the bearer's being positioned over another entity so as to cover some portion of it." [PATOC:WD]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0001590 ! overlap with
+created_by: gkoutos
+creation_date: 2013-10-10T04:12:22Z
+
+[Term]
+id: PATO:0002489
+name: overlapped by
+def: "Overlap with quality inhering in a bearer by virtue of the bearer's being positioned under another entity so as to be covered by some portion of it." [PATOC:WD]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0001590 ! overlap with
+created_by: gkoutos
+creation_date: 2013-10-10T04:13:04Z
 
 [Typedef]
 id: correlates_with
