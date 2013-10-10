@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:10:2013 16:45
+date: 10:10:2013 17:25
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta19
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -18550,7 +18550,7 @@ creation_date: 2013-09-30T06:06:27Z
 
 [Term]
 id: PATO:0002484
-name:  chevron shaped
+name: chevron shaped
 def: "An angular shape quality inhering in a bearer by virtue of the bearer's having a single angle in its length giving the bearer the form of an inverted letter V." [PATOC:WD]
 subset: value_slim
 is_a: PATO:0001977 ! angular
@@ -18559,7 +18559,7 @@ creation_date: 2013-10-10T03:55:44Z
 
 [Term]
 id: PATO:0002485
-name:  parallel-sided
+name: parallel-sided
 def: "A shape quality inhering in a bearer by virtue of the bearer's possessing two sides that are at the same continuous distance relative to each other." [PATOC:WD]
 subset: value_slim
 is_a: PATO:0000052 ! shape
@@ -18603,6 +18603,156 @@ subset: value_slim
 is_a: PATO:0001590 ! overlap with
 created_by: gkoutos
 creation_date: 2013-10-10T04:13:04Z
+
+[Term]
+id: PATO:0002490
+name: anterior orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed anteriorly." [PATOC:WD]
+subset: value_slim
+synonym: "anteriorly directly" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:11:26Z
+
+[Term]
+id: PATO:0002491
+name: anterodorsal orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed anterodorsally." [PATOC:WD]
+subset: value_slim
+synonym: "anterodorsally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:12:15Z
+
+[Term]
+id: PATO:0002492
+name: anterolateral orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed anterolaterally." [PATOC:WD]
+subset: value_slim
+synonym: "anterolaterally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:13:17Z
+
+[Term]
+id: PATO:0002493
+name: anteroventral orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed anteroventrally." [PATOC:WD]
+subset: value_slim
+synonym: "anteroventrally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:13:55Z
+
+[Term]
+id: PATO:0002494
+name: distal orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed distally." [PATOC:WD]
+subset: value_slim
+synonym: "distally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:14:37Z
+
+[Term]
+id: PATO:0002495
+name: dorsal orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed dorsally." [PATOC:WD]
+subset: value_slim
+synonym: "dorsally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:15:24Z
+
+[Term]
+id: PATO:0002496
+name: dorsolateral orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed dorsolaterally." [PATOC:WD]
+subset: value_slim
+synonym: "dorsolaterally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:16:04Z
+
+[Term]
+id: PATO:0002497
+name: lateral orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed laterally." [PATOC:WD]
+subset: value_slim
+synonym: "laterally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:16:45Z
+
+[Term]
+id: PATO:0002498
+name: medial orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed medially." [PATOC:WD]
+subset: value_slim
+synonym: "medially directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:17:30Z
+
+[Term]
+id: PATO:0002499
+name: posterior orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed posteriorly." [PATOC:WD]
+subset: value_slim
+synonym: "<new synonym>" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:18:21Z
+
+[Term]
+id: PATO:0002500
+name: ventrolaterally orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed ventrolaterally." [PATOC:WD]
+subset: value_slim
+synonym: "ventrolaterally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:19:16Z
+
+[Term]
+id: PATO:0002501
+name: ventral orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed ventrally." [PATOC:WD]
+subset: value_slim
+synonym: "ventrally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:19:22Z
+
+[Term]
+id: PATO:0002502
+name: transverse orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed transversely." [PATOC:WD]
+subset: value_slim
+synonym: "transversely oriented" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:19:25Z
+
+[Term]
+id: PATO:0002503
+name: posterolateral orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed posterolaterally." [PATOC:WD]
+subset: value_slim
+synonym: "posterolaterally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:19:28Z
+
+[Term]
+id: PATO:0002504
+name: posterodorsal orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed posterodorsally." [PATOC:WD]
+subset: value_slim
+synonym: "posterodorsally directed" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: gkoutos
+creation_date: 2013-10-10T05:19:36Z
 
 [Typedef]
 id: correlates_with
