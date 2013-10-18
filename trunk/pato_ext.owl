@@ -5,12 +5,8 @@ Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
-Ontology(<http://purl.obolibrary.org/obo/pato_ext.owl>
-<http://purl.obolibrary.org/obo/2013-10-18/pato_ext.owl>
-Import(<http://purl.obolibrary.org/obo/ro/core.owl>)
-Import(<http://purl.obolibrary.org/obo/pato.owl>)
-Import(<http://purl.obolibrary.org/obo/cl/cl-simple.owl>)
-Import(<http://purl.obolibrary.org/obo/go/go-simple.owl>)
+Ontology(<http://purl.obolibrary.org/obo/pato/pato_ext.owl>
+<http://purl.obolibrary.org/obo/pato/alpha/pato_ext.owl>
 Annotation(rdfs:comment "Axioms extending PATO ")
 
 SubClassOf(ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000053> <http://purl.obolibrary.org/obo/PATO_0001908>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0005634>))
