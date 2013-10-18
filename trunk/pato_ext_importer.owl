@@ -1,0 +1,16 @@
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/pato/pato_ext_importer.owl>
+<http://purl.obolibrary.org/obo/pato/alpha/pato_ext_importer.owl>
+Import(<http://purl.obolibrary.org/obo/cl/cl-basic.owl>)
+Import(<http://purl.obolibrary.org/obo/pato.owl>)
+Import(<http://purl.obolibrary.org/obo/ro/core.owl>)
+Import(<http://purl.obolibrary.org/obo/pato/pato_ext.owl>)
+Import(<http://purl.obolibrary.org/obo/go/go-simple.owl>)
+
+)
