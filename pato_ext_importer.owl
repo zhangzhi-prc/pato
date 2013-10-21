@@ -7,10 +7,16 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 Ontology(<http://purl.obolibrary.org/obo/pato/pato_ext_importer.owl>
 <http://purl.obolibrary.org/obo/pato/alpha/pato_ext_importer.owl>
+Import(<http://purl.obolibrary.org/obo/caro.owl>)
 Import(<http://purl.obolibrary.org/obo/cl/cl-basic.owl>)
+Import(<http://purl.obolibrary.org/obo/pco/pco-simple.owl>)
+Import(<http://purl.obolibrary.org/obo/pato/pato_ext.owl>)
 Import(<http://purl.obolibrary.org/obo/pato.owl>)
 Import(<http://purl.obolibrary.org/obo/ro/core.owl>)
-Import(<http://purl.obolibrary.org/obo/pato/pato_ext.owl>)
 Import(<http://purl.obolibrary.org/obo/go/go-simple.owl>)
 
+DisjointClasses(<http://purl.obolibrary.org/obo/PATO_0001236> <http://purl.obolibrary.org/obo/PATO_0001241>)
+DisjointClasses(<http://purl.obolibrary.org/obo/PATO_0001241> <http://purl.obolibrary.org/obo/PATO_0001236>)
+DisjointClasses(<http://purl.obolibrary.org/obo/PATO_0001995> <http://purl.obolibrary.org/obo/PATO_0002003>)
+DisjointClasses(<http://purl.obolibrary.org/obo/PATO_0002003> <http://purl.obolibrary.org/obo/PATO_0001995>)
 )
