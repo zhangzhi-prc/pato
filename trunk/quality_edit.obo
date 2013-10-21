@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 10:10:2013 17:25
+date: 21:10:2013 17:55
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta19
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -8812,7 +8812,7 @@ def: "A nucleate quality inhering in a bearer by virtue of the bearer's having o
 subset: cell_quality
 subset: mpath_slim
 subset: value_slim
-is_a: PATO:0001404 ! nucleate quality
+is_a: PATO:0002505 ! nucleated
 
 [Term]
 id: PATO:0001408
@@ -13124,7 +13124,7 @@ name: multinucleate
 def: "A nucleate quality inhering in a bearer by virtue of the bearer's having more than one nucleus." [PATOC:GVG]
 subset: mpath_slim
 subset: value_slim
-is_a: PATO:0001404 ! nucleate quality
+is_a: PATO:0002505 ! nucleated
 
 [Term]
 id: PATO:0001909
@@ -18550,9 +18550,10 @@ creation_date: 2013-09-30T06:06:27Z
 
 [Term]
 id: PATO:0002484
-name: chevron shaped
+name: inverted-V shaped
 def: "An angular shape quality inhering in a bearer by virtue of the bearer's having a single angle in its length giving the bearer the form of an inverted letter V." [PATOC:WD]
 subset: value_slim
+synonym: "chevron shaped" BROAD []
 is_a: PATO:0001977 ! angular
 created_by: gkoutos
 creation_date: 2013-10-10T03:55:44Z
@@ -18753,6 +18754,16 @@ synonym: "posterodorsally directed" EXACT []
 is_a: PATO:0000133 ! orientation
 created_by: gkoutos
 creation_date: 2013-10-10T05:19:36Z
+
+[Term]
+id: PATO:0002505
+name: nucleated
+def: "A nucleate quality inhering in a bearer by virtue of the bearer's having one or more nucleus." [PATOC:GVG]
+subset: mpath_slim
+subset: value_slim
+is_a: PATO:0001404 ! nucleate quality
+created_by: gkoutos
+creation_date: 2013-10-21T05:44:34Z
 
 [Typedef]
 id: correlates_with
