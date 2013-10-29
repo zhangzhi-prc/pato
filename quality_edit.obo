@@ -12,7 +12,6 @@ subsetdef: relational_slim "Relational slim: types of quality that require an ad
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: value_slim "Value slim"
 default-namespace: quality
-namespace-id-rule: * PATO:$sequence(7,1,9999999)$
 ontology: pato
 
 [Term]
@@ -18566,7 +18565,7 @@ creation_date: 2013-10-10T03:58:37Z
 
 [Term]
 id: PATO:0002486
-name: multi-organismal process
+name: multi-organismal process quality
 def: "A quality inhering in a process by virtue of that process having two or more organisms as participants." [PATOC:DS]
 subset: attribute_slim
 is_a: PATO:0001236 ! process quality
@@ -18575,7 +18574,7 @@ creation_date: 2013-10-10T04:08:44Z
 
 [Term]
 id: PATO:0002487
-name: single organismal
+name: single organismal process quality
 def: "A quality inhering in a process by virtue of that process having exactly one organism as a participant." [PATOC:DS]
 subset: attribute_slim
 is_a: PATO:0001236 ! process quality
