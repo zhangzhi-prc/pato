@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 25:10:2013 16:45
-saved-by: gkoutos
+date: 11:02:2014 14:59
+saved-by: segerdel
 auto-generated-by: OBO-Edit 2.1-beta19
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
@@ -18769,6 +18769,185 @@ subset: value_slim
 is_a: PATO:0001925 ! surface feature shape
 created_by: gkoutos
 creation_date: 2013-10-25T04:42:40Z
+
+[Term]
+id: PATO:0002507
+name: keratinous
+def: "A composition quality inhering in a bearer by virtue of the bearer's consisting of keratin." [PATOC:EJS]
+subset: value_slim
+is_a: PATO:0000025 ! composition
+created_by: segerdel
+creation_date: 2014-02-04T12:38:14Z
+
+[Term]
+id: PATO:0002508
+name: concealed
+def: "A positional quality inhering in a bearer by virtue of the bearer being hidden from view." [PATOC:EJS]
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: segerdel
+creation_date: 2014-02-04T01:30:21Z
+
+[Term]
+id: PATO:0002509
+name: hexagonal
+def: "A 2-D shape quality inhering in a bearer by virtue of the bearer's having six angles and six sides." [Merriam-Webster:hexagonal]
+subset: value_slim
+is_a: PATO:0002006 ! 2-D shape
+created_by: segerdel
+creation_date: 2014-02-04T01:50:05Z
+
+[Term]
+id: PATO:0002510
+name: multipartite
+def: "A concave 3-D shape quality inhering in a bearer by virtue of the bearer being divided into multiple parts." [PATOC:EJS]
+subset: value_slim
+is_a: PATO:0002008 ! concave 3-D shape
+created_by: segerdel
+creation_date: 2014-02-06T01:15:28Z
+
+[Term]
+id: PATO:0002511
+name: cane-like
+def: "A shape quality inhering in a bearer by virtue of the bearer's similarity to the appearance of a cane." [PATOC:EJS]
+subset: value_slim
+synonym: "cane-shaped" RELATED []
+is_a: PATO:0000052 ! shape
+created_by: segerdel
+creation_date: 2014-02-06T02:04:35Z
+
+[Term]
+id: PATO:0002512
+name: confluent with
+def: "A positional quality inhering in a bearer by virtue of the bearer flowing or coming together with another entity." [Merriam-Webster:confluent]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: segerdel
+creation_date: 2014-02-06T02:28:39Z
+
+[Term]
+id: PATO:0002513
+name: oblique to
+def: "A positional quality inhering in a bearer by virtue of the bearer's having a slanting direction (neither perpendicular nor parallel) relative to another entity." [PATOC:EJS]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: segerdel
+creation_date: 2014-02-06T02:54:16Z
+
+[Term]
+id: PATO:0002514
+name: anteromedial orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed anteromedially." [PATOC:EJS]
+subset: value_slim
+synonym: "medioanterior orientation" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: segerdel
+creation_date: 2014-02-07T12:59:10Z
+
+[Term]
+id: PATO:0002515
+name: increased elevation relative to
+def: "An elevation quality inhering in a bearer by virtue the bearer's being in a high position relative to another entity." [PATOC:EJS]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0001687 ! elevation
+created_by: segerdel
+creation_date: 2014-02-07T01:12:48Z
+
+[Term]
+id: PATO:0002516
+name: concealed by
+def: "A positional quality inhering in a bearer by virtue of the bearer being hidden from view or covered by another entity." [PATOC:EJS]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: segerdel
+creation_date: 2014-02-10T01:13:53Z
+
+[Term]
+id: PATO:0002517
+name: saddle-shaped
+def: "A shape quality inhering in a bearer by virtue of the bearer's similarity to the appearance of a saddle." [PATOC:EJS]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: segerdel
+creation_date: 2014-02-10T01:23:13Z
+
+[Term]
+id: PATO:0002518
+name: flush
+def: "A positional quality inhering in a bearer by virtue of the bearer being level or even with another surface." [WordReference:flush]
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: segerdel
+creation_date: 2014-02-10T01:26:50Z
+
+[Term]
+id: PATO:0002519
+name: cancellous
+def: "A structural quality inhering in a bearer by virtue of the bearer's having an open, latticed, or porous structure; used especially of bone." [TheFreeDictionary:cancellous]
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: segerdel
+creation_date: 2014-02-10T01:33:14Z
+
+[Term]
+id: PATO:0002520
+name: scute-like
+def: "A shape quality inhering in a bearer by virtue of the bearer being shaped like a scute or an osteoderm." [PATOC:EJS]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: segerdel
+creation_date: 2014-02-10T01:37:47Z
+
+[Term]
+id: PATO:0002521
+name: funnel-shaped
+def: "A shape quality inhering in a bearer by virtue of the bearer's similarity to the appearance of a funnel." [PATOC:EJS]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: segerdel
+creation_date: 2014-02-10T01:40:05Z
+
+[Term]
+id: PATO:0002522
+name: keel-shaped
+def: "A shape quality inhering in a bearer by virtue of the bearer having an elongate structure, similar to a ridge, that extends longitudinally along an anatomical entity." [PATOC:EJS]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: segerdel
+creation_date: 2014-02-10T01:46:38Z
+
+[Term]
+id: PATO:0002523
+name: vertical to
+def: "A positional quality inhering in a bearer by virtue of the bearer's being located at a right angle relative to another entity and to the horizon." [PATOC:EJS]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000140 ! position
+created_by: segerdel
+creation_date: 2014-02-10T02:25:42Z
+
+[Term]
+id: PATO:0002524
+name: mesiolateral orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed mesiolaterally." [PATOC:EJS]
+subset: value_slim
+is_a: PATO:0000133 ! orientation
+created_by: segerdel
+creation_date: 2014-02-10T02:37:42Z
+
+[Term]
+id: PATO:0002525
+name: separating
+def: "A structural quality inhering in a bearer by virtue of the bearer being in a position that produces a separation in, or acting to separate, another entity." [PATOC:EJS]
+subset: relational_slim
+subset: value_slim
+is_a: PATO:0000141 ! structure
+created_by: segerdel
+creation_date: 2014-02-10T02:48:15Z
 
 [Typedef]
 id: correlates_with
