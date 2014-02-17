@@ -1,6 +1,6 @@
 format-version: 1.2
-date: 11:02:2014 14:59
-saved-by: segerdel
+date: 17:02:2014 11:09
+saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta19
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
@@ -12,6 +12,7 @@ subsetdef: relational_slim "Relational slim: types of quality that require an ad
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: value_slim "Value slim"
 default-namespace: quality
+namespace-id-rule: * UO:$sequence(7,0,9999999)$
 ontology: pato
 
 [Term]
