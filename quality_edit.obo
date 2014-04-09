@@ -1,6 +1,6 @@
 format-version: 1.2
 date: 08:04:2014 13:17
-saved-by: segerdel
+saved-by: g.gkoutosl
 auto-generated-by: OBO-Edit 2.1-beta19
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
