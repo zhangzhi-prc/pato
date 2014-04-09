@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 17:02:2014 11:09
+date: 09:04:2014 12:42
 saved-by: gkoutos
 auto-generated-by: OBO-Edit 2.1-beta19
 subsetdef: abnormal_slim "Abnormal/normal slim"
@@ -18949,6 +18949,24 @@ subset: value_slim
 is_a: PATO:0000141 ! structure
 created_by: segerdel
 creation_date: 2014-02-10T02:48:15Z
+
+[Term]
+id: PATO:0002526
+name: anterodistal orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed anterodistally." [PATOC:EJS]
+synonym: "antero-distal orientation" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: segerdel
+creation_date: 2014-03-11T11:28:39Z
+
+[Term]
+id: PATO:0002527
+name: posterodistal orientation
+def: "An orientation quality inhering in a bearer by virtue of the bearer having a position that is directed posterodistally." [PATOC:EJS]
+synonym: "postero-distal orientation" EXACT []
+is_a: PATO:0000133 ! orientation
+created_by: segerdel
+creation_date: 2014-03-11T11:29:22Z
 
 [Typedef]
 id: correlates_with
