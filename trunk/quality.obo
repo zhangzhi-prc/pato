@@ -1,7 +1,7 @@
 format-version: 1.2
-date: 26:05:2014 13:22
-saved-by: haendel
-auto-generated-by: OBO-Edit 2.3-beta5
+date: 15:08:2014 14:45
+saved-by: gkoutos
+auto-generated-by: OBO-Edit 2.1-beta19
 subsetdef: abnormal_slim "Abnormal/normal slim"
 subsetdef: absent_slim "Absent/present slim"
 subsetdef: attribute_slim "Attribute slim"
@@ -13,6 +13,7 @@ subsetdef: relational_slim "Relational slim: types of quality that require an ad
 subsetdef: scalar_slim "Scalar slim"
 subsetdef: value_slim "Value slim"
 default-namespace: quality
+namespace-id-rule: * UO:$sequence(7,0,9999999)$
 ontology: pato
 
 [Term]
@@ -2448,6 +2449,7 @@ subset: cell_quality
 subset: value_slim
 synonym: "bowing" NARROW []
 synonym: "curled" RELATED []
+synonym: "rounded" RELATED []
 is_a: PATO:0001591 ! curvature
 
 [Term]
@@ -4043,7 +4045,6 @@ subset: value_slim
 synonym: "hypoplasia" EXACT []
 synonym: "underdeveloped" RELATED []
 is_a: PATO:0002290 ! aplastic/hypoplastic
-is_a: PATO:0000587 ! decreased size
 
 [Term]
 id: PATO:0000646
@@ -12772,6 +12773,7 @@ name: rectangular
 def: "A shape quality inhering in a bearer by virtue of it being a quadrilateral polygon in which all four angles are right angles." [Wikipedia:http\://en.wikipedia.org/wiki/Rectangular]
 subset: cell_quality
 subset: value_slim
+synonym: "bar shaped" EXACT []
 xref: Image:http\://upload.wikimedia.org/wikipedia/en/e/ee/Shaperec.svg
 is_a: PATO:0002317 ! parallelogram
 
@@ -12797,6 +12799,7 @@ def: "A shape quality inhering in a circular disk by virtue of the bearer's havi
 subset: cell_quality
 subset: value_slim
 synonym: "bow-shaped" RELATED []
+synonym: "C-shaped" RELATED []
 synonym: "crescentic" EXACT []
 synonym: "lunate" RELATED []
 xref: Image:http\://upload.wikimedia.org/wikipedia/commons/7/74/Crescent.svg
@@ -14131,6 +14134,7 @@ id: PATO:0002034
 name: undivided
 def: "A shape quality inhering in a bearer by virtue of the bearer's being unseparated into parts or divisions." [PATOC:GVG]
 subset: value_slim
+synonym: "unipartite" RELATED []
 synonym: "unseparated" RELATED []
 is_a: PATO:0000052 ! shape
 disjoint_from: PATO:0001786 ! split
@@ -16705,7 +16709,7 @@ creation_date: 2011-04-04T08:44:10Z
 [Term]
 id: PATO:0002290
 name: aplastic/hypoplastic
-is_a: PATO:0001241 ! physical object quality
+is_a: PATO:0000587 ! decreased size
 created_by: George Gkoutos
 creation_date: 2011-04-18T05:11:33Z
 
@@ -18552,6 +18556,7 @@ id: PATO:0002482
 name: slit-like
 def: "Shape quality inhering in a bearer by virtue of the bearer exhibiting a narrow and elongate opening." [PATOC:WD]
 subset: value_slim
+synonym: "slot-shaped" EXACT []
 is_a: PATO:0000052 ! shape
 created_by: gkoutos
 creation_date: 2013-09-30T05:51:39Z
@@ -19005,7 +19010,7 @@ def: "An intensity which is characterized by being very severe." [PATO:MAH]
 subset: hpo_slim
 is_a: PATO:0000049 ! intensity
 created_by: haendel
-creation_date: 2014-05-26T06:44:11Z
+creation_date: 2014-05-26T06:42:21Z
 
 [Term]
 id: PATO:0002530
@@ -19014,7 +19019,7 @@ def: "An occurrence quality inhering in a bearer by virtue of the bearer's havin
 subset: hpo_slim
 is_a: PATO:0000057 ! occurrence
 created_by: haendel
-creation_date: 2014-05-26T06:50:16Z
+creation_date: 2014-05-26T06:42:21Z
 
 [Term]
 id: PATO:0002531
@@ -19023,7 +19028,7 @@ def: "An occurrence of a process during which time there is an inability to chan
 subset: hpo_slim
 is_a: PATO:0000057 ! occurrence
 created_by: haendel
-creation_date: 2014-05-26T13:09:29Z
+creation_date: 2014-05-26T06:42:21Z
 
 [Term]
 id: PATO:0002532
@@ -19032,7 +19037,82 @@ def: "A quality in which the effect or outcome is not primary or the focus of th
 subset: hpo_slim
 is_a: PATO:0000068 ! qualitative
 created_by: haendel
-creation_date: 2014-05-26T13:17:45Z
+creation_date: 2014-05-26T06:42:21Z
+
+[Term]
+id: PATO:0002533
+name: bipartite
+def: "A multipartite quality inhering in a bearer by virtue of the bearer being divided into two parts." [PATOC:WD]
+subset: value_slim
+is_a: PATO:0002510 ! multipartite
+created_by: wasila.dahdul
+creation_date: 2014-08-12T11:12:13Z
+
+[Term]
+id: PATO:0002534
+name: plowshare shaped
+def: "A shape quality inhering in a bearer by virtue of the bearer's being shaped like a plowshare." [PATOC:WD<new dbxref>]
+subset: value_slim
+synonym: "plow-share shaped" EXACT []
+xref: Image:http\://2.bp.blogspot.com/_TbkIC-eqFNM/S66IJ3omNWI/AAAAAAAAFSk/pzThLJPvYZw/s1600/ard-detail.gif
+is_a: PATO:0000052 ! shape
+created_by: wasila.dahdul
+creation_date: 2014-08-12T11:23:12Z
+
+[Term]
+id: PATO:0002535
+name: peg-like
+def: "A shape quality inhering in a bearer by virtue of the bearer's having a short and stout cylindrical shape." [PATOC:WD]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: wasila.dahdul
+creation_date: 2014-08-12T11:30:08Z
+
+[Term]
+id: PATO:0002536
+name: boomerang shaped
+def: "A shape quality inhering in a bearer by virtue of the bearer's having a shape like a boomerang, with two arms connected at an angle." [PATOC:WD]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: wasila.dahdul
+creation_date: 2014-08-12T11:32:16Z
+
+[Term]
+id: PATO:0002537
+name: subovoid
+def: "A spheroid quality inhering in a bearer by virtue of the bearer's exhibiting a shape not quite ovoid. approximately ovoid." [merriam-webster:http\://www.merriam-webster.com/dictionary/subovoid]
+subset: value_slim
+is_a: PATO:0001865 ! spheroid
+created_by: wasila.dahdul
+creation_date: 2014-08-12T11:51:38Z
+
+[Term]
+id: PATO:0002538
+name: concavo-convex
+def: "A shape quality that obtains by virtue of the bearer being concave on one side and convex on the other." [merriam-webster:http\://www.merriam-webster.com/dictionary/concavo-convex]
+subset: value_slim
+synonym: "concavoconvex" EXACT []
+is_a: PATO:0002005 ! concavity
+created_by: wasila.dahdul
+creation_date: 2014-08-12T11:56:13Z
+
+[Term]
+id: PATO:0002539
+name: ring shaped
+def: "A shape quality inhering in a bearer by virtue of the bearer's having a shape like a ring (a circular shape enclosing a space)." [PATOC:WD]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: wasila.dahdul
+creation_date: 2014-08-12T12:01:56Z
+
+[Term]
+id: PATO:0002540
+name: spur shaped
+def: "A shape quality inhering in a bearer by virtue of the bearer's possessing a small, spike-like shape." [PATOC:WD]
+subset: value_slim
+is_a: PATO:0000052 ! shape
+created_by: wasila.dahdul
+creation_date: 2014-08-12T12:07:44Z
 
 [Typedef]
 id: correlates_with
